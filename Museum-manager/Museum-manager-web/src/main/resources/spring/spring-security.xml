@@ -29,7 +29,7 @@
         <security:access-denied-handler ref="ajaxAccessDeniedHandler"/>
         <!--跨栈请求-->
         <security:csrf disabled="true"/>
-        <security:custom-filter ref="jwtAuthenticationTokenFilter" before="FORM_LOGIN_FILTER"/>
+        <security:custom-filter ref="jwtAuthenticationTokenFilter" after="FORM_LOGIN_FILTER"/>
     </security:http>
     <security:authentication-manager>
 

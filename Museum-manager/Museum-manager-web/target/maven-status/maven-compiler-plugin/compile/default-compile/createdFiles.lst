@@ -1,3 +1,4 @@
+com\museum\controller\WeChatUserController.class
 com\museum\security\AjaxAccessDeniedHandler.class
 com\museum\security\AjaxAuthenticationFailureHandler.class
 com\museum\controller\MemberInfoController.class

@@ -3,11 +3,14 @@ package com.museum.security;
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
+import com.museum.pojo.MemberInfo;
+import com.museum.pojo.MemberInfoCustom;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -28,16 +31,17 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
     @Autowired
     private AjaxUserDetailsService userDetailsService;
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         response.setContentType("text/json;charset=UTF-8");
-        String token = request.getHeader("Token");
-       // 可能是登录或者注册的请求，不带token信息，又或者是不需要登录，不需要token即可访问的资源。
+        String token = request.getHeader("Authorization");
+        // 可能是登录或者注册的请求，不带token信息，又或者是不需要登录，不需要token即可访问的资源。
         //静态资源和login不过滤
         String uri = request.getRequestURI();
-        if(uri.substring(uri.lastIndexOf("/")).equals("/login")
-                ||uri.startsWith("/dist")
-                ||uri.substring(uri.lastIndexOf("/")).equals("/")){
+        if (uri.substring(uri.lastIndexOf("/")).equals("/login")
+                || uri.startsWith("/dist")
+                || uri.substring(uri.lastIndexOf("/")).equals("/")) {
             chain.doFilter(request, response);
             return;
         }
@@ -79,23 +83,27 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             return;
 
         }
-        if (userName != null ) {
+        if (userName != null) {
             UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
-            if(userDetails==null){
-                AjaxResponseBody build = AjaxResponseBody.build(000, "用户名被更改,请重新登录");
-                String s = JsonUtils.objectToJson(build);
-                response.getWriter().write(s);
+
+                if(userDetails ==null){
+                    AjaxResponseBody build = AjaxResponseBody.build(000, "用户名被更改,请重新登录");
+                    String s = JsonUtils.objectToJson(build);
+                    response.getWriter().write(s);
+                    return;
+                }
+
+                UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+                authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                //登陆认证通过
+                SecurityContextHolder.getContext().setAuthentication(authentication);
+                chain.doFilter(request, response);
                 return;
             }
-            UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
-            authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-            //登陆认证通过
-            SecurityContextHolder.getContext().setAuthentication(authentication);
-            chain.doFilter(request, response);
-            return;
-        }
+
+
+
 
     }
-
-    }
+}
 

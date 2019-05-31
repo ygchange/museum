@@ -2,11 +2,9 @@ package com.museum.controller;
 
 
 import com.museum.common.pojo.AjaxResponseBody;
-import com.museum.common.pojo.MemberInfoResult;
 import com.museum.common.pojo.PageHelperResult;
 import com.museum.pojo.MemberInfo;
 import com.museum.service.MemberInfoService;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -49,6 +47,22 @@ public class MemberInfoController {
             return AjaxResponseBody.ok();
         }
         return AjaxResponseBody.build(400,"删除失败");
+    }
+    //添加信息
+    @RequestMapping(value = "/insert",method = {RequestMethod.POST})
+    @ResponseBody
+    public AjaxResponseBody insertMember(@RequestBody MemberInfo memberInfo){
+        Integer integer = null;
+        try {
+            integer = memberInfoService.insertMember(memberInfo);
+        } catch (Exception e) {
+            return AjaxResponseBody.build(400,"用户名已存在");
+        }
+        if(integer>=1){
+            return  AjaxResponseBody.ok();
+        }
+
+        return AjaxResponseBody.build(400,"添加失败");
     }
 
 }

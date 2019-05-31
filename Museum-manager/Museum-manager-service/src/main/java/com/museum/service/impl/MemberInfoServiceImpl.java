@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -28,7 +29,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
      * @return
      */
     @Override
-    public PageHelperResult getMemberInfoList(Integer page, Integer rows) {
+    public PageHelperResult getMemberInfoList(Integer page, Integer rows)  {
         //设置分页信息
         PageHelper.startPage(page,rows);
         //执行查询
@@ -92,6 +93,15 @@ public class MemberInfoServiceImpl implements MemberInfoService {
     @Override
     public Integer deleteMemberInfoById(Integer id) {
         int i = memberInfoMapper.deleteByPrimaryKey(id);
+        return i;
+    }
+    //添加管理员
+    @Override
+    public Integer insertMember(MemberInfo memberInfo) throws Exception {
+        //密码加密
+        memberInfo.setPassword(new BCryptPasswordEncoder().encode(memberInfo.getPassword()));
+        memberInfo.setOpenDate(new Date());
+        int i = memberInfoMapper.insertSelective(memberInfo);
         return i;
     }
 

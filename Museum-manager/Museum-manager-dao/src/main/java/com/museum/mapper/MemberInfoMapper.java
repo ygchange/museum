@@ -15,7 +15,7 @@ public interface MemberInfoMapper {
 
     int insert(MemberInfo record);
 
-    int insertSelective(MemberInfo record);
+    int insertSelective(MemberInfo record) throws Exception;
 
     List<MemberInfo> selectByExample(MemberInfoExample example);
 

@@ -1,5 +1,6 @@
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\controller\MemberInfoController.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxAuthenticationEntryPoint.java
+H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\controller\WeChatUserController.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxAccessDeniedHandler.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxAuthenticationSuccessHandler.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxUserDetailsService.java

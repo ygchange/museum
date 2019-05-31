@@ -13,5 +13,8 @@ public interface MemberInfoService {
     MemberInfo selectMemberInfoByUserName(String userName);
     //修改用户信息
     Integer updateMemberInfoById(MemberInfo memberInfo);
+    //删除管理员用户
     Integer deleteMemberInfoById(Integer id);
+    //添加管理员
+    Integer insertMember(MemberInfo memberInfo) throws Exception;
 }
