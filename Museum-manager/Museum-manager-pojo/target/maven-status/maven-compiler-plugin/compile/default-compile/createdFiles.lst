@@ -2,6 +2,7 @@ com\museum\pojo\MemberInfoExample$Criteria.class
 com\museum\pojo\ExhibitsTypeExample.class
 com\museum\pojo\MemberInfoExample.class
 com\museum\pojo\WechatUserExample$GeneratedCriteria.class
+com\museum\custom\MemberInfoCustom.class
 com\museum\pojo\ExhibitsInfoExample$Criterion.class
 com\museum\pojo\WechatUserExample$Criterion.class
 com\museum\pojo\WechatUserExample.class
@@ -18,4 +19,4 @@ com\museum\pojo\MemberInfo.class
 com\museum\pojo\MemberInfoExample$Criterion.class
 com\museum\pojo\ExhibitsTypeExample$Criterion.class
 com\museum\pojo\WechatUser.class
-com\museum\pojo\MemberInfoCustom.class
+com\museum\custom\ExhibitsInfoCustom.class

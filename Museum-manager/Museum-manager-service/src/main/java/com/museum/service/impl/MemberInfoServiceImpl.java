@@ -6,7 +6,7 @@ import com.museum.common.pojo.MemberInfoResult;
 import com.museum.common.pojo.PageHelperResult;
 import com.museum.mapper.MemberInfoMapper;
 import com.museum.pojo.MemberInfo;
-import com.museum.pojo.MemberInfoCustom;
+import com.museum.custom.MemberInfoCustom;
 import com.museum.pojo.MemberInfoExample;
 import com.museum.service.MemberInfoService;
 import org.springframework.beans.factory.annotation.Autowired;

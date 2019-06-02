@@ -3,7 +3,7 @@ package com.museum.service;
 import com.museum.common.pojo.MemberInfoResult;
 import com.museum.common.pojo.PageHelperResult;
 import com.museum.pojo.MemberInfo;
-import com.museum.pojo.MemberInfoCustom;
+import com.museum.custom.MemberInfoCustom;
 
 public interface MemberInfoService {
     //查询管理员信息

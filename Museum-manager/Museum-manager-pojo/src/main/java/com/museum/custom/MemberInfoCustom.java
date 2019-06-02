@@ -1,5 +1,6 @@
-package com.museum.pojo;
+package com.museum.custom;
 
+import com.museum.pojo.MemberInfo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

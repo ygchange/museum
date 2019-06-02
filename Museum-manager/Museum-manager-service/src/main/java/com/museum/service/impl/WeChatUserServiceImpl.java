@@ -23,7 +23,6 @@ public class WeChatUserServiceImpl implements WeChatUserService {
         List<WechatUser> list = wechatUserMapper.selectByExample(example);
         PageInfo<WechatUser> pageInfo=new PageInfo<>(list);
         PageHelperResult result=new PageHelperResult();
-        result.setPages(pageInfo.getPages());
         result.setRows(list);
         result.setTotal((int) pageInfo.getTotal());
         return result;

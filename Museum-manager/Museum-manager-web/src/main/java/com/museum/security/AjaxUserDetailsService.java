@@ -1,13 +1,12 @@
 package com.museum.security;
 
 import com.museum.pojo.MemberInfo;
-import com.museum.pojo.MemberInfoCustom;
+import com.museum.custom.MemberInfoCustom;
 import com.museum.service.MemberInfoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

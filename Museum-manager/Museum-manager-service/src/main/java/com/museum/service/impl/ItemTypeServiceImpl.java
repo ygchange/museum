@@ -24,7 +24,6 @@ public class ItemTypeServiceImpl implements ItemTypeService {
         List<ExhibitsType> list = exhibitsTypeMapper.selectByExample(example);
         PageInfo<ExhibitsType> pageInfo=new PageInfo<>(list);
         PageHelperResult result=new PageHelperResult();
-        result.setPages(pageInfo.getPages());
         result.setRows(list);
         result.setTotal((int) pageInfo.getTotal());
         return result;

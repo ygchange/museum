@@ -3,7 +3,7 @@ import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.pojo.MemberInfoResult;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
-import com.museum.pojo.MemberInfoCustom;
+import com.museum.custom.MemberInfoCustom;
 import com.museum.service.MemberInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

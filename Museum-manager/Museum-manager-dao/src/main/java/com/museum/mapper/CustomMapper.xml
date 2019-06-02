@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.museum.mapper.CustomMapper" >
+    <resultMap id="BaseResultMap" type="com.museum.custom.ExhibitsInfoCustom" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="info" property="info" jdbcType="VARCHAR" />
+        <result column="img_name" property="imgName" jdbcType="VARCHAR" />
+        <result column="audio_name" property="audioName" jdbcType="VARCHAR" />
+        <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+        <result column="operator_id" property="operatorId" jdbcType="INTEGER" />
+        <result column="query_times" property="queryTimes" jdbcType="INTEGER" />
+        <result column="qr_code" property="qrCode" jdbcType="VARCHAR" />
+        <result column="scan_result" property="scanResult" jdbcType="VARCHAR" />
+        <result column="remark" property="remark" jdbcType="VARCHAR" />
+        <result column="type_id" property="typeId" jdbcType="INTEGER" />
+        <result column="type_name" property="typeName" jdbcType="VARCHAR" />
+    </resultMap>
+    <select id="selectExhibits" resultMap="BaseResultMap">
+        SELECT * FROM exhibits_info,exhibits_type WHERE exhibits_info.type_id=exhibits_type.id
+    </select>
+</mapper>
