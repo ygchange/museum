@@ -2,7 +2,6 @@ package com.museum.controller;
 
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.pojo.PageHelperResult;
-import com.museum.pojo.ExhibitsInfo;
 import com.museum.pojo.ExhibitsType;
 import com.museum.service.ItemTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +28,7 @@ public class ExhibitsTypeController {
     public AjaxResponseBody insertItemType(@RequestBody ExhibitsType exhibitsType){
         try {
             itemTypeService.insertItemType(exhibitsType);
+            System.out.println("123");
             return AjaxResponseBody.ok();
         } catch (Exception e) {
             return AjaxResponseBody.build(400,"该商品类型已存在");
