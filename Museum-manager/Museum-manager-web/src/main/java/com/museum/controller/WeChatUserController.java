@@ -23,9 +23,9 @@ public class WeChatUserController {
     //分页查新查询微信用户
     @RequestMapping("/list")
     @ResponseBody
-    public AjaxResponseBody getWeChatList(@RequestBody Map<String,Integer> hashMap){
-        Integer page=hashMap.get("page");
-        Integer rows=hashMap.get("rows");
+    public AjaxResponseBody getWeChatList(@RequestBody Map<String,String> map){
+        Integer page=Integer.valueOf(map.get("page"));
+        Integer rows=Integer.valueOf(map.get("rows"));
         PageHelperResult result = weChatUserService.getWeChatList(page, rows);
         return AjaxResponseBody.ok(result);
     }

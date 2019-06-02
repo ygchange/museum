@@ -25,6 +25,7 @@ public class WeChatUserServiceImpl implements WeChatUserService {
         PageHelperResult result=new PageHelperResult();
         result.setPages(pageInfo.getPages());
         result.setRows(list);
+        result.setTotal((int) pageInfo.getTotal());
         return result;
     }
 }

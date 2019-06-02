@@ -46,6 +46,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
 
         result.setRows(memberInfos);
         result.setPages(pageInfo.getPages());
+        result.setTotal((int) pageInfo.getTotal());
         return result;
     }
 
@@ -61,6 +62,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         result.setNickname(custom.getNickname());
         result.setMemberAccountTypeId(custom.getMemberAccountTypeId());
         result.setId(custom.getId());
+        result.setTelephone(custom.getTelephone());
         return result;
     }
 
@@ -85,8 +87,8 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         }
 
         int i = memberInfoMapper.updateByPrimaryKeySelective(memberInfo);
-
         return i;
+
 
     }
     //删除管理员用户信息
@@ -97,12 +99,12 @@ public class MemberInfoServiceImpl implements MemberInfoService {
     }
     //添加管理员
     @Override
-    public Integer insertMember(MemberInfo memberInfo) throws Exception {
+    public void insertMember(MemberInfo memberInfo) throws Exception {
         //密码加密
         memberInfo.setPassword(new BCryptPasswordEncoder().encode(memberInfo.getPassword()));
         memberInfo.setOpenDate(new Date());
-        int i = memberInfoMapper.insertSelective(memberInfo);
-        return i;
+         memberInfoMapper.insertSelective(memberInfo);
+
     }
 
 

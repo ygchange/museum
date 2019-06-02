@@ -1,6 +1,7 @@
 package com.museum.security;
 
 import com.museum.common.pojo.AjaxResponseBody;
+import com.museum.common.pojo.PageHelperResult;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
 import com.museum.pojo.MemberInfo;
@@ -20,7 +21,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 自定义过滤器
@@ -87,7 +90,11 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
 
                 if(userDetails ==null){
-                    AjaxResponseBody build = AjaxResponseBody.build(000, "用户名被更改,请重新登录");
+                    List list=new ArrayList();
+                    PageHelperResult result=new PageHelperResult();
+                    result.setRows(list);
+                    result.setTotal(0);
+                    AjaxResponseBody build = AjaxResponseBody.build(000, "用户被删除,请联系管理员",result);
                     String s = JsonUtils.objectToJson(build);
                     response.getWriter().write(s);
                     return;

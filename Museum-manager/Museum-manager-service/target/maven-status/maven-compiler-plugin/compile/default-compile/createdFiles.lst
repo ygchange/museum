@@ -1,2 +1,3 @@
+com\museum\service\impl\ItemTypeServiceImpl.class
 com\museum\service\impl\WeChatUserServiceImpl.class
 com\museum\service\impl\MemberInfoServiceImpl.class

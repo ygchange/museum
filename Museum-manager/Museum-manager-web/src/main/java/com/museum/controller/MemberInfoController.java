@@ -21,9 +21,9 @@ public class MemberInfoController {
     //管理员信息查询
     @RequestMapping(value = "/list",method = {RequestMethod.POST})
     @ResponseBody
-    public AjaxResponseBody getMemberInfoList(@RequestBody HashMap<String,Integer> hashMap){
-         Integer page=hashMap.get("page");
-         Integer rows=hashMap.get("rows");
+    public AjaxResponseBody getMemberInfoList(@RequestBody HashMap<String,String> map){
+        Integer page=Integer.valueOf(map.get("page"));
+        Integer rows=Integer.valueOf(map.get("rows"));
         PageHelperResult result = memberInfoService.getMemberInfoList(page, rows);
         return AjaxResponseBody.ok(result);
     }
@@ -33,36 +33,46 @@ public class MemberInfoController {
     public AjaxResponseBody updateMemberInfoById(@RequestBody MemberInfo memberInfo){
         Integer integer = memberInfoService.updateMemberInfoById(memberInfo);
         if(integer>=1){
-            return AjaxResponseBody.ok();
+            return AjaxResponseBody.build(200,"修改成功");
         }
-        return AjaxResponseBody.build(400,"修改失败");
+
+        return AjaxResponseBody.build(400,"修改失败,用户已被删除");
     }
     //删除信息
     @RequestMapping(value = "/delete",method = {RequestMethod.POST})
     @ResponseBody
-    public AjaxResponseBody deleteMemberInfoById(@RequestBody Map<String,Integer> map){
-            Integer id= map.get("id");
+    public AjaxResponseBody deleteMemberInfoById(@RequestBody Map<String,String> map){
+        Integer id=Integer.valueOf(map.get("id"));
         Integer integer = memberInfoService.deleteMemberInfoById(id);
         if(integer>=1){
             return AjaxResponseBody.ok();
         }
-        return AjaxResponseBody.build(400,"删除失败");
+        return AjaxResponseBody.build(400,"删除失败,用户已被删除");
     }
     //添加信息
     @RequestMapping(value = "/insert",method = {RequestMethod.POST})
     @ResponseBody
     public AjaxResponseBody insertMember(@RequestBody MemberInfo memberInfo){
-        Integer integer = null;
+
         try {
-            integer = memberInfoService.insertMember(memberInfo);
+             memberInfoService.insertMember(memberInfo);
+            return  AjaxResponseBody.ok();
         } catch (Exception e) {
             return AjaxResponseBody.build(400,"用户名已存在");
         }
-        if(integer>=1){
-            return  AjaxResponseBody.ok();
-        }
 
-        return AjaxResponseBody.build(400,"添加失败");
+    }
+    //验证用户名是否存在
+    @RequestMapping(value = "/verification",method = {RequestMethod.POST})
+    @ResponseBody
+    public AjaxResponseBody verificationMemberInfo(@RequestBody Map<String,String> map){
+        String username=map.get("userName");
+        MemberInfo memberInfo = memberInfoService.selectMemberInfoByUserName(username);
+        if(memberInfo==null){
+            return AjaxResponseBody.ok();
+        }else{
+            return AjaxResponseBody.build(400,"用户名已存在");
+        }
     }
 
 }

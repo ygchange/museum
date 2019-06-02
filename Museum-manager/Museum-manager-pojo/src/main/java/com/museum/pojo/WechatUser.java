@@ -1,9 +1,8 @@
 package com.museum.pojo;
 
-import java.io.Serializable;
 import java.util.Date;
 
-public class WechatUser implements Serializable {
+public class WechatUser {
     private Integer id;
 
     private String userId;

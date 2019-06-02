@@ -1,11 +1,8 @@
 package com.museum.pojo;
 
-
-
-import java.io.Serializable;
 import java.util.Date;
 
-public class MemberInfo implements Serializable {
+public class MemberInfo {
     private Integer id;
 
     private String userName;
@@ -31,6 +28,8 @@ public class MemberInfo implements Serializable {
     private String allowIp;
 
     private String remark;
+
+    private String telephone;
 
     public Integer getId() {
         return id;
@@ -134,5 +133,13 @@ public class MemberInfo implements Serializable {
 
     public void setRemark(String remark) {
         this.remark = remark == null ? null : remark.trim();
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone == null ? null : telephone.trim();
     }
 }

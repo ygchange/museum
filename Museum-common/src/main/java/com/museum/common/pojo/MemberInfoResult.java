@@ -8,6 +8,15 @@ public class MemberInfoResult implements Serializable {
     private String remark;
     private Integer memberAccountTypeId;
     private String Token;
+    private String telephone;
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
 
     public String getToken() {
         return Token;
