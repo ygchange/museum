@@ -55,6 +55,12 @@ public class ItemInfoServiceImpl implements ItemInfoService {
 
         return i;
     }
+
+    @Override
+    public Integer updateItemInfo(ExhibitsInfo exhibitsInfo) {
+        int i = exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
+        return i;
+    }
     //删除商品
 
 

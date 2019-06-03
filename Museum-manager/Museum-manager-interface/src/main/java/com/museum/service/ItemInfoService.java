@@ -12,4 +12,6 @@ public interface ItemInfoService {
     void insertItemInfo(ExhibitsInfo exhibitsInfo) ;
     List<ExhibitsType> selectItemType() ;
     Integer deleteItemInfo(Integer id);
+
+    Integer updateItemInfo(ExhibitsInfo exhibitsInfo);
 }

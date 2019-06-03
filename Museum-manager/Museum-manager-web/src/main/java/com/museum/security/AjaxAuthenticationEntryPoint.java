@@ -16,7 +16,7 @@ public class AjaxAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
     @Override
     public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
-        AjaxResponseBody build = AjaxResponseBody.build(000, "权限不足,请重新登陆");
+        AjaxResponseBody build = AjaxResponseBody.build(401, "权限不足,请先登陆");
         String result = JsonUtils.objectToJson(build);
         httpServletResponse.setContentType("text/json;charset=UTF-8");
         httpServletResponse.getWriter().write(result);

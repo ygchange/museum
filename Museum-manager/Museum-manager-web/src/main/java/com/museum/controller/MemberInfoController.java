@@ -71,7 +71,7 @@ public class MemberInfoController {
         if(memberInfo==null){
             return AjaxResponseBody.ok();
         }else{
-            return AjaxResponseBody.build(400,"用户名已存在");
+            return AjaxResponseBody.build(412,"用户名已存在");
         }
     }
 

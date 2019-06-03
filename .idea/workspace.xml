@@ -7,40 +7,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a86c1fde-3b38-4207-85ba-274e8f6d790a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UnicodeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/MemberInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/MemberInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/MemberInfoCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/MemberInfoCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/classes/com/museum/pojo/MemberInfoCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/MemberInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/MemberInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/WeChatUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/WeChatUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/app.21523463.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/app.b141fe80.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-02ba072b.19f2085c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-1d34c7b2.d8d85673.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-1e0cde6c.83259879.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-2c6db2d1.4ced9371.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-39ea661c.d8145197.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-7328be7b.b7df53b0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-vendors.23d90689.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/img/iconfont.1056f381.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.78434ccf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.78434ccf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.987c3810.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.987c3810.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.af6ca2f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.af6ca2f7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.b584928b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.b584928b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.be255ac1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.c6a1c6d1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/app.c6a1c6d1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-02ba072b.b1e7ad71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-02ba072b.b1e7ad71.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-1d34c7b2.135a6b6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-1e0cde6c.fb44e49b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-1e0cde6c.fb44e49b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2c6db2d1.775b3ca6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0d721b.318a9619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d22218c.727afa64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-39ea661c.7a60fc41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-7328be7b.489e2161.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-7328be7b.489e2161.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-vendors.645fac95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-vendors.9f528dd2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-vendors.9f528dd2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/mock/city.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/mock/detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/mock/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/js/jquery.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/controller/MemberInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/controller/MemberInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAccessDeniedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationEntryPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/JwtAuthenticationTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/db.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Museum-parent/target/" />
     <ignored path="$PROJECT_DIR$/Museum-common/target/" />
@@ -61,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="95">
+              <caret line="72" column="14" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,13 +98,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="152">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -85,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="309">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="114">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="271">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,10 +164,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java">
+        <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UnicodeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="95">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,48 +176,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-transaction.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="-52">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -183,8 +202,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -215,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/CustomAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/CustomAuthenticationEntryPoint.java" />
@@ -231,41 +249,42 @@
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/MyAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/Museum-common/pom.xml" />
         <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/UserService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/UserController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/mybatis/sqlMapperConfig.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/AjaxResponseBody.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/MemberInfoMapper.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WechatUserController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/WeChatUserService.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java" />
         <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/PageHelperResult.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/MemberInfoResult.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/customMapper/CustomMapper.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/ExhibitsInfoMapper.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" />
+        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/unicodeUtil.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" />
       </list>
     </option>
   </component>
@@ -288,11 +307,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Museum-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Museum-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Museum-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Museum-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Museum-manager-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Museum-manager-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -304,9 +332,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="-24" />
+    <option name="y" value="67" />
+    <option name="width" value="1937" />
+    <option name="height" value="1023" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -316,77 +345,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
               <item name="Museum-common" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-common" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.common" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-common" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.common" type="1f31426a:PackageElementNode" />
-              <item name="pojo" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-common" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.common" type="1f31426a:PackageElementNode" />
-              <item name="utils" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-dao" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-dao" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.mapper" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-interface" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-interface" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-pojo" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-pojo" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-pojo" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum" type="1f31426a:PackageElementNode" />
-              <item name="custom" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-pojo" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum" type="1f31426a:PackageElementNode" />
-              <item name="pojo" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-service" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-manager-service" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.service.impl" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
@@ -412,6 +377,11 @@
             <path>
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
               <item name="Museum-manager-web" type="616d4139:PackageViewModuleNode" />
+              <item name="mybatis" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Museum-manager-web" type="616d4139:PackageViewModuleNode" />
               <item name="spring" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
@@ -423,273 +393,19 @@
           <expand>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559464927512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559570362043" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-9.0.14/lib/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -701,22 +417,22 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-pojo\src\main\java\com\museum\pojo" />
-      <recent name="H:\ShanghaiMuseum\Museum-common\src\main\java\com\museum\common\utils" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.museum.pojo" />
       <recent name="com.museum.common.utils" />
       <recent name="com.museum.common.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-pojo\src\main\java\com\museum\pojo" />
+      <recent name="H:\ShanghaiMuseum\Museum-common\src\main\java\com\museum\common\utils" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -799,7 +515,8 @@
       <workItem from="1559278115652" duration="24802000" />
       <workItem from="1559362770361" duration="14947000" />
       <workItem from="1559451675026" duration="598000" />
-      <workItem from="1559452368615" duration="12331000" />
+      <workItem from="1559452368615" duration="19088000" />
+      <workItem from="1559534756118" duration="11299000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1559452555381</created>
@@ -815,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559453317612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.0">
+      <created>1559466001055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559466001055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -851,7 +575,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203090000" />
+    <option name="totallyTimeSpent" value="221146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,10 +587,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1554" height="882" extended-state="0" />
+    <frame x="-19" y="54" width="1549" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.23729947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.17974514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -878,7 +602,7 @@
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32825485" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.4986226" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.1918429" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.2512909" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -894,7 +618,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24944568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2921123" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2924212" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
@@ -923,68 +647,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/ExhibitsTypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/WechatUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/WechatUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/ExhibitsTypeExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/MemberInfoExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/WechatUser.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1061,16 +723,6 @@
     <entry file="file://$PROJECT_DIR$/Museum-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1095,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1116,16 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1164,13 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/ExhibitsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1223,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="23" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1256,36 +871,61 @@
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-transaction.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/ExhibitsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="221">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1294,18 +934,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="308">
+          <caret line="89" column="78" lean-forward="true" selection-start-line="89" selection-start-column="78" selection-end-line="89" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="335">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UnicodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1314,11 +986,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="-52">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="72" column="14" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>

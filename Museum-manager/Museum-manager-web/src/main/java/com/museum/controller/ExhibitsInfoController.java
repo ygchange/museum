@@ -53,4 +53,14 @@ public class ExhibitsInfoController {
        }
         return AjaxResponseBody.build(400,"删除失败,该展品已被删除");
     }
+    //更新商品
+    @RequestMapping("/update")
+    @ResponseBody
+    public AjaxResponseBody updateItemInfo(@RequestBody ExhibitsInfo exhibitsInfo ){
+        Integer i=itemInfoService.updateItemInfo(exhibitsInfo);
+        if(i>=1){
+            return AjaxResponseBody.build(200,"修改成功");
+        }
+        return AjaxResponseBody.build(400,"修改失败,用户已被删除");
+    }
 }

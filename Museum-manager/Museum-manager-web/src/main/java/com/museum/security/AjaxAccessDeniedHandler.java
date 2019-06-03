@@ -16,7 +16,7 @@ public class AjaxAccessDeniedHandler implements AccessDeniedHandler {
 
     @Override
     public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AccessDeniedException e) throws IOException, ServletException {
-        AjaxResponseBody build = AjaxResponseBody.build(300, "权限不足,请联系管理员");
+        AjaxResponseBody build = AjaxResponseBody.build(403, "权限不足,请联系管理员");
         String result = JsonUtils.objectToJson(build);
         httpServletResponse.setContentType("text/json;charset=UTF-8");
         httpServletResponse.getWriter().write(result);

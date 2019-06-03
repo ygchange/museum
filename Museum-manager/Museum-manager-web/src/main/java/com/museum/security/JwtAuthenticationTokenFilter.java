@@ -47,14 +47,14 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         //没有token，提示重新登陆
         if (token == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(000, "当前用户已过期,请重新登录");
+            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
             String s = JsonUtils.objectToJson(build);
             response.getWriter().write(s);
             return;
         }
         //token不合法
         if (!token.startsWith("Bearer ")) {
-            AjaxResponseBody build = AjaxResponseBody.build(000, "Token不合法");
+            AjaxResponseBody build = AjaxResponseBody.build(401, "Token不合法");
             String s = JsonUtils.objectToJson(build);
             response.getWriter().write(s);
             return;
@@ -62,14 +62,14 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         Claims claims = JwtUtil.getClaim(token.substring("Bearer ".length()));
         if (claims == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(000, "当前用户已过期,请重新登录");
+            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
             String s = JsonUtils.objectToJson(build);
             response.getWriter().write(s);
             return;
         }
         String userName = claims.getSubject();
         if (userName == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(000, "当前用户已过期,请重新登录");
+            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
             String s = JsonUtils.objectToJson(build);
             response.getWriter().write(s);
             return;
@@ -77,7 +77,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         //token过期重新登陆
         Date expiredTime = claims.getExpiration();
         if ((new Date().getTime() > expiredTime.getTime())) {
-            AjaxResponseBody build = AjaxResponseBody.build(000, "当前用户已过期,请重新登录");
+            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
             String s = JsonUtils.objectToJson(build);
             response.getWriter().write(s);
             return;
@@ -87,11 +87,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
 
                 if(userDetails ==null){
-                    List list=new ArrayList();
-                    PageHelperResult result=new PageHelperResult();
-                    result.setRows(list);
-                    result.setTotal(0);
-                    AjaxResponseBody build = AjaxResponseBody.build(000, "用户被删除,请联系管理员",result);
+                    AjaxResponseBody build = AjaxResponseBody.build(401, "用户被删除,请联系管理员");
                     String s = JsonUtils.objectToJson(build);
                     response.getWriter().write(s);
                     return;

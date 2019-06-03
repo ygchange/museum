@@ -53,7 +53,7 @@ public class ExhibitsTypeController {
         if (exhibitsType == null) {
             return AjaxResponseBody.ok();
         } else {
-            return AjaxResponseBody.build(400, "该类型已存在");
+            return AjaxResponseBody.build(412, "该类型已存在");
         }
 
     }
