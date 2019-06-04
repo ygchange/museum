@@ -20,7 +20,12 @@
                 permitAll():不需要认证访问
                 hasAnyAuthority():权限拦截
         -->
-        <security:intercept-url pattern="/memberInfo/**" access="hasAuthority('1')"/>
+        <!--<security:intercept-url pattern="/itemType/**" access="hasAnyAuthority('1','2')"/>-->
+        <!--<security:intercept-url pattern="/itemInfo/**" access="hasAnyAuthority('1','2')"/>-->
+        <!--<security:intercept-url pattern="/memberInfo/insert" access="hasAnyAuthority('1','2')"/>-->
+        <!--<security:intercept-url pattern="/memberInfo/list" access="hasAnyAuthority('1','2')"/>-->
+        <!--<security:intercept-url pattern="/memberInfo/delete" access="hasAnyAuthority('1')"/>-->
+        <!--<security:intercept-url pattern="/memberInfo/update" access="hasAnyAuthority('1')"/>-->
         <security:intercept-url pattern="/dist/**" access="permitAll()"/>
         <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>
         <security:form-login authentication-failure-handler-ref="ajaxAuthenticationFailureHandler"

@@ -9,6 +9,15 @@ public class MemberInfoResult implements Serializable {
     private Integer memberAccountTypeId;
     private String Token;
     private String telephone;
+    private  String userName;
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
 
     public String getTelephone() {
         return telephone;

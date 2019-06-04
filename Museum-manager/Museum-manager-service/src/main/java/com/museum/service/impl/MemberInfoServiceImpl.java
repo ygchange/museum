@@ -63,6 +63,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         result.setMemberAccountTypeId(custom.getMemberAccountTypeId());
         result.setId(custom.getId());
         result.setTelephone(custom.getTelephone());
+        result.setUserName(custom.getUserName());
         return result;
     }
 
@@ -105,6 +106,12 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         memberInfo.setOpenDate(new Date());
          memberInfoMapper.insertSelective(memberInfo);
 
+    }
+    //根据用户id查询用户密码
+    @Override
+    public MemberInfo getPasswordById(MemberInfo memberInfo){
+        MemberInfo result = memberInfoMapper.selectByPrimaryKey(memberInfo.getId());
+        return  result;
     }
 
 

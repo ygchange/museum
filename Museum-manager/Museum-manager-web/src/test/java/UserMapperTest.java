@@ -17,5 +17,6 @@ public class UserMapperTest {
 //        memberInfo.setId(30);
 //        memberInfo.setPassword(passwordEncoder.encode("12345"));
 //        memberInfoMapper.updateByPrimaryKey(memberInfo);
+
     }
 }

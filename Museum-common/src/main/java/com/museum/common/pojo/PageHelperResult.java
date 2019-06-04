@@ -8,6 +8,7 @@ public class PageHelperResult implements Serializable {
     private List rows;
     private int total;
 
+
     public int getTotal() {
         return total;
     }

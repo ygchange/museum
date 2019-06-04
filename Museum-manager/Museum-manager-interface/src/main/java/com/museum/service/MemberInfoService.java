@@ -17,4 +17,5 @@ public interface MemberInfoService {
     Integer deleteMemberInfoById(Integer id);
     //添加管理员
     void insertMember(MemberInfo memberInfo) throws Exception;
+    MemberInfo getPasswordById(MemberInfo memberInfo);
 }
