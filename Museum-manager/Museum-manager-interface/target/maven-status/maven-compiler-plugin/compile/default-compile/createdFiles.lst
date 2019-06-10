@@ -2,3 +2,4 @@ com\museum\service\MemberInfoService.class
 com\museum\service\ItemTypeService.class
 com\museum\service\WeChatUserService.class
 com\museum\service\ItemInfoService.class
+com\museum\service\LostService.class

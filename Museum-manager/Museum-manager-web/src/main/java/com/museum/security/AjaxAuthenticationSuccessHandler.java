@@ -33,7 +33,7 @@ public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHa
                 .getContext()
                 .getAuthentication()
                 .getPrincipal();
-        String jwtToken ="Bearer "+JwtUtil.setClaim(custom.getUsername(),true,60*60*1000);
+        String jwtToken ="Bearer "+JwtUtil.setClaim(custom.getUsername()+","+custom.getPassword(),true,60*60*1000);
         MemberInfoResult memberInfoResult = memberInfoService.resultCustomUser(custom);
         memberInfoResult.setToken(jwtToken);
         AjaxResponseBody ok = AjaxResponseBody.ok(memberInfoResult);

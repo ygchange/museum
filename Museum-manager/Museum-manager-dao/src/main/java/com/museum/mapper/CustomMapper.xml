@@ -16,7 +16,10 @@
         <result column="type_id" property="typeId" jdbcType="INTEGER" />
         <result column="type_name" property="typeName" jdbcType="VARCHAR" />
     </resultMap>
+
     <select id="selectExhibits" resultMap="BaseResultMap">
         SELECT * FROM exhibits_info,exhibits_type WHERE exhibits_info.type_id=exhibits_type.id
     </select>
+    
+
 </mapper>

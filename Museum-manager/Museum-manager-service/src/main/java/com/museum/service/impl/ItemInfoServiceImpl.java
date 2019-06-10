@@ -48,7 +48,7 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         List<ExhibitsType> list = exhibitsTypeMapper.selectByExample(example);
         return list;
     }
-
+    //删除展品
     @Override
     public Integer deleteItemInfo(Integer id) {
         int i = exhibitsInfoMapper.deleteByPrimaryKey(id);
@@ -61,7 +61,14 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         int i = exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
         return i;
     }
-    //删除商品
+    //根据展品id查询
+    @Override
+    public ExhibitsInfo selectExhibitsInfoById(Integer id) {
+        ExhibitsInfo exhibitsInfo = exhibitsInfoMapper.selectByPrimaryKey(id);
+        return exhibitsInfo;
+    }
+
+
 
 
 }

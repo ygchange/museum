@@ -14,4 +14,6 @@ public interface ItemInfoService {
     Integer deleteItemInfo(Integer id);
 
     Integer updateItemInfo(ExhibitsInfo exhibitsInfo);
+
+    ExhibitsInfo selectExhibitsInfoById(Integer id);
 }

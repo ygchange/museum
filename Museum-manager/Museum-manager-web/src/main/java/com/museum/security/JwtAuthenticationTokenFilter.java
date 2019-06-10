@@ -1,7 +1,6 @@
 package com.museum.security;
 
 import com.museum.common.pojo.AjaxResponseBody;
-import com.museum.common.pojo.PageHelperResult;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
 import io.jsonwebtoken.Claims;
@@ -18,9 +17,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 /**
  * 自定义过滤器
@@ -47,63 +44,58 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         //没有token，提示重新登陆
         if (token == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
-            String s = JsonUtils.objectToJson(build);
-            response.getWriter().write(s);
+            getResponse("当前用户已过期,请重新登录", response);
             return;
         }
         //token不合法
         if (!token.startsWith("Bearer ")) {
-            AjaxResponseBody build = AjaxResponseBody.build(401, "Token不合法");
-            String s = JsonUtils.objectToJson(build);
-            response.getWriter().write(s);
+            getResponse("Token不合法", response);
             return;
 
         }
         Claims claims = JwtUtil.getClaim(token.substring("Bearer ".length()));
         if (claims == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
-            String s = JsonUtils.objectToJson(build);
-            response.getWriter().write(s);
+            getResponse("当前用户已过期,请重新登录", response);
             return;
         }
-        String userName = claims.getSubject();
-        if (userName == null) {
-            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
-            String s = JsonUtils.objectToJson(build);
-            response.getWriter().write(s);
+        String string = claims.getSubject();
+        if (string == null) {
+            getResponse("当前用户已过期,请重新登录", response);
             return;
         }
         //token过期重新登陆
         Date expiredTime = claims.getExpiration();
         if ((new Date().getTime() > expiredTime.getTime())) {
-            AjaxResponseBody build = AjaxResponseBody.build(401, "当前用户已过期,请重新登录");
-            String s = JsonUtils.objectToJson(build);
-            response.getWriter().write(s);
+            getResponse("当前用户已过期,请重新登录", response);
+            return;
+        }
+        String userName = string.split(",")[0];
+        String password = string.split(",")[1];
+        UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+        if (userDetails == null) {
+            getResponse("当前用户被删除,请联系管理员", response);
+            return;
+        }
+        if (!password.equals(userDetails.getPassword())) {
+            getResponse("密码被修改,请联系管理员", response);
+            return;
+        }
+        if (SecurityContextHolder.getContext().getAuthentication() == null) {
+            UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+            authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+            //登陆认证通过
+            SecurityContextHolder.getContext().setAuthentication(authentication);
+            chain.doFilter(request, response);
             return;
 
         }
-        if (userName != null) {
-            UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+        chain.doFilter(request, response);
+    }
 
-                if(userDetails ==null){
-                    AjaxResponseBody build = AjaxResponseBody.build(401, "用户被删除,请联系管理员");
-                    String s = JsonUtils.objectToJson(build);
-                    response.getWriter().write(s);
-                    return;
-                }
-
-                UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
-                authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-                //登陆认证通过
-                SecurityContextHolder.getContext().setAuthentication(authentication);
-                chain.doFilter(request, response);
-                return;
-            }
-
-
-
-
+    public void getResponse(String message, HttpServletResponse response) throws IOException, ServletException {
+        AjaxResponseBody build = AjaxResponseBody.build(401, message);
+        String s = JsonUtils.objectToJson(build);
+        response.getWriter().write(s);
     }
 }
 

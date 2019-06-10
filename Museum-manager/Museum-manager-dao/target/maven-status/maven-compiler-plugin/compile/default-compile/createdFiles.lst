@@ -1,4 +1,5 @@
 com\museum\mapper\CustomMapper.class
+com\museum\mapper\LostInfoMapper.class
 com\museum\mapper\MemberInfoMapper.class
 com\museum\mapper\ExhibitsTypeMapper.class
 com\museum\mapper\WechatUserMapper.class

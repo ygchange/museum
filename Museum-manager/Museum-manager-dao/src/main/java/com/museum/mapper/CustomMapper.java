@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface CustomMapper {
     List<MemberInfoCustom> selectExhibits();
+
 }
