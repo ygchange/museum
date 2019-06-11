@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/weChat")
+@RequestMapping("/weChatExhibits")
 public class WeChatExhibitsInfoController {
     @Autowired
     private ItemInfoService itemInfoService;

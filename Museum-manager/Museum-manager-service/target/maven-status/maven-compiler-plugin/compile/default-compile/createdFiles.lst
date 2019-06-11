@@ -1,5 +1,6 @@
 com\museum\service\impl\ItemInfoServiceImpl.class
 com\museum\service\impl\ItemTypeServiceImpl.class
 com\museum\service\impl\MemberInfoServiceImpl.class
+com\museum\service\impl\AnnouncementServiceImpl.class
 com\museum\service\impl\LostServiceImpl.class
 com\museum\service\impl\WeChatUserServiceImpl.class

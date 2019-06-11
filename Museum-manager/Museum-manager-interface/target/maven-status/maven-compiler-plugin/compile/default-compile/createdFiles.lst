@@ -1,3 +1,4 @@
+com\museum\service\AnnouncementService.class
 com\museum\service\MemberInfoService.class
 com\museum\service\ItemTypeService.class
 com\museum\service\WeChatUserService.class

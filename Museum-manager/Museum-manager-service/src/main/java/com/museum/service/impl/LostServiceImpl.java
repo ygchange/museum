@@ -47,4 +47,14 @@ public class LostServiceImpl implements LostService {
         int i = lostInfoMapper.updateByPrimaryKeySelective(lostInfo);
         return i;
     }
+
+    @Override
+    public List<LostInfo> getWeChatLostList() {
+        LostInfoExample example=new LostInfoExample();
+        example.setOrderByClause("id desc");
+        LostInfoExample.Criteria criteria = example.createCriteria();
+        criteria.andStatusEqualTo(0);
+        List<LostInfo> lostInfos = lostInfoMapper.selectByExample(example);
+        return lostInfos;
+    }
 }

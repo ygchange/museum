@@ -1,50 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
-       http://www.springframework.org/schema/security
-        http://www.springframework.org/schema/security/spring-security-4.2.xsd
-        http://www.springframework.org/schema/context
-		http://www.springframework.org/schema/context/spring-context.xsd"
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:security="http://www.springframework.org/schema/security"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xmlns:context="http://www.springframework.org/schema/context"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+       <!--http://www.springframework.org/schema/beans/spring-beans-4.0.xsd-->
+       <!--http://www.springframework.org/schema/security-->
+        <!--http://www.springframework.org/schema/security/spring-security-4.2.xsd-->
+        <!--http://www.springframework.org/schema/context-->
+		<!--http://www.springframework.org/schema/context/spring-context.xsd"-->
 
->
-    <context:component-scan base-package="com.museum.security"/>
-    <security:http auto-config="true" entry-point-ref="ajaxAuthenticationEntryPoint">
-        <!--
-        pattern:需要拦截的资源
-        access：拦截方式
-                isFullyAuthenticated()：该资源需要认证才能访问
-                permitAll():不需要认证访问
-                hasAnyAuthority():权限拦截
-        -->
-        <!--<security:intercept-url pattern="/itemType/**" access="hasAnyAuthority('1','2')"/>-->
-        <!--<security:intercept-url pattern="/itemInfo/**" access="hasAnyAuthority('1','2')"/>-->
-        <!--<security:intercept-url pattern="/memberInfo/insert" access="hasAnyAuthority('1','2')"/>-->
-        <!--<security:intercept-url pattern="/memberInfo/list" access="hasAnyAuthority('1','2')"/>-->
-        <!--<security:intercept-url pattern="/memberInfo/delete" access="hasAnyAuthority('1')"/>-->
-        <!--<security:intercept-url pattern="/memberInfo/update" access="hasAnyAuthority('1')"/>-->
-        <security:intercept-url pattern="/dist/**" access="permitAll()"/>
-        <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>
-        <security:form-login authentication-failure-handler-ref="ajaxAuthenticationFailureHandler"
-                             authentication-success-handler-ref="ajaxAuthenticationSuccessHandler"/>
-        <!--权限不足-->
-        <security:access-denied-handler ref="ajaxAccessDeniedHandler"/>
-        <!--跨栈请求-->
-        <security:csrf disabled="true"/>
-        <security:custom-filter ref="jwtAuthenticationTokenFilter" after="FORM_LOGIN_FILTER"/>
-    </security:http>
-    <security:authentication-manager>
+<!--&gt;-->
+    <!--<context:component-scan base-package="com.museum.security"/>-->
+    <!--<security:http auto-config="true" entry-point-ref="ajaxAuthenticationEntryPoint">-->
+        <!--&lt;!&ndash;-->
+        <!--pattern:需要拦截的资源-->
+        <!--access：拦截方式-->
+                <!--isFullyAuthenticated()：该资源需要认证才能访问-->
+                <!--permitAll():不需要认证访问-->
+                <!--hasAnyAuthority():权限拦截-->
+        <!--&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/itemType/**" access="hasAnyAuthority('1','2')"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/itemInfo/**" access="hasAnyAuthority('1','2')"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/memberInfo/insert" access="hasAnyAuthority('1','2')"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/memberInfo/list" access="hasAnyAuthority('1','2')"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/memberInfo/delete" access="hasAnyAuthority('1')"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<security:intercept-url pattern="/memberInfo/update" access="hasAnyAuthority('1')"/>&ndash;&gt;-->
+        <!--<security:intercept-url pattern="/dist/**" access="permitAll()"/>-->
+        <!--<security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>-->
+        <!--<security:form-login authentication-failure-handler-ref="ajaxAuthenticationFailureHandler"-->
+                             <!--authentication-success-handler-ref="ajaxAuthenticationSuccessHandler"/>-->
+        <!--&lt;!&ndash;权限不足&ndash;&gt;-->
+        <!--<security:access-denied-handler ref="ajaxAccessDeniedHandler"/>-->
+        <!--&lt;!&ndash;跨栈请求&ndash;&gt;-->
+        <!--<security:csrf disabled="true"/>-->
+        <!--<security:custom-filter ref="jwtAuthenticationTokenFilter" after="FORM_LOGIN_FILTER"/>-->
+    <!--</security:http>-->
+    <!--<security:authentication-manager>-->
 
-        <security:authentication-provider user-service-ref="ajaxUserDetailsService">
-            <security:password-encoder ref="passwordEncoder"/>
-        </security:authentication-provider>
-    </security:authentication-manager>
+        <!--<security:authentication-provider user-service-ref="ajaxUserDetailsService">-->
+            <!--<security:password-encoder ref="passwordEncoder"/>-->
+        <!--</security:authentication-provider>-->
+    <!--</security:authentication-manager>-->
 
 
-    <!--加密算法-->
-    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <!--&lt;!&ndash;加密算法&ndash;&gt;-->
+    <!--<bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>-->
 
-</beans>
+<!--</beans>-->
