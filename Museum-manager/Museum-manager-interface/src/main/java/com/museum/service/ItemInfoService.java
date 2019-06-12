@@ -11,9 +11,9 @@ public interface ItemInfoService {
     PageHelperResult getItemInfoList(Integer page, Integer rows);
     void insertItemInfo(ExhibitsInfo exhibitsInfo) ;
     List<ExhibitsType> selectItemType() ;
-    Integer deleteItemInfo(Integer id);
+    Integer deleteItemInfoById(Integer id);
 
-    Integer updateItemInfo(ExhibitsInfo exhibitsInfo);
+    Integer updateItemInfoById(ExhibitsInfo exhibitsInfo);
 
     ExhibitsInfo selectExhibitsInfoById(Integer id);
 }

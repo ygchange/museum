@@ -21,6 +21,7 @@ public class LostServiceImpl implements LostService {
     public PageHelperResult getLostList(Integer page, Integer rows) {
         PageHelper.startPage(page,rows);
         LostInfoExample example=new LostInfoExample();
+        example.setOrderByClause("status ASC,id DESC");
         List<LostInfo> list =lostInfoMapper.selectByExample(example);
         PageInfo<LostInfo> pageInfo=new PageInfo<>(list);
         PageHelperResult result=new PageHelperResult();
@@ -51,7 +52,7 @@ public class LostServiceImpl implements LostService {
     @Override
     public List<LostInfo> getWeChatLostList() {
         LostInfoExample example=new LostInfoExample();
-        example.setOrderByClause("id desc");
+        example.setOrderByClause("id DESC");
         LostInfoExample.Criteria criteria = example.createCriteria();
         criteria.andStatusEqualTo(0);
         List<LostInfo> lostInfos = lostInfoMapper.selectByExample(example);

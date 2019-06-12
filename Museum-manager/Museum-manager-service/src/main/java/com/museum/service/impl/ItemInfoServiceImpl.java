@@ -11,7 +11,6 @@ import com.museum.pojo.ExhibitsInfo;
 import com.museum.pojo.ExhibitsType;
 import com.museum.pojo.ExhibitsTypeExample;
 import com.museum.service.ItemInfoService;
-import com.museum.service.MemberInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,14 +49,14 @@ public class ItemInfoServiceImpl implements ItemInfoService {
     }
     //删除展品
     @Override
-    public Integer deleteItemInfo(Integer id) {
+    public Integer deleteItemInfoById(Integer id) {
         int i = exhibitsInfoMapper.deleteByPrimaryKey(id);
 
         return i;
     }
 
     @Override
-    public Integer updateItemInfo(ExhibitsInfo exhibitsInfo) {
+    public Integer updateItemInfoById(ExhibitsInfo exhibitsInfo) {
         int i = exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
         return i;
     }

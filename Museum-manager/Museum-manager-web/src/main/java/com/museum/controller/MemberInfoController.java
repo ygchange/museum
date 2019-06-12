@@ -36,7 +36,7 @@ public class MemberInfoController {
             return AjaxResponseBody.build(200,"修改成功");
         }
 
-        return AjaxResponseBody.build(400,"修改失败,用户已被删除");
+        return AjaxResponseBody.build(400,"用户已被删除");
     }
     //删除信息
     @RequestMapping(value = "/delete",method = {RequestMethod.POST})
@@ -47,7 +47,7 @@ public class MemberInfoController {
         if(integer>=1){
             return AjaxResponseBody.ok();
         }
-        return AjaxResponseBody.build(400,"删除失败,用户已被删除");
+        return AjaxResponseBody.build(400,"该用户已被删除");
     }
     //添加信息
     @RequestMapping(value = "/insert",method = {RequestMethod.POST})

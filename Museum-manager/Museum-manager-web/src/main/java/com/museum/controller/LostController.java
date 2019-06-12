@@ -37,7 +37,7 @@ public class LostController {
         }
         /*
          */
-        return AjaxResponseBody.build(400,"删除失败,该信息已经被删除");
+        return AjaxResponseBody.build(400,"该信息已被删除");
     }
     //添加失物招领
     @RequestMapping("/insert")
@@ -54,6 +54,6 @@ public class LostController {
         if(i>=1){
             return AjaxResponseBody.build(200,"修改成功");
         }
-        return AjaxResponseBody.build(400,"修改失败,该信息已被删除");
+        return AjaxResponseBody.build(400,"该信息已被删除");
     }
 }

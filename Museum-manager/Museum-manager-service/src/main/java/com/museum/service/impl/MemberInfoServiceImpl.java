@@ -34,6 +34,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         PageHelper.startPage(page,rows);
         //执行查询
         MemberInfoExample example=new MemberInfoExample();
+        example.setOrderByClause("id DESC");
         List<MemberInfo> memberInfos = memberInfoMapper.selectByExample(example);
         for (MemberInfo memberInfo:memberInfos
              ) {

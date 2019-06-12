@@ -45,22 +45,22 @@ public class ExhibitsInfoController {
     //删除展品
     @RequestMapping("/delete")
     @ResponseBody
-    public  AjaxResponseBody deleteItemInfo(@RequestBody Map<String,String> map){
+    public  AjaxResponseBody deleteItemInfoById(@RequestBody Map<String,String> map){
         Integer id=Integer.valueOf(map.get("id"));
-       Integer i= itemInfoService.deleteItemInfo(id);
+       Integer i= itemInfoService.deleteItemInfoById(id);
        if(i>=1){
            return AjaxResponseBody.ok();
        }
-        return AjaxResponseBody.build(400,"删除失败,该展品已被删除");
+        return AjaxResponseBody.build(400,"该展品已被删除");
     }
     //更新商品
     @RequestMapping("/update")
     @ResponseBody
-    public AjaxResponseBody updateItemInfo(@RequestBody ExhibitsInfo exhibitsInfo ){
-        Integer i=itemInfoService.updateItemInfo(exhibitsInfo);
+    public AjaxResponseBody updateItemInfoById(@RequestBody ExhibitsInfo exhibitsInfo ){
+        Integer i=itemInfoService.updateItemInfoById(exhibitsInfo);
         if(i>=1){
             return AjaxResponseBody.build(200,"修改成功");
         }
-        return AjaxResponseBody.build(400,"修改失败,用户已被删除");
+        return AjaxResponseBody.build(400,"用户已被删除");
     }
 }
