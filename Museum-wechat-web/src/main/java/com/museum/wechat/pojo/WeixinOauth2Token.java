@@ -1,4 +1,4 @@
-package com.museum.common.pojo;
+package com.museum.wechat.pojo;
 
 public class WeixinOauth2Token {
     private String accessToken;

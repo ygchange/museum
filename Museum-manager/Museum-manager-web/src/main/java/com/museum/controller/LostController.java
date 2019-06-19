@@ -35,8 +35,7 @@ public class LostController {
         if(integer>=1){
             return AjaxResponseBody.ok();
         }
-        /*
-         */
+
         return AjaxResponseBody.build(400,"该信息已被删除");
     }
     //添加失物招领

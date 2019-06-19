@@ -1,8 +1,8 @@
 package com.museum.wechat.patentController;
 
-import com.museum.common.pojo.SNSUserInfo;
-import com.museum.common.pojo.WeixinOauth2Token;
-import com.museum.common.utils.AdvancedUtil;
+import com.museum.wechat.pojo.SNSUserInfo;
+import com.museum.wechat.pojo.WeixinOauth2Token;
+import com.museum.wechat.utils.AdvancedUtil;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

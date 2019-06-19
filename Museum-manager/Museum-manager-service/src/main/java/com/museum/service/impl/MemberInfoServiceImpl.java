@@ -14,6 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -36,9 +37,15 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         MemberInfoExample example=new MemberInfoExample();
         example.setOrderByClause("id DESC");
         List<MemberInfo> memberInfos = memberInfoMapper.selectByExample(example);
-        for (MemberInfo memberInfo:memberInfos
-             ) {
-            memberInfo.setPassword(null);
+        int num=0;
+        Iterator<MemberInfo> iterator = memberInfos.iterator();
+        while (iterator.hasNext()){
+            MemberInfo next = iterator.next();
+            next.setPassword(null);
+            if(next.getMemberAccountTypeId()==1){
+                iterator.remove();
+                num+=1;
+            }
         }
         //取查询结果
         PageInfo<MemberInfo> pageInfo=new PageInfo<>(memberInfos);
@@ -47,7 +54,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
 
         result.setRows(memberInfos);
         result.setPages(pageInfo.getPages());
-        result.setTotal((int) pageInfo.getTotal());
+        result.setTotal((int) pageInfo.getTotal()-num);
         return result;
     }
 
@@ -58,6 +65,12 @@ public class MemberInfoServiceImpl implements MemberInfoService {
      */
     @Override
     public MemberInfoResult resultCustomUser(MemberInfoCustom custom) {
+        MemberInfo memberInfo=new MemberInfo();
+        memberInfo.setId(custom.getId());
+        memberInfo.setLastLoginDate(new Date());
+        memberInfo.setLastIp(custom.getLastIp());
+        updateMemberInfoById(memberInfo);
+
        MemberInfoResult result=new MemberInfoResult();
         result.setRemark(custom.getRemark());
         result.setNickname(custom.getNickname());
@@ -105,6 +118,8 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         //密码加密
         memberInfo.setPassword(new BCryptPasswordEncoder().encode(memberInfo.getPassword()));
         memberInfo.setOpenDate(new Date());
+        memberInfo.setStatus("on");
+        memberInfo.setNickname(memberInfo.getUserName());
          memberInfoMapper.insertSelective(memberInfo);
 
     }
@@ -113,6 +128,12 @@ public class MemberInfoServiceImpl implements MemberInfoService {
     public MemberInfo getPasswordById(MemberInfo memberInfo){
         MemberInfo result = memberInfoMapper.selectByPrimaryKey(memberInfo.getId());
         return  result;
+    }
+    //修改管理员状态
+    @Override
+    public Integer updateStatusById(MemberInfo memberInfo) {
+        int i = memberInfoMapper.updateByPrimaryKeySelective(memberInfo);
+        return i;
     }
 
 

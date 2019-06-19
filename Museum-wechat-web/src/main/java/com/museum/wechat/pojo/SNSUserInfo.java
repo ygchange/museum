@@ -1,4 +1,4 @@
-package com.museum.common.pojo;
+package com.museum.wechat.pojo;
 
 public class SNSUserInfo {
     private String openId;

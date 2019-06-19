@@ -19,6 +19,8 @@ public class LostInfo {
 
     private Integer receiveUserId;
 
+    private String receiveUserPhone;
+
     public Integer getId() {
         return id;
     }
@@ -81,5 +83,13 @@ public class LostInfo {
 
     public void setReceiveUserId(Integer receiveUserId) {
         this.receiveUserId = receiveUserId;
+    }
+
+    public String getReceiveUserPhone() {
+        return receiveUserPhone;
+    }
+
+    public void setReceiveUserPhone(String receiveUserPhone) {
+        this.receiveUserPhone = receiveUserPhone == null ? null : receiveUserPhone.trim();
     }
 }

@@ -18,4 +18,6 @@ public interface MemberInfoService {
     //添加管理员
     void insertMember(MemberInfo memberInfo) throws Exception;
     MemberInfo getPasswordById(MemberInfo memberInfo);
+
+    Integer updateStatusById(MemberInfo memberInfo);
 }

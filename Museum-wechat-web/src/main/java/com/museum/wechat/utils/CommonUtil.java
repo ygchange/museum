@@ -1,4 +1,4 @@
-package com.museum.common.utils;
+package com.museum.wechat.utils;
 
 import net.sf.json.JSONObject;
 import org.apache.log4j.Logger;

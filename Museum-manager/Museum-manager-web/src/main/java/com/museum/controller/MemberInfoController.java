@@ -38,6 +38,17 @@ public class MemberInfoController {
 
         return AjaxResponseBody.build(400,"用户已被删除");
     }
+    //修改管理员的状态
+    @RequestMapping("/updateStatus")
+    @ResponseBody
+    public AjaxResponseBody updateStatusById(@RequestBody MemberInfo memberInfo){
+        Integer integer=memberInfoService.updateStatusById(memberInfo);
+        if(integer>=1){
+            return AjaxResponseBody.build(200,"注销成功");
+        }
+
+        return AjaxResponseBody.build(400,"注销失败,用户已被删除");
+    }
     //删除信息
     @RequestMapping(value = "/delete",method = {RequestMethod.POST})
     @ResponseBody

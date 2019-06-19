@@ -1,4 +1,4 @@
-package com.museum.common.utils;
+package com.museum.wechat.utils;
 
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.CertificateException;

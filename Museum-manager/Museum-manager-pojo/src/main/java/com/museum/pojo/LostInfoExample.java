@@ -614,6 +614,76 @@ public class LostInfoExample {
             addCriterion("receive_user_id not between", value1, value2, "receiveUserId");
             return (Criteria) this;
         }
+
+        public Criteria andReceiveUserPhoneIsNull() {
+            addCriterion("receive_user_phone is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneIsNotNull() {
+            addCriterion("receive_user_phone is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneEqualTo(String value) {
+            addCriterion("receive_user_phone =", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneNotEqualTo(String value) {
+            addCriterion("receive_user_phone <>", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneGreaterThan(String value) {
+            addCriterion("receive_user_phone >", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneGreaterThanOrEqualTo(String value) {
+            addCriterion("receive_user_phone >=", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneLessThan(String value) {
+            addCriterion("receive_user_phone <", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneLessThanOrEqualTo(String value) {
+            addCriterion("receive_user_phone <=", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneLike(String value) {
+            addCriterion("receive_user_phone like", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneNotLike(String value) {
+            addCriterion("receive_user_phone not like", value, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneIn(List<String> values) {
+            addCriterion("receive_user_phone in", values, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneNotIn(List<String> values) {
+            addCriterion("receive_user_phone not in", values, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneBetween(String value1, String value2) {
+            addCriterion("receive_user_phone between", value1, value2, "receiveUserPhone");
+            return (Criteria) this;
+        }
+
+        public Criteria andReceiveUserPhoneNotBetween(String value1, String value2) {
+            addCriterion("receive_user_phone not between", value1, value2, "receiveUserPhone");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

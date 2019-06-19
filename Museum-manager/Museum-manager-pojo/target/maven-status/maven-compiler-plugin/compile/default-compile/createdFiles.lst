@@ -6,6 +6,7 @@ com\museum\pojo\LostInfo.class
 com\museum\pojo\AnnouncementInfo.class
 com\museum\pojo\ExhibitsInfo.class
 com\museum\pojo\ExhibitsInfoExample$Criteria.class
+com\museum\custom\ExhibitsTypeCustom.class
 com\museum\pojo\AnnouncementInfoExample.class
 com\museum\pojo\ExhibitsType.class
 com\museum\pojo\LostInfoExample$GeneratedCriteria.class
@@ -16,10 +17,12 @@ com\museum\pojo\LostInfoExample$Criteria.class
 com\museum\pojo\WechatUser.class
 com\museum\custom\ExhibitsInfoCustom.class
 com\museum\pojo\AnnouncementInfoExample$GeneratedCriteria.class
+com\museum\custom\AnnouncementInfoCustom.class
 com\museum\pojo\MemberInfoExample$Criteria.class
 com\museum\pojo\ExhibitsTypeExample.class
 com\museum\pojo\ExhibitsInfoExample$Criterion.class
 com\museum\pojo\WechatUserExample$Criterion.class
+com\museum\custom\LostInfoCustom.class
 com\museum\pojo\WechatUserExample.class
 com\museum\pojo\AnnouncementInfoExample$Criterion.class
 com\museum\pojo\ExhibitsInfoExample$GeneratedCriteria.class

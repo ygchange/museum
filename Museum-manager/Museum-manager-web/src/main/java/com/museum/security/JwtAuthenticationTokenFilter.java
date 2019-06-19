@@ -3,6 +3,7 @@ package com.museum.security;
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
+import com.museum.custom.MemberInfoCustom;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -71,9 +72,13 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         String userName = string.split(",")[0];
         String password = string.split(",")[1];
-        UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+        MemberInfoCustom userDetails = (MemberInfoCustom) userDetailsService.loadUserByUsername(userName);
         if (userDetails == null) {
             getResponse("当前用户被删除,请联系管理员", response);
+            return;
+        }
+        if(userDetails.getStatus().equals("off")){
+            getResponse("该账户已被注销,请联系管理员",response);
             return;
         }
         if (!password.equals(userDetails.getPassword())) {

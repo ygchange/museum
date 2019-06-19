@@ -1,7 +1,7 @@
-package com.museum.common.utils;
+package com.museum.wechat.utils;
 
-import com.museum.common.pojo.SNSUserInfo;
-import com.museum.common.pojo.WeixinOauth2Token;
+import com.museum.wechat.pojo.SNSUserInfo;
+import com.museum.wechat.pojo.WeixinOauth2Token;
 import net.sf.json.JSONObject;
 import org.apache.log4j.Logger;
 
