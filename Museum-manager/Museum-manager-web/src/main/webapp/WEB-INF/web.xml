@@ -5,8 +5,12 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <welcome-file-list>
-        <welcome-file>dist/index.html</welcome-file>
+        <welcome-file>/dist/index.html</welcome-file>
     </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/dist/index.html</location>
+    </error-page>
     <filter>
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>

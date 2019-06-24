@@ -2,16 +2,22 @@ package com.museum.wechat.service;
 
 import com.museum.wechat.pojo.TextMessage;
 import com.museum.wechat.utils.MessageUtil;
+import com.museum.wechat.utils.WeixinUtil;
 import org.apache.log4j.Logger;
 
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import sun.rmi.runtime.Log;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.Map;
-
+@Component
 public class CoreService {
+    @Autowired
+    private  WeixinUtil weixinUtil;
     private static Logger log =  Logger.getLogger(CoreService.class);
 
     private static String emoji(int codePoint) {
@@ -25,7 +31,7 @@ public class CoreService {
      * @return
      */
 
-    public static String processRequest(HttpServletRequest request, HttpServletResponse response) {
+    public  String processRequest(HttpServletRequest request, HttpServletResponse response) {
 
         // 默认返回的文本消息内容
         String respMessage = null;
@@ -35,6 +41,7 @@ public class CoreService {
             String fromUserName = requestMap.get("FromUserName");
             String toUserName = requestMap.get("ToUserName");
             String msgType = requestMap.get("MsgType");
+
             TextMessage textMessage = new TextMessage();
             textMessage.setToUserName(fromUserName);
             textMessage.setFromUserName(toUserName);
@@ -72,15 +79,25 @@ public class CoreService {
                 String eventType = requestMap.get("Event");
                 // 订阅
                 if (eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)) {
-                    respContent = emoji(0x1F334) + "谢谢您关注";
+                    String mag = weixinUtil.processWechatMag(fromUserName, weixinUtil.getToken());
+                    respContent = emoji(0x1F334) +"欢迎您:"+mag+","+"谢谢您关注";
                     textMessage.setContent(respContent);
                     respMessage = MessageUtil.textMessageToXml(textMessage);
+                //取消订阅
+                }else if(eventType.equals(MessageUtil.EVENT_TYPE_UNSUBSCRIBE)){
+                    weixinUtil.noProcessWechatMag(fromUserName);
                 }
                 // 自定义菜单点击事件
                 else if (eventType.equals(MessageUtil.EVENT_TYPE_CLICK)) {
                     String eventKey = requestMap.get("EventKey");
                     if (eventKey.equals("11")) {
                     } else if (eventKey.equals("12")) {
+                    }
+                }else if (eventType.equals("scancode_waitmsg")){
+                    String eventKey = requestMap.get("EventKey");
+                    if(eventKey.equals("rselfmenu_0_1")){
+                        log.info("111111111111111111111111");
+                        response.sendRedirect("https://www.baidu.com/");
                     }
                 }
             }

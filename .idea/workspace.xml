@@ -7,66 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a86c1fde-3b38-4207-85ba-274e8f6d790a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/AnnouncementInfoCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsTypeCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/LostInfoCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/BaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/NewsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CheckoutUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/MessageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/GenerateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/MP_verify_LW3DT7tjvovIQcge.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Museum_wechat_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Museum_wechat_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/72934.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/72934.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/SNSUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/WeixinOauth2Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/WeixinOauth2Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/AdvancedUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/MyX509TrustManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/MyX509TrustManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/LostInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/LostInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/MemberInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/MemberInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/LostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/LostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/MemberInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/MemberInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/WeChatUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/WeChatUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/WeChatUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/target/classes/com/museum/service/WeChatUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/WeChatUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/target/classes/com/museum/service/impl/WeChatUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/css/chunk-vendors.595214b9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0ab46d.63ba120e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0aecdc.f8b239bc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0de122.bf5d77db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0e4fb5.6588e7aa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/assets/js/chunk-2d0e8c41.594855a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/controller/MemberInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/controller/MemberInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/JwtAuthenticationTokenFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-wechat-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Museum-parent/target/" />
     <ignored path="$PROJECT_DIR$/Museum-common/target/" />
@@ -85,48 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CheckoutUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+            <state relative-caret-position="361">
+              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/MessageUtil.java">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="-216">
+              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,47 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/BaseMessage.java">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/TextMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -195,8 +89,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state relative-caret-position="513">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,28 +117,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/WeixinOauth2Token.java">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/NewsMessage.java">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="-57">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -258,6 +184,7 @@
       <find>sele</find>
       <find>se</find>
       <find>select</find>
+      <find>EVENT_TYPE_UNSUBSCRIBE</find>
     </findStrings>
     <replaceStrings>
       <replace>logger</replace>
@@ -273,29 +200,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/WeixinOauth2Token.java" />
-        <option value="$PROJECT_DIR$/Museum-common/pom.xml" />
-        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/CommonUtil.java" />
-        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/MyX509TrustManager.java" />
-        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/SNSUserInfo.java" />
-        <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/AdvancedUtil.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementConteroller.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementConterller.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/LostService.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.xml" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/AnnouncementInfo.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/AnnouncementService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/AnnouncementController.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/CustomMapper.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsTypeCustom.java" />
@@ -306,24 +218,39 @@
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/AnnouncementInfoCustom.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/LostInfoCustom.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/meeting/bean/Role.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" />
         <option value="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/MemberInfoResult.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/WechatService.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WeChatController.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/BaseMessage.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/TextMessage.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/NewsMessage.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/pom.xml" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/MessageUtil.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CheckoutUtil.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/QrCodeService.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/GenerateCode.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/WeChatUserService.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauthServlet.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java" />
       </list>
     </option>
   </component>
@@ -351,11 +278,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="-5" />
-    <option name="width" value="1800" />
-    <option name="height" value="1075" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-123" />
+    <option name="y" value="3" />
+    <option name="width" value="1944" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -371,6 +298,39 @@
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
@@ -401,6 +361,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
@@ -434,14 +403,21 @@
               <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -452,6 +428,11 @@
             <path>
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
               <item name="Museum-manager-service" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Museum-manager-service" type="616d4139:PackageViewModuleNode" />
+              <item name="com.museum.service.impl" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
@@ -498,26 +479,19 @@
               <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
               <item name="Museum-wechat-web" type="616d4139:PackageViewModuleNode" />
               <item name="com.museum.wechat" type="1f31426a:PackageElementNode" />
-              <item name="pojo" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Museum-wechat-web" type="616d4139:PackageViewModuleNode" />
-              <item name="com.museum.wechat" type="1f31426a:PackageElementNode" />
-              <item name="utils" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560922579604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561309252343" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -530,11 +504,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp\WEB-INF" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
       <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\java\com\museum\wechat" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-pojo\src\main\java\com\museum\pojo" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
-      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\resources" />
-      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.museum.pojo" />
@@ -542,6 +516,7 @@
       <recent name="com.museum.common.pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
@@ -560,6 +535,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Maven.Museum-wechat-web [clean,tomcat7:run]">
+    <configuration name="GenerateCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.museum.wechat.utils.GenerateCode" />
+      <module name="Museum-wechat-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.museum.wechat.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.museum.wechat.utils.TEST" />
+      <module name="Museum-wechat-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.museum.wechat.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserMapperTest.testUpdatePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Museum-manager-web" />
       <option name="PACKAGE_NAME" value="" />
@@ -623,6 +624,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.GenerateCode" />
+      <item itemvalue="Application.TEST" />
       <item itemvalue="JUnit.UserMapperTest.testUpdatePassword" />
       <item itemvalue="Maven.Museum-manager [clean,tomcat7:run]" />
       <item itemvalue="Maven.Museum-wechat-web [clean,tomcat7:run]" />
@@ -630,6 +633,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserMapperTest.testUpdatePassword" />
+        <item itemvalue="Application.TEST" />
+        <item itemvalue="Application.GenerateCode" />
       </list>
     </recent_temporary>
   </component>
@@ -670,7 +675,12 @@
       <workItem from="1560405189102" duration="8955000" />
       <workItem from="1560756716014" duration="7355000" />
       <workItem from="1560844596689" duration="7273000" />
-      <workItem from="1560906899080" duration="10677000" />
+      <workItem from="1560906899080" duration="27746000" />
+      <workItem from="1560992245721" duration="1346000" />
+      <workItem from="1560994442660" duration="29520000" />
+      <workItem from="1561030164038" duration="31046000" />
+      <workItem from="1561118072445" duration="234000" />
+      <workItem from="1561266705809" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1559452555381</created>
@@ -728,16 +738,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560350879941</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.5">
+      <created>1560922631631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560922631631</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_testUpdatePassword - 2019.05.26 at 19h 33m 57s.xml">
-      <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testUpdatePassword - 2019.05.26 at 19h 47m 22s.xml">
-      <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserMapperTest_testUpdatePassword - 2019.05.30 at 23h 38m 22s.xml">
       <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
     </history-entry>
@@ -762,9 +773,15 @@
     <history-entry file="UserMapperTest_testUpdatePassword - 2019.06.04 at 21h 40m 08s.xml">
       <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_testUpdatePassword - 2019.06.21 at 19h 10m 48s.xml">
+      <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testUpdatePassword - 2019.06.21 at 19h 11m 31s.xml">
+      <configuration name="UserMapperTest.testUpdatePassword" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330204000" />
+    <option name="totallyTimeSpent" value="411027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,23 +793,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-188" y="39" width="1554" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.23324397" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51150894" visible="true" weight="0.24799465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.500998" side_tool="true" weight="0.43348116" />
-      <window_info id="Web" order="7" sideWeight="0.500998" side_tool="true" weight="0.43348116" />
+      <window_info id="Web" order="7" sideWeight="0.48849106" side_tool="true" weight="0.2419571" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32963988" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32825485" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.30747923" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.2512909" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.18571429" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.25069252" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32825485" />
@@ -807,7 +824,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24944568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.27345845" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.020053476" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
@@ -927,305 +944,148 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/museum/assets/js/app.ce7b7fea.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/AnnouncementInfoCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsTypeCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/LostInfoCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/museum/assets/img/1.7071909e.jpg" />
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/AnnouncementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="-399">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/LostInfoExample.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/LostInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/LostInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MavenRespotion/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/MemberInfoCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-247">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
+        <state relative-caret-position="76">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218" />
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/dist/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        <state relative-caret-position="38">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="26" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MavenRespotion/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/meeting/bean/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="e#0#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/weixin/service/CoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/weixin/servlet/CoreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UnicodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/MemberInfoResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/WechatService.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/WeChatUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WeChatController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/WeChatUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="471">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1237,67 +1097,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-678">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="190">
+          <caret line="10" column="109" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="109" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://G:/MavenRespotion/org/aspectj/aspectjweaver/1.8.7/aspectjweaver-1.8.7.jar!/org/aspectj/bridge/MessageUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/app.d393f887.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-vendors.0ec86e0d.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CheckoutUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-0afccb04.b5c35843.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-2d214459.64950332.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-97484e2c.e3381a05.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-a29a280c.9cfe527f.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/js/chunk-a94a2cee.4023cd7d.js" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/css/app.63678478.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CommonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/css/chunk-vendors.9da00aaf.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/MessageUtil.java">
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/dist/assets/css/chunk-0afccb04.038c7b66.css" />
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/TextMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1308,10 +1134,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/test/java/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/SNSUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauthServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/CoreServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-57">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1320,67 +1228,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        <state relative-caret-position="361">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/BaseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/NewsMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
           </folding>
         </state>
       </provider>

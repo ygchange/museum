@@ -36,4 +36,31 @@ public class WeChatUserServiceImpl implements WeChatUserService {
         result.setTotal((int) pageInfo.getTotal());
         return result;
     }
+
+    @Override
+    public void insertWeChatInfo(WechatUser wechatUser) {
+        wechatUserMapper.insertSelective(wechatUser);
+    }
+
+    @Override
+    public void updateStatusByUserId(WechatUser wechatUser) {
+        WechatUserExample example=new WechatUserExample();
+        WechatUserExample.Criteria criteria = example.createCriteria();
+        criteria.andUserIdEqualTo(wechatUser.getUserId());
+        wechatUserMapper.updateByExampleSelective(wechatUser,example);
+    }
+
+    @Override
+    public WechatUser selectWeChatInfoByUserId(WechatUser wechatUser) {
+        WechatUserExample example=new WechatUserExample();
+        WechatUserExample.Criteria criteria = example.createCriteria();
+        criteria.andUserIdEqualTo(wechatUser.getUserId());
+        List<WechatUser> wechatUsers = wechatUserMapper.selectByExample(example);
+        if(wechatUsers.size()>0){
+            return wechatUsers.get(0);
+        }else {
+            return null;
+        }
+    }
+
 }

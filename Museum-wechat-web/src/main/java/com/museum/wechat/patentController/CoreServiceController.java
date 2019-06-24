@@ -3,6 +3,7 @@ package com.museum.wechat.patentController;
 import com.museum.wechat.service.CoreService;
 import com.museum.wechat.utils.CheckoutUtil;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +15,8 @@ import java.io.PrintWriter;
 @Controller
 @RequestMapping("/wechat")
 public class CoreServiceController {
+    @Autowired
+    private CoreService coreService;
     private Logger log = Logger.getLogger(CoreServiceController.class);
 
     /**
@@ -53,7 +56,7 @@ public class CoreServiceController {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         // 调用核心业务类接收消息、处理消息
-        String respMessage = CoreService.processRequest(request,response);
+        String respMessage = coreService.processRequest(request,response);
         log.info(respMessage);
         // 响应消息
         PrintWriter out = response.getWriter();

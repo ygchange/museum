@@ -1,5 +1,6 @@
 package com.museum.wechat.patentController;
 
+import com.museum.common.utils.UnicodeUtil;
 import com.museum.wechat.pojo.SNSUserInfo;
 import com.museum.wechat.pojo.WeixinOauth2Token;
 import com.museum.wechat.utils.AdvancedUtil;
@@ -23,22 +24,28 @@ public class WechatOauth {
         response.setCharacterEncoding("utf-8");
         String code = request.getParameter("code");
         String state = request.getParameter("state");
+
         SNSUserInfo snsUserInfo = null;
         String openId = null;
         if (!"authdeny".equals(code)) {
             try {
-                WeixinOauth2Token weixinOauth2Token = AdvancedUtil.getOauth2AccessToken("wx27a5c8bcf72f488f", "f6cb242b68d77e4dfc9d117086734b39", code);
+                WeixinOauth2Token weixinOauth2Token = AdvancedUtil.getOauth2AccessToken("wxa2c23b7573ed8ed9", "9c2d9582477d81a144a37de0f10b97b3", code);
                 String accessToken = weixinOauth2Token.getAccessToken();
                 openId = weixinOauth2Token.getOpenId();
                 snsUserInfo = AdvancedUtil.getSNSUserInfo(accessToken, openId);
-                if (state.equals("phone")) {
-                    request.getRequestDispatcher("/aaa/aaa.html?state=" + state + "&nickName=" + snsUserInfo.getNickname() + "&img=" + snsUserInfo.getHeadImgUrl() + "&openId=" + openId).forward(request, response);
-                } else {
-                    request.getRequestDispatcher("/aaa/bbb.html?state=" + state + "&nickName=" + snsUserInfo.getNickname() + "&img=" + snsUserInfo.getHeadImgUrl() + "&openId=" + openId).forward(request, response);
+                String s = UnicodeUtil.unicodeEncode(snsUserInfo.getNickname());
+                snsUserInfo.setNickname(s);
+                logger.info(snsUserInfo.toString());
+                if (state.equals("announcement")) {
+                  response.sendRedirect("http://supnft.natappfree.cc/dist/#/notice/img="+snsUserInfo.getHeadImgUrl()+"&nickName="+snsUserInfo.getNickname());
+                } else if (state.equals("lost")){
+                    response.sendRedirect("http://supnft.natappfree.cc/dist/#/lostandfound/img="+snsUserInfo.getHeadImgUrl()+"&nickName="+snsUserInfo.getNickname());
+                }else {
+
                 }
             } catch (Exception var9) {
                 this.logger.info("oauth_get is error:", var9);
-                request.getRequestDispatcher("/return.jsp").forward(request, response);
+                response.sendRedirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa2c23b7573ed8ed9&redirect_uri=http://www.server.trueonly.cc/patent/wechat/wechatOauth&response_type=code&scope=snsapi_userinfo&state=phone#wechat_redirect");
             }
         }
     }

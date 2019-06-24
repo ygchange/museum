@@ -9,14 +9,14 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class UserMapperTest {
     @Test
     public void testUpdatePassword(){
-//        ApplicationContext applicationContext =new ClassPathXmlApplicationContext("spring/applicationContext-dao.xml");
-//        MemberInfoMapper memberInfoMapper = (MemberInfoMapper) applicationContext.getBean("memberInfoMapper");
-//        PasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
-//
-//        MemberInfo memberInfo=new MemberInfo();
-//        memberInfo.setId(30);
-//        memberInfo.setPassword(passwordEncoder.encode("12345"));
-//        memberInfoMapper.updateByPrimaryKey(memberInfo);
+        ApplicationContext applicationContext =new ClassPathXmlApplicationContext("spring/applicationContext-dao.xml");
+        MemberInfoMapper memberInfoMapper = (MemberInfoMapper) applicationContext.getBean("memberInfoMapper");
+        PasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
+
+        MemberInfo memberInfo=new MemberInfo();
+        memberInfo.setId(1);
+        memberInfo.setPassword(passwordEncoder.encode("12345"));
+        memberInfoMapper.updateByPrimaryKey(memberInfo);
 
     }
 }

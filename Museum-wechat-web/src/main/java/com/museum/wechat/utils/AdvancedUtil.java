@@ -40,7 +40,7 @@ public class AdvancedUtil {
 
     public static SNSUserInfo getSNSUserInfo(String accessToken, String openId) {
         SNSUserInfo snsUserInfo = null;
-        String requestUrl = "https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID";
+        String requestUrl = "https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN";
         requestUrl = requestUrl.replace("ACCESS_TOKEN", accessToken).replace("OPENID", openId);
         JSONObject jsonObject = CommonUtil.httpsRequest(requestUrl, "GET", (String)null);
         if (jsonObject != null) {

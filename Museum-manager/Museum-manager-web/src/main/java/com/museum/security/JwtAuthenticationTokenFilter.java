@@ -38,7 +38,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         //静态资源和login不过滤
         String uri = request.getRequestURI();
         if (uri.substring(uri.lastIndexOf("/")).equals("/login")
-                || uri.startsWith("/dist")
+                || uri.startsWith("/museum/dist")
                 || uri.substring(uri.lastIndexOf("/")).equals("/")) {
             chain.doFilter(request, response);
             return;
