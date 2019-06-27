@@ -5,6 +5,7 @@ import com.museum.common.pojo.PageHelperResult;
 import com.museum.pojo.AnnouncementInfo;
 import com.museum.service.AnnouncementService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -9,10 +9,8 @@ import java.util.Date;
 
 public class JwtUtil {
 
-    @Value("${jwt.secret}")
-    private static String secret;
 
-    private static final String SIGNING_KEY = "DEMO";
+    private static final String SIGNING_KEY = "MUSEUM_YG_KEY";
 
 
     public static Claims getClaim(String token){

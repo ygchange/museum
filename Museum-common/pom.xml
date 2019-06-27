@@ -82,6 +82,22 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
         </dependency>
+        <!--七牛云上传图片服务-->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>pili-sdk-java</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okio</groupId>
+            <artifactId>okio</artifactId>
+            <version>2.2.2</version>
+        </dependency>
     </dependencies>
 
 </project>

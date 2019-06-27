@@ -10,4 +10,5 @@ H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\sec
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\controller\LostController.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\controller\ExhibitsInfoController.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxAuthenticationSuccessHandler.java
+H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\controller\UploadController.java
 H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\java\com\museum\security\AjaxAuthenticationFailureHandler.java

@@ -9,21 +9,18 @@ import com.museum.mapper.CustomMapper;
 import com.museum.mapper.ExhibitsInfoMapper;
 import com.museum.mapper.ExhibitsTypeMapper;
 import com.museum.mapper.MemberInfoMapper;
-import com.museum.pojo.ExhibitsInfo;
-import com.museum.pojo.ExhibitsType;
-import com.museum.pojo.ExhibitsTypeExample;
-import com.museum.pojo.MemberInfo;
+import com.museum.pojo.*;
 import com.museum.service.ItemInfoService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 @Service
 public class ItemInfoServiceImpl implements ItemInfoService {
-    @Autowired
-    private CustomMapper customMapper;
     @Autowired
     private ExhibitsInfoMapper exhibitsInfoMapper;
     @Autowired
@@ -34,19 +31,25 @@ public class ItemInfoServiceImpl implements ItemInfoService {
     @Override
     public PageHelperResult getItemInfoList(Integer page,Integer rows) {
         PageHelper.startPage(page,rows);
-        List<ExhibitsInfoCustom> list = customMapper.selectExhibits();
-        for (ExhibitsInfoCustom exhibitsInfo:list)
+        ExhibitsInfoExample example =new ExhibitsInfoExample();
+        List<ExhibitsInfo> list = exhibitsInfoMapper.selectByExample(example);
+        List<ExhibitsInfoCustom> newList=new ArrayList<>();
+        for (ExhibitsInfo exhibitsInfo:list)
         {
+            ExhibitsInfoCustom custom=new ExhibitsInfoCustom();
             MemberInfo memberInfo = memberInfoMapper.selectByPrimaryKey(exhibitsInfo.getOperatorId());
+            BeanUtils.copyProperties(exhibitsInfo,custom);
+            ExhibitsType exhibitsType = exhibitsTypeMapper.selectByPrimaryKey(exhibitsInfo.getTypeId());
+            custom.setTypeName(exhibitsType.getTypeName());
             if(memberInfo!=null){
                 memberInfo.setPassword(null);
             }
-
-            exhibitsInfo.setMemberInfo(memberInfo);
+            custom.setMemberInfo(memberInfo);
+            newList.add(custom);
         }
-        PageInfo<ExhibitsInfoCustom> pageInfo=new PageInfo<>(list);
+        PageInfo<ExhibitsInfo> pageInfo=new PageInfo<>(list);
         PageHelperResult result=new PageHelperResult();
-        result.setRows(list);
+        result.setRows(newList);
         result.setTotal((int) pageInfo.getTotal());
         return result;
     }
@@ -78,9 +81,10 @@ public class ItemInfoServiceImpl implements ItemInfoService {
     }
     //根据展品id查询
     @Override
-    public ExhibitsInfo selectExhibitsInfoById(Integer id) {
-        ExhibitsInfo exhibitsInfo = exhibitsInfoMapper.selectByPrimaryKey(id);
-        return exhibitsInfo;
+    public ExhibitsInfo getExhibitsInfoById(Integer id) {
+        ExhibitsInfo exhibitsInfoResult = exhibitsInfoMapper.selectByPrimaryKey(id);
+
+        return exhibitsInfoResult;
     }
 
 

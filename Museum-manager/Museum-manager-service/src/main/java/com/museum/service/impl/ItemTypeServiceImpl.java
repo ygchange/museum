@@ -31,6 +31,7 @@ public class ItemTypeServiceImpl implements ItemTypeService {
         List<ExhibitsType> list = exhibitsTypeMapper.selectByExample(example);
         List<ExhibitsTypeCustom> newList= new ArrayList<>();
         for (ExhibitsType exhibitsType:list) {
+
             ExhibitsTypeCustom custom=new ExhibitsTypeCustom();
             BeanUtils.copyProperties(exhibitsType,custom);
             MemberInfo memberInfo = memberInfoMapper.selectByPrimaryKey(exhibitsType.getOperatorId());

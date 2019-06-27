@@ -1,5 +1,6 @@
 package com.museum.wechat.utils;
 
+import com.museum.wechat.pojo.News;
 import com.museum.wechat.pojo.NewsMessage;
 import com.museum.wechat.pojo.TextMessage;
 import com.thoughtworks.xstream.XStream;
@@ -144,7 +145,7 @@ public class MessageUtil {
      */
     public static String newsMessageToXml(NewsMessage newsMessage) {
         xstream.alias("xml", newsMessage.getClass());
-        xstream.alias("item", new Article().getClass());
+        xstream.alias("item", new News().getClass());
         return xstream.toXML(newsMessage);
     }
 
@@ -224,7 +225,7 @@ public class MessageUtil {
      */
     public static String messageToXml(NewsMessage newsMessage) {
         xstream.alias("xml", newsMessage.getClass());
-        xstream.alias("item", new Article().getClass());
+        xstream.alias("News", new Article().getClass());
         return xstream.toXML(newsMessage);
 
     }

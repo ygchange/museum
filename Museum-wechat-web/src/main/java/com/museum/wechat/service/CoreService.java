@@ -1,21 +1,28 @@
 package com.museum.wechat.service;
 
+import com.museum.pojo.ExhibitsInfo;
+import com.museum.service.ItemInfoService;
+import com.museum.wechat.pojo.News;
+import com.museum.wechat.pojo.NewsMessage;
 import com.museum.wechat.pojo.TextMessage;
 import com.museum.wechat.utils.MessageUtil;
 import com.museum.wechat.utils.WeixinUtil;
 import org.apache.log4j.Logger;
 
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import sun.rmi.runtime.Log;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 @Component
 public class CoreService {
+    @Autowired
+    private ItemInfoService itemInfoService;
+
     @Autowired
     private  WeixinUtil weixinUtil;
     private static Logger log =  Logger.getLogger(CoreService.class);
@@ -48,14 +55,22 @@ public class CoreService {
             textMessage.setCreateTime(new Date().getTime());
             textMessage.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
             textMessage.setFuncFlag(0);
+
+
+            NewsMessage newsMessage=new NewsMessage();
+            newsMessage.setToUserName(fromUserName);
+            newsMessage.setFromUserName(toUserName);
+            newsMessage.setCreateTime(new Date().getTime());
+            newsMessage.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_NEWS);
+            newsMessage.setFuncFlag(0);
             //文字信息
             if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)) {
-                respContent = emoji(0x274C) + "emoji(0x274C)" + "请点击菜单进行操作";
+                respContent = "请点击菜单进行操作";
                 textMessage.setContent(respContent);
                 respMessage = MessageUtil.textMessageToXml(textMessage);
             } // 图片消息
             else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_IMAGE)) {
-                respContent = emoji(0x274C) + "emoji(0x274C)" + "请点击菜单进行操作";
+                respContent = "请点击菜单进行操作";
                 textMessage.setContent(respContent);
                 respMessage = MessageUtil.textMessageToXml(textMessage);
             }
@@ -79,6 +94,34 @@ public class CoreService {
                 String eventType = requestMap.get("Event");
                 // 订阅
                 if (eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)) {
+                   String eventKey =requestMap.get("EventKey");
+                   if(eventKey.startsWith("qrscene_")){
+                       weixinUtil.processWechatMag(fromUserName, weixinUtil.getToken());
+                       String[] s = eventKey.split("_");
+                       News News =new News();
+                       List<News> list=new ArrayList<>();
+                       ExhibitsInfo exhibitsInfoResult= itemInfoService.getExhibitsInfoById(Integer.valueOf(s[1]));
+                       if(exhibitsInfoResult==null){
+                           News.setTitle("抱歉,该展品已经被删除!!!!");
+                           News.setPicUrl(null);
+                           News.setUrl(null);
+                           News.setDescription("抱歉,该展品已经被删除!!!!");
+                           list.add(News);
+                           newsMessage.setArticleCount(1);
+                           newsMessage.setArticles(list);
+                           respMessage= MessageUtil.newsMessageToXml(newsMessage);
+                           return respMessage;
+                       }
+                       News.setTitle(exhibitsInfoResult.getName());
+                       News.setPicUrl("http://ptljizme7.bkt.clouddn.com/"+exhibitsInfoResult.getImgName());
+                       News.setUrl("http://t777cs.natappfree.cc/detail-"+s[1]);
+                       News.setDescription(exhibitsInfoResult.getInfo());
+                       list.add(News);
+                       newsMessage.setArticleCount(1);
+                       newsMessage.setArticles(list);
+                       respMessage= MessageUtil.newsMessageToXml(newsMessage);
+                       return respMessage;
+                   }
                     String mag = weixinUtil.processWechatMag(fromUserName, weixinUtil.getToken());
                     respContent = emoji(0x1F334) +"欢迎您:"+mag+","+"谢谢您关注";
                     textMessage.setContent(respContent);
@@ -93,12 +136,37 @@ public class CoreService {
                     if (eventKey.equals("11")) {
                     } else if (eventKey.equals("12")) {
                     }
-                }else if (eventType.equals("scancode_waitmsg")){
+                }else if (eventType.equals("scancode_push")){
+
                     String eventKey = requestMap.get("EventKey");
                     if(eventKey.equals("rselfmenu_0_1")){
-                        log.info("111111111111111111111111");
-                        response.sendRedirect("https://www.baidu.com/");
+
                     }
+                }else if (eventType.equals("SCAN")){
+                    String eventKey =requestMap.get("EventKey");
+                    News News =new News();
+                    List<News> list=new ArrayList<>();
+                    ExhibitsInfo exhibitsInfoResult= itemInfoService.getExhibitsInfoById(Integer.valueOf(eventKey));
+                    if(exhibitsInfoResult==null){
+                        News.setTitle("抱歉,该展品已经被删除!!!!");
+                        News.setPicUrl(null);
+                        News.setUrl(null);
+                        News.setDescription("抱歉,该展品已经被删除!!!!");
+                        list.add(News);
+                        newsMessage.setArticleCount(1);
+                        newsMessage.setArticles(list);
+                        respMessage= MessageUtil.newsMessageToXml(newsMessage);
+                        return respMessage;
+                    }
+                    News.setTitle(exhibitsInfoResult.getName());
+                    News.setPicUrl("http://ptljizme7.bkt.clouddn.com/"+exhibitsInfoResult.getImgName());
+                    News.setUrl("http://t777cs.natappfree.cc/detail-"+eventKey);
+                    News.setDescription(exhibitsInfoResult.getInfo());
+                    list.add(News);
+                    newsMessage.setArticleCount(1);
+                    newsMessage.setArticles(list);
+                    respMessage= MessageUtil.newsMessageToXml(newsMessage);
+
                 }
             }
         } catch (Exception e) {

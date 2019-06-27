@@ -13,6 +13,7 @@
 
     <!-- 扫描带有@Controller注解的类 -->
     <context:component-scan base-package="com.museum.wechat"></context:component-scan>
+    <context:property-placeholder location="classpath:resource/wechatOauth.properties"/>
     <!--配置注解驱动-->
     <mvc:annotation-driven/>
     <!--配置资源映射-->

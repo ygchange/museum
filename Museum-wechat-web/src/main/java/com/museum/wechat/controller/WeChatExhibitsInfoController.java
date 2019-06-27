@@ -20,8 +20,10 @@ public class WeChatExhibitsInfoController {
     @ResponseBody
     public AjaxResponseBody selectExhibitsInfoById(@RequestBody Map<String,String> map){
         Integer id=Integer.valueOf(map.get("id"));
-        ExhibitsInfo exhibitsInfo = itemInfoService.selectExhibitsInfoById(id);
+        ExhibitsInfo exhibitsInfo = itemInfoService.getExhibitsInfoById(id);
+        exhibitsInfo.setQueryTimes(exhibitsInfo.getQueryTimes()+1);
         if(exhibitsInfo!=null) {
+            itemInfoService.updateItemInfoById(exhibitsInfo);
             return AjaxResponseBody.ok(exhibitsInfo);
         }else {
             return AjaxResponseBody.build(400,"该展品已经被删除,请查看其他展品");

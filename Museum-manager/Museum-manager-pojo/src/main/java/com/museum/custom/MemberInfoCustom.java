@@ -23,6 +23,7 @@ public class MemberInfoCustom extends MemberInfo implements UserDetails {
         return getUserName();
     }
 
+
     @Override
     public boolean isAccountNonExpired() {
         return true;

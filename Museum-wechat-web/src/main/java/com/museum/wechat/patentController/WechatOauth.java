@@ -1,10 +1,16 @@
 package com.museum.wechat.patentController;
 
 import com.museum.common.utils.UnicodeUtil;
+import com.museum.pojo.ExhibitsInfo;
+import com.museum.pojo.WechatUser;
+import com.museum.service.ItemInfoService;
+import com.museum.service.WeChatUserService;
 import com.museum.wechat.pojo.SNSUserInfo;
 import com.museum.wechat.pojo.WeixinOauth2Token;
 import com.museum.wechat.utils.AdvancedUtil;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -15,8 +21,19 @@ import java.io.IOException;
 
 @Controller
 public class WechatOauth {
+    @Autowired
+    private ItemInfoService itemInfoService;
+    @Autowired
+    private WeChatUserService weChatUserService;
+    @Value("${oauth.wxAppId}")
+    private String wxAppId;
+    @Value("${oauth.appSecret}")
+    private String appSecret;
+    @Value("${oauth.returnUrl}")
+    private String returnUrl;
     private static final long serialVersionUID = 1L;
     private Logger logger = Logger.getLogger(WechatOauth.class);
+    private  WeixinOauth2Token weixinOauth2Token;
 
     @RequestMapping("/wechat/wechatOauth")
     public void WechatOauth(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -24,29 +41,21 @@ public class WechatOauth {
         response.setCharacterEncoding("utf-8");
         String code = request.getParameter("code");
         String state = request.getParameter("state");
+        WechatUser wechatUser=new WechatUser();
+        try {
+            weixinOauth2Token = AdvancedUtil.getOauth2AccessToken(wxAppId, appSecret, code);
+            String accessToken = weixinOauth2Token.getAccessToken();
+            String openId = weixinOauth2Token.getOpenId();
+            wechatUser.setUserId(openId);
+            WechatUser wechatUserResult = weChatUserService.selectWeChatInfoByUserId(wechatUser);
+            if(wechatUserResult==null||wechatUserResult.getStatus()==0){
+                response.sendRedirect(returnUrl+"/author?status=1");
+            }else {
+                response.sendRedirect(returnUrl+"/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
 
-        SNSUserInfo snsUserInfo = null;
-        String openId = null;
-        if (!"authdeny".equals(code)) {
-            try {
-                WeixinOauth2Token weixinOauth2Token = AdvancedUtil.getOauth2AccessToken("wxa2c23b7573ed8ed9", "9c2d9582477d81a144a37de0f10b97b3", code);
-                String accessToken = weixinOauth2Token.getAccessToken();
-                openId = weixinOauth2Token.getOpenId();
-                snsUserInfo = AdvancedUtil.getSNSUserInfo(accessToken, openId);
-                String s = UnicodeUtil.unicodeEncode(snsUserInfo.getNickname());
-                snsUserInfo.setNickname(s);
-                logger.info(snsUserInfo.toString());
-                if (state.equals("announcement")) {
-                  response.sendRedirect("http://supnft.natappfree.cc/dist/#/notice/img="+snsUserInfo.getHeadImgUrl()+"&nickName="+snsUserInfo.getNickname());
-                } else if (state.equals("lost")){
-                    response.sendRedirect("http://supnft.natappfree.cc/dist/#/lostandfound/img="+snsUserInfo.getHeadImgUrl()+"&nickName="+snsUserInfo.getNickname());
-                }else {
-
-                }
-            } catch (Exception var9) {
-                this.logger.info("oauth_get is error:", var9);
-                response.sendRedirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa2c23b7573ed8ed9&redirect_uri=http://www.server.trueonly.cc/patent/wechat/wechatOauth&response_type=code&scope=snsapi_userinfo&state=phone#wechat_redirect");
             }
+        } catch (Exception e) {
+            response.sendRedirect(returnUrl+"/"+state);
         }
     }
 }

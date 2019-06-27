@@ -75,6 +75,7 @@ public class LostServiceImpl implements LostService {
         LostInfoExample.Criteria criteria = example.createCriteria();
         criteria.andStatusEqualTo(0);
         List<LostInfo> lostInfos = lostInfoMapper.selectByExample(example);
+        System.out.println(lostInfos);
         return lostInfos;
     }
 }

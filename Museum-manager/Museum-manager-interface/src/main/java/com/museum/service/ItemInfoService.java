@@ -15,5 +15,5 @@ public interface ItemInfoService {
 
     Integer updateItemInfoById(ExhibitsInfo exhibitsInfo);
 
-    ExhibitsInfo selectExhibitsInfoById(Integer id);
+    ExhibitsInfo getExhibitsInfoById(Integer id);
 }

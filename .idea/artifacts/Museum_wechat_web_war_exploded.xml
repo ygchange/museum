@@ -47,6 +47,16 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt:0.9.1" />
+          <element id="library" level="project" name="Maven: com.qiniu:pili-sdk-java:1.5.4" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp:okhttp:2.4.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.4" />
+          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.11" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.9.1" />
+          <element id="library" level="project" name="Maven: com.qiniu:happy-dns-java:0.1.6" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:2.2.2" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.60" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.60" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
           <element id="archive" name="Museum-manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="Museum-manager-dao" />
           </element>

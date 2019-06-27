@@ -10,4 +10,5 @@ com\museum\security\AjaxUserDetailsService.class
 com\museum\security\AjaxAuthenticationSuccessHandler.class
 com\museum\security\JwtAuthenticationTokenFilter.class
 com\museum\controller\ExhibitsInfoController.class
+com\museum\controller\UploadController.class
 com\museum\controller\PersonInfoController.class

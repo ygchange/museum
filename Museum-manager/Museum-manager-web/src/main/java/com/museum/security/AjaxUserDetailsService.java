@@ -34,6 +34,7 @@ public class AjaxUserDetailsService implements UserDetailsService {
 
             return memberInfoCustom;
         }
+        memberInfoCustom=new MemberInfoCustom();
         return memberInfoCustom;
     }
 }

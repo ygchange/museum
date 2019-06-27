@@ -6,6 +6,7 @@ import com.museum.service.WeChatUserService;
 import net.sf.json.JSONObject;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 
@@ -13,22 +14,23 @@ import java.util.Date;
 
 @Component
 public class WeixinUtil {
+    @Value("${oauth.wxAppId}")
+    private String wxAppId;
+    @Value("${oauth.appSecret}")
+    private String appSecret;
     @Autowired
    private WeChatUserService weChatUserService;
 
     private Logger logger=Logger.getLogger(WeixinUtil.class);
     public  String getToken() {
-        String appid = "wxa2c23b7573ed8ed9";
-        String secret = "9c2d9582477d81a144a37de0f10b97b3";
         String grant_type = "client_credential";
-        JSONObject getToken = CommonUtil.httpsRequest("https://api.weixin.qq.com/cgi-bin/token?grant_type=" + grant_type + "&appid=" + appid + "&secret=" + secret,"GET",null);
+        JSONObject getToken = CommonUtil.httpsRequest("https://api.weixin.qq.com/cgi-bin/token?grant_type=" + grant_type + "&appid=" + wxAppId+ "&secret=" + appSecret,"GET",null);
         JSONObject jsonObject = JSONObject.fromObject(getToken);
         String token = (String)jsonObject.get("access_token");
         return token;
     }
     public  String processWechatMag(String openid,String token){
         JSONObject jsonObject = CommonUtil.httpsRequest("https://api.weixin.qq.com/cgi-bin/user/info?access_token=" + token + "&openid=" + openid + "&lang=zh_CN", "GET", null);
-        System.out.println(jsonObject);
         WechatUser wechatUser =new WechatUser();
         wechatUser.setNickName(UnicodeUtil.unicodeEncode(jsonObject.getString("nickname")));
         wechatUser.setCity(jsonObject.getString("country")+" "+jsonObject.getString("province")+" "+jsonObject.getString("city"));
