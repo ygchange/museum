@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface ItemInfoService {
     PageHelperResult getItemInfoList(Integer page, Integer rows);
-    void insertItemInfo(ExhibitsInfo exhibitsInfo) ;
+    ExhibitsInfo insertItemInfo(ExhibitsInfo exhibitsInfo) ;
     List<ExhibitsType> selectItemType() ;
     Integer deleteItemInfoById(Integer id);
 

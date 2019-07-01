@@ -2,14 +2,17 @@ package com.museum.wechat.service;
 
 import com.museum.pojo.ExhibitsInfo;
 import com.museum.service.ItemInfoService;
+import com.museum.wechat.pojo.AccessToken;
 import com.museum.wechat.pojo.News;
 import com.museum.wechat.pojo.NewsMessage;
 import com.museum.wechat.pojo.TextMessage;
 import com.museum.wechat.utils.MessageUtil;
+import com.museum.wechat.utils.TokenUtil;
 import com.museum.wechat.utils.WeixinUtil;
 import org.apache.log4j.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,9 +25,12 @@ import java.util.Map;
 public class CoreService {
     @Autowired
     private ItemInfoService itemInfoService;
-
+    @Value("${oauth.returnUrl}")
+    private String returnUrl;
     @Autowired
     private  WeixinUtil weixinUtil;
+    @Autowired
+    private TokenUtil tokenUtil;
     private static Logger log =  Logger.getLogger(CoreService.class);
 
     private static String emoji(int codePoint) {
@@ -94,36 +100,47 @@ public class CoreService {
                 String eventType = requestMap.get("Event");
                 // 订阅
                 if (eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)) {
+                    //获取token
+                    String token = tokenUtil.getToken();
                    String eventKey =requestMap.get("EventKey");
                    if(eventKey.startsWith("qrscene_")){
-                       weixinUtil.processWechatMag(fromUserName, weixinUtil.getToken());
+
+                      String msg= weixinUtil.processWechatMag(fromUserName,token);
                        String[] s = eventKey.split("_");
-                       News News =new News();
-                       List<News> list=new ArrayList<>();
-                       ExhibitsInfo exhibitsInfoResult= itemInfoService.getExhibitsInfoById(Integer.valueOf(s[1]));
-                       if(exhibitsInfoResult==null){
-                           News.setTitle("抱歉,该展品已经被删除!!!!");
-                           News.setPicUrl(null);
-                           News.setUrl(null);
-                           News.setDescription("抱歉,该展品已经被删除!!!!");
+                       if(Integer.valueOf(s[1])==0){
+                           respContent = emoji(0x1F334) +"欢迎您:"+msg+","+"谢谢您关注";
+                           textMessage.setContent(respContent);
+                           respMessage = MessageUtil.textMessageToXml(textMessage);
+
+                       }else {
+                           News News = new News();
+                           List<News> list = new ArrayList<>();
+                           ExhibitsInfo exhibitsInfoResult = itemInfoService.getExhibitsInfoById(Integer.valueOf(s[1]));
+                           if (exhibitsInfoResult == null) {
+                               News.setTitle("抱歉,该展品已经被删除!!!!");
+                               News.setPicUrl(null);
+                               News.setUrl(null);
+                               News.setDescription("抱歉,该展品已经被删除!!!!");
+                               list.add(News);
+                               newsMessage.setArticleCount(1);
+                               newsMessage.setArticles(list);
+                               respMessage = MessageUtil.newsMessageToXml(newsMessage);
+                               return respMessage;
+                           }
+                           News.setTitle(exhibitsInfoResult.getName());
+                           News.setPicUrl( exhibitsInfoResult.getImgName());
+                           News.setUrl(returnUrl + "/museumwx/detail-" + s[1]);
+                           News.setDescription(exhibitsInfoResult.getInfo());
                            list.add(News);
                            newsMessage.setArticleCount(1);
                            newsMessage.setArticles(list);
-                           respMessage= MessageUtil.newsMessageToXml(newsMessage);
+                           respMessage = MessageUtil.newsMessageToXml(newsMessage);
                            return respMessage;
                        }
-                       News.setTitle(exhibitsInfoResult.getName());
-                       News.setPicUrl("http://ptljizme7.bkt.clouddn.com/"+exhibitsInfoResult.getImgName());
-                       News.setUrl("http://t777cs.natappfree.cc/detail-"+s[1]);
-                       News.setDescription(exhibitsInfoResult.getInfo());
-                       list.add(News);
-                       newsMessage.setArticleCount(1);
-                       newsMessage.setArticles(list);
-                       respMessage= MessageUtil.newsMessageToXml(newsMessage);
-                       return respMessage;
+
                    }
-                    String mag = weixinUtil.processWechatMag(fromUserName, weixinUtil.getToken());
-                    respContent = emoji(0x1F334) +"欢迎您:"+mag+","+"谢谢您关注";
+                    String msg = weixinUtil.processWechatMag(fromUserName, token);
+                    respContent = emoji(0x1F334) +"欢迎您:"+msg+","+"谢谢您关注";
                     textMessage.setContent(respContent);
                     respMessage = MessageUtil.textMessageToXml(textMessage);
                 //取消订阅
@@ -159,8 +176,8 @@ public class CoreService {
                         return respMessage;
                     }
                     News.setTitle(exhibitsInfoResult.getName());
-                    News.setPicUrl("http://ptljizme7.bkt.clouddn.com/"+exhibitsInfoResult.getImgName());
-                    News.setUrl("http://t777cs.natappfree.cc/detail-"+eventKey);
+                    News.setPicUrl(exhibitsInfoResult.getImgName());
+                    News.setUrl(returnUrl+"/museumwx/detail-"+eventKey);
                     News.setDescription(exhibitsInfoResult.getInfo());
                     list.add(News);
                     newsMessage.setArticleCount(1);

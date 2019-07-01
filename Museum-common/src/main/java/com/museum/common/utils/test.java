@@ -17,9 +17,13 @@ import java.nio.file.Files;
 
 public class test {
     public static void main(String[] args) throws IOException {
-        Auth auth = Auth.create("CnR-Fl77zEBcEbBOUoex7A72eeLoYwsAZywmr4ji", "fX-ZdBaErQvS-HTauYajABxBBlDdhGVz7DWtELf5");
-        Configuration config = new Configuration(Zone.autoZone());
-        BucketManager bucketMgr = new BucketManager(auth, config);
+//        Auth auth = Auth.create("CnR-Fl77zEBcEbBOUoex7A72eeLoYwsAZywmr4ji", "fX-ZdBaErQvS-HTauYajABxBBlDdhGVz7DWtELf5");
+//        Configuration config = new Configuration(Zone.autoZone());
+//        BucketManager bucketMgr = new BucketManager(auth, config);
+
+        Auth auth = Auth.create("CnR-Fl77zEBcEbBOUoex7A72eeLoYwsAZywmr4ji","fX-ZdBaErQvS-HTauYajABxBBlDdhGVz7DWtELf5");
+        String s = auth.uploadToken("museum");
+        System.out.println(s);
 //        //指定需要删除的文件，和文件所在的存储空间
 //        String bucketName = "museum";
 //        String  key = "museum/fd34b3a9947d21569.mp3";

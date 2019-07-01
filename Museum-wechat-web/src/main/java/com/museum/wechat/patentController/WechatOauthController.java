@@ -1,11 +1,8 @@
 package com.museum.wechat.patentController;
 
-import com.museum.common.utils.UnicodeUtil;
-import com.museum.pojo.ExhibitsInfo;
 import com.museum.pojo.WechatUser;
 import com.museum.service.ItemInfoService;
 import com.museum.service.WeChatUserService;
-import com.museum.wechat.pojo.SNSUserInfo;
 import com.museum.wechat.pojo.WeixinOauth2Token;
 import com.museum.wechat.utils.AdvancedUtil;
 import org.apache.log4j.Logger;
@@ -20,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-public class WechatOauth {
+public class WechatOauthController {
     @Autowired
     private ItemInfoService itemInfoService;
     @Autowired
@@ -31,8 +28,7 @@ public class WechatOauth {
     private String appSecret;
     @Value("${oauth.returnUrl}")
     private String returnUrl;
-    private static final long serialVersionUID = 1L;
-    private Logger logger = Logger.getLogger(WechatOauth.class);
+    private Logger logger = Logger.getLogger(WechatOauthController.class);
     private  WeixinOauth2Token weixinOauth2Token;
 
     @RequestMapping("/wechat/wechatOauth")
@@ -49,13 +45,13 @@ public class WechatOauth {
             wechatUser.setUserId(openId);
             WechatUser wechatUserResult = weChatUserService.selectWeChatInfoByUserId(wechatUser);
             if(wechatUserResult==null||wechatUserResult.getStatus()==0){
-                response.sendRedirect(returnUrl+"/author?status=1");
+                response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&status=0");
             }else {
-                response.sendRedirect(returnUrl+"/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
+                response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
 
             }
         } catch (Exception e) {
-            response.sendRedirect(returnUrl+"/"+state);
+            response.sendRedirect(returnUrl+"/museumwx/"+state);
         }
     }
 }

@@ -3,6 +3,7 @@ package com.museum.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.museum.common.pojo.PageHelperResult;
+import com.museum.common.utils.CodeUploadUtil;
 import com.museum.custom.ExhibitsInfoCustom;
 import com.museum.custom.MemberInfoCustom;
 import com.museum.mapper.CustomMapper;
@@ -53,11 +54,12 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         result.setTotal((int) pageInfo.getTotal());
         return result;
     }
-    //添加商品
+    //添加展品
     @Override
-    public void insertItemInfo(ExhibitsInfo exhibitsInfo) {
+    public ExhibitsInfo insertItemInfo(ExhibitsInfo exhibitsInfo) {
         exhibitsInfo.setAddTime(new Date());
-        exhibitsInfoMapper.insertSelective(exhibitsInfo);
+        int i = exhibitsInfoMapper.insertSelective(exhibitsInfo);
+        return exhibitsInfo;
     }
     //查询商品类型
     @Override

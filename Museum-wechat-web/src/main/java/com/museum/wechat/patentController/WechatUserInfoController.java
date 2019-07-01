@@ -13,7 +13,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/wechat")
-public class WechatUserInfo {
+public class WechatUserInfoController {
     @RequestMapping("/userInfo")
     @ResponseBody
     public AjaxResponseBody getWechatUserInfo(@RequestBody Map<String,String> map) {

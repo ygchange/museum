@@ -21,8 +21,8 @@ public class WeChatExhibitsInfoController {
     public AjaxResponseBody selectExhibitsInfoById(@RequestBody Map<String,String> map){
         Integer id=Integer.valueOf(map.get("id"));
         ExhibitsInfo exhibitsInfo = itemInfoService.getExhibitsInfoById(id);
-        exhibitsInfo.setQueryTimes(exhibitsInfo.getQueryTimes()+1);
         if(exhibitsInfo!=null) {
+            exhibitsInfo.setQueryTimes(exhibitsInfo.getQueryTimes()+1);
             itemInfoService.updateItemInfoById(exhibitsInfo);
             return AjaxResponseBody.ok(exhibitsInfo);
         }else {

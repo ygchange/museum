@@ -11,7 +11,7 @@ import java.net.URLEncoder;
 
 @Controller
 @RequestMapping("/weChat")
-public class WeXinAuth {
+public class WeXinAuthController {
     @Value("${oauth.wxAppId}")
     private String wxAppId;
     @Value("${oauth.wxRedirectUri}")
