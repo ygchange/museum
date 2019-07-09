@@ -27,7 +27,7 @@ public class AnnouncementServiceImpl  implements AnnouncementService {
     //查询公告
     public List<AnnouncementInfo> getWeChatAnnouncementList() {
         AnnouncementInfoExample example=new AnnouncementInfoExample();
-        example.setOrderByClause("type DESC,add_time DESC");
+        example.setOrderByClause("add_time DESC");
         AnnouncementInfoExample.Criteria criteria = example.createCriteria();
         criteria.andStatusEqualTo(1);
         List<AnnouncementInfo> list = announcementInfoMapper.selectByExample(example);

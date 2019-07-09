@@ -11,4 +11,8 @@ public interface ItemTypeService {
     ExhibitsType selectItemTypeByUserName(String typeName);
 
     void insertItemType(ExhibitsType exhibitsType) throws Exception;
+
+    Integer updateItemTypeById(ExhibitsType exhibitsType);
+
+    Integer deleteItemTypeById(Integer id);
 }

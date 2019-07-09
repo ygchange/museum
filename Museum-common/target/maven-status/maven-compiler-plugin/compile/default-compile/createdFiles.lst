@@ -1,10 +1,8 @@
 com\museum\common\pojo\MemberInfoResult.class
 com\museum\common\utils\JwtUtil.class
-com\museum\common\utils\test.class
-com\museum\common\pojo\VariableName.class
 com\museum\common\utils\JsonUtils.class
+com\museum\common\utils\GetIpUtil.class
 com\museum\common\pojo\PageHelperResult.class
-com\museum\common\utils\UploadUtil.class
 com\museum\common\utils\UnicodeUtil.class
 com\museum\common\pojo\AjaxResponseBody.class
 com\museum\common\utils\CodeUploadUtil.class

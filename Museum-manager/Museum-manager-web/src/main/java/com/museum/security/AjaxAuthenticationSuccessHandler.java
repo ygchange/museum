@@ -2,6 +2,7 @@ package com.museum.security;
 
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.pojo.MemberInfoResult;
+import com.museum.common.utils.GetIpUtil;
 import com.museum.common.utils.JsonUtils;
 import com.museum.common.utils.JwtUtil;
 import com.museum.custom.MemberInfoCustom;
@@ -12,6 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -39,33 +41,18 @@ public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHa
             String result = JsonUtils.objectToJson(msg);
             httpServletResponse.getWriter().write(result);
         }else {
-            String ip = getIp2(httpServletRequest);
+            String ip = GetIpUtil.getIp2(httpServletRequest);
             custom.setLastIp(ip);
             String jwtToken = "Bearer " + JwtUtil.setClaim(custom.getUsername() + "," + custom.getPassword(), true, 60 * 60 * 1000);
             MemberInfoResult memberInfoResult = memberInfoService.resultCustomUser(custom);
             memberInfoResult.setToken(jwtToken);
             AjaxResponseBody ok = AjaxResponseBody.ok(memberInfoResult);
-            String result = JsonUtils.objectToJson(ok);
+            String result = JsonUtils
+                    .objectToJson(ok);
             httpServletResponse.getWriter().write(result);
 
         }
     }
 
-    public String getIp2(HttpServletRequest request) {
-        String ip = request.getHeader("X-Forwarded-For");
-        if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
-            //多次反向代理后会有多个ip值，第一个ip才是真实ip
-            int index = ip.indexOf(",");
-            if (index != -1) {
-                return ip.substring(0, index);
-            } else {
-                return ip;
-            }
-        }
-        ip = request.getHeader("X-Real-IP");
-        if (StringUtils.isNotEmpty(ip) && !"unKnown".equalsIgnoreCase(ip)) {
-            return ip;
-        }
-        return request.getRemoteAddr();
-    }
+
 }

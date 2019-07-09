@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.museum.common.pojo.PageHelperResult;
 import com.museum.custom.ExhibitsTypeCustom;
 import com.museum.custom.MemberInfoCustom;
+import com.museum.mapper.ExhibitsInfoMapper;
 import com.museum.mapper.ExhibitsTypeMapper;
 import com.museum.mapper.MemberInfoMapper;
 import com.museum.pojo.*;
@@ -15,6 +16,7 @@ import org.springframework.security.access.method.P;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -23,6 +25,8 @@ public class ItemTypeServiceImpl implements ItemTypeService {
     private ExhibitsTypeMapper exhibitsTypeMapper;
     @Autowired
     private MemberInfoMapper memberInfoMapper;
+    @Autowired
+    private ExhibitsInfoMapper exhibitsInfoMapper;
     @Override
     //查询商品类型
     public PageHelperResult getItemTypeList(Integer page, Integer rows) {
@@ -65,7 +69,29 @@ public class ItemTypeServiceImpl implements ItemTypeService {
     //添加商品类型
     @Override
     public void insertItemType(ExhibitsType exhibitsType) throws Exception {
+        exhibitsType.setAddTime(new Date());
         exhibitsTypeMapper.insertSelective(exhibitsType);
+    }
+    //修改展品类型
+    @Override
+    public Integer updateItemTypeById(ExhibitsType exhibitsType) {
+        int i = exhibitsTypeMapper.updateByPrimaryKeySelective(exhibitsType);
+        return i;
+    }
+    //删除展品类型
+    @Override
+    public Integer deleteItemTypeById(Integer id) {
+        ExhibitsInfoExample exhibitsInfoExample=new ExhibitsInfoExample();
+        ExhibitsInfoExample.Criteria criteria = exhibitsInfoExample.createCriteria();
+        criteria.andTypeIdEqualTo(id);
+        List<ExhibitsInfo> exhibitsInfos = exhibitsInfoMapper.selectByExample(exhibitsInfoExample);
+        if(exhibitsInfos.size()>0){
+            return -1;
+        }else {
+            int i = exhibitsTypeMapper.deleteByPrimaryKey(id);
+            return i;
+        }
+
     }
 
 

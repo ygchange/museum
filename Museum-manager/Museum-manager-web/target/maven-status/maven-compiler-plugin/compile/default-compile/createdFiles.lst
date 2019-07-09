@@ -12,3 +12,4 @@ com\museum\security\JwtAuthenticationTokenFilter.class
 com\museum\controller\ExhibitsInfoController.class
 com\museum\controller\UploadController.class
 com\museum\controller\PersonInfoController.class
+com\museum\controller\SelectLogController.class

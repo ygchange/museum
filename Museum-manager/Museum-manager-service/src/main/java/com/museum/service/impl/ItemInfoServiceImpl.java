@@ -12,13 +12,12 @@ import com.museum.mapper.ExhibitsTypeMapper;
 import com.museum.mapper.MemberInfoMapper;
 import com.museum.pojo.*;
 import com.museum.service.ItemInfoService;
+import com.museum.service.SelectLogService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class ItemInfoServiceImpl implements ItemInfoService {
@@ -28,11 +27,22 @@ public class ItemInfoServiceImpl implements ItemInfoService {
     private ExhibitsTypeMapper exhibitsTypeMapper;
     @Autowired
     private MemberInfoMapper memberInfoMapper;
+    @Autowired
+    private SelectLogService selectLogService;
     //查询展品
     @Override
-    public PageHelperResult getItemInfoList(Integer page,Integer rows) {
+    public PageHelperResult getItemInfoList(Integer page,Integer rows,Integer itemType, String itemName) {
         PageHelper.startPage(page,rows);
         ExhibitsInfoExample example =new ExhibitsInfoExample();
+        ExhibitsInfoExample.Criteria criteria = example.createCriteria();
+        if(itemType!=null&&itemName!=null){
+            criteria.andTypeIdEqualTo(itemType);
+            criteria.andNameLike("%"+itemName+"%");
+        }else if (itemType!=null&&itemName==null){
+            criteria.andTypeIdEqualTo(itemType);
+        }else if(itemName!=null&&itemType==null){
+            criteria.andNameLike("%"+itemName+"%");
+        }
         List<ExhibitsInfo> list = exhibitsInfoMapper.selectByExample(example);
         List<ExhibitsInfoCustom> newList=new ArrayList<>();
         for (ExhibitsInfo exhibitsInfo:list)
@@ -75,7 +85,7 @@ public class ItemInfoServiceImpl implements ItemInfoService {
 
         return i;
     }
-
+    //展品更新
     @Override
     public Integer updateItemInfoById(ExhibitsInfo exhibitsInfo) {
         int i = exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
@@ -88,8 +98,26 @@ public class ItemInfoServiceImpl implements ItemInfoService {
 
         return exhibitsInfoResult;
     }
+    //更新展品查询次数并且添加展品查询日志
+    @Override
+    public void updateItemInfoAndInsertSelectLog(ExhibitsInfo exhibitsInfo, SelectLog selectLog) {
+        exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
+        selectLogService.insertSelectLog(selectLog);
+    }
 
-
+    @Override
+    public List<Map<String, String>> getItemInfoName() {
+        ExhibitsInfoExample example=new ExhibitsInfoExample();
+        List<ExhibitsInfo> exhibitsInfos = exhibitsInfoMapper.selectByExample(example);
+        List<Map<String, String>> list=new ArrayList<>();
+        for (ExhibitsInfo exhibitsInfo:exhibitsInfos
+             ) {
+            Map<String,String> hashMap=new HashMap<>();
+            hashMap.put("value",exhibitsInfo.getName());
+            list.add(hashMap);
+        }
+        return list;
+    }
 
 
 }

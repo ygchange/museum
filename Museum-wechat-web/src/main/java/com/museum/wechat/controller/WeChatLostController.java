@@ -17,10 +17,10 @@ public class WeChatLostController {
     private LostService lostService;
     @RequestMapping("/list")
     @ResponseBody
-    private AjaxResponseBody getweChatLostList(){
+    private AjaxResponseBody getWeChatLostList(){
         List<LostInfo> lostInfos= lostService.getWeChatLostList();
         if(lostInfos.size()==0){
-            return AjaxResponseBody.build(0,"无信息");
+            return AjaxResponseBody.build(0,"暂无信息");
         }else {
             return AjaxResponseBody.ok(lostInfos);
         }

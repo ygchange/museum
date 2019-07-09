@@ -35,7 +35,7 @@ public class WeChatAnnouncementController {
         Integer id=Integer.valueOf(map.get("id"));
         AnnouncementInfo announcementInfo=announcementService.getWeChatAnnouncementById(id);
         if(announcementInfo==null){
-            return AjaxResponseBody.build(0,"该公告已被删除");
+            return AjaxResponseBody.build(400,"该公告已被删除");
         }else{
             return AjaxResponseBody.ok(announcementInfo);
         }

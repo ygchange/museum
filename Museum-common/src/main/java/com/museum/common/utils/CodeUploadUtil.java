@@ -60,8 +60,6 @@ public class CodeUploadUtil {
             String token = auth.uploadToken(bucketName);
             Response put = new UploadManager(config).put(byteInputStream, string, token,null,null);
 
-            // 二维码的名称
-            // code.jpg
 
             return string;
         }

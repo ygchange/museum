@@ -38,14 +38,23 @@ public class ExhibitsInfoController {
     private String url;
     @Autowired
     private ItemInfoService itemInfoService;
-    //展品查询
+    //分页查询展品信息
     @RequestMapping("/list")
     @ResponseBody
-    public AjaxResponseBody getItemInfoList(@RequestBody Map<String,String> map){
-        Integer page = Integer.valueOf(map.get("page"));
-        Integer rows = Integer.valueOf(map.get("rows"));
-        PageHelperResult result = itemInfoService.getItemInfoList(page, rows);
+    public AjaxResponseBody getItemInfoList(@RequestBody Map<String,Object> map){
+        Integer page = (Integer) map.get("page");
+        Integer rows = (Integer) map.get("rows");
+        Integer itemType = (Integer) map.get("itemType");
+        String itemName= (String) map.get("itemName");
+        PageHelperResult result = itemInfoService.getItemInfoList(page, rows,itemType,itemName);
         return AjaxResponseBody.ok(result);
+    }
+    //查询展品名字
+    @RequestMapping("/list/name")
+    @ResponseBody
+    public AjaxResponseBody getItemInfoName(){
+        List<Map<String,String>> list=itemInfoService.getItemInfoName();
+        return AjaxResponseBody.ok(list);
     }
     //添加展品
     @RequestMapping("/insert")

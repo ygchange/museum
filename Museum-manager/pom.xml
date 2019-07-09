@@ -19,5 +19,11 @@
         <module>Museum-manager-service</module>
         <module>Museum-manager-web</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

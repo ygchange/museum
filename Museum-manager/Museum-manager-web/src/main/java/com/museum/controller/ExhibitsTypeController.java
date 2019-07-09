@@ -57,5 +57,29 @@ public class ExhibitsTypeController {
         }
 
     }
+    //修改商品类型
+    @RequestMapping("/update")
+    @ResponseBody
+    public AjaxResponseBody updateItemTypeById(@RequestBody ExhibitsType exhibitsType){
+        Integer integer = itemTypeService.updateItemTypeById(exhibitsType);
+        if(integer>=1){
+            return AjaxResponseBody.build(200,"修改成功");
+        }
+
+        return AjaxResponseBody.build(400,"改展区已经被删除");
+    }
+    //删除展品类型
+    @RequestMapping("/delete")
+    @ResponseBody
+    public  AjaxResponseBody deleteItemTypeById(@RequestBody Map<String,Object> map) {
+        Integer id = (Integer) map.get("id");
+        Integer integer = itemTypeService.deleteItemTypeById(id);
+        if(integer==-1){
+            return AjaxResponseBody.build(400,"该展区还有展品,暂时无法删除");
+        }else if (integer>=1){
+            return AjaxResponseBody.ok();
+        }
+        return AjaxResponseBody.build(400,"该展区已被删除");
+    }
 
 }
