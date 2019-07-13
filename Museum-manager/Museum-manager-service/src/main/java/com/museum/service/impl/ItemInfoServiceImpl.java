@@ -56,6 +56,7 @@ public class ItemInfoServiceImpl implements ItemInfoService {
                 memberInfo.setPassword(null);
             }
             custom.setMemberInfo(memberInfo);
+            custom.setNumber(list.size());
             newList.add(custom);
         }
         PageInfo<ExhibitsInfo> pageInfo=new PageInfo<>(list);
@@ -105,18 +106,12 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         selectLogService.insertSelectLog(selectLog);
     }
 
+    //查询展品内容
     @Override
-    public List<Map<String, String>> getItemInfoName() {
+    public List<ExhibitsInfo> getExhibitsInfo() {
         ExhibitsInfoExample example=new ExhibitsInfoExample();
         List<ExhibitsInfo> exhibitsInfos = exhibitsInfoMapper.selectByExample(example);
-        List<Map<String, String>> list=new ArrayList<>();
-        for (ExhibitsInfo exhibitsInfo:exhibitsInfos
-             ) {
-            Map<String,String> hashMap=new HashMap<>();
-            hashMap.put("value",exhibitsInfo.getName());
-            list.add(hashMap);
-        }
-        return list;
+        return exhibitsInfos;
     }
 
 

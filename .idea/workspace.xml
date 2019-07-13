@@ -7,52 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a86c1fde-3b38-4207-85ba-274e8f6d790a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/GetIpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/SelectLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/src/main/java/com/museum/mapper/SelectLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/SelectLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/SelectLogCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/SelectLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/SelectLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/SelectLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum-manager/src/test/java/TimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/EcxcelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Museum_manager_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Museum_manager_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/72934.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/72934.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/Museum-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/Museum-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/VariableName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/CodeUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/CodeUploadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UploadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/UploadUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/Museum-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/Museum-manager-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/Museum-manager-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/classes/com/museum/security/AjaxAuthenticationSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/Museum-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/Museum-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Museum-parent/target/" />
     <ignored path="$PROJECT_DIR$/Museum-common/target/" />
@@ -72,97 +46,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="913">
-              <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+            <state relative-caret-position="-646">
+              <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="439">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="38" selection-end-column="52" />
+            <state relative-caret-position="384">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Museum-manager/src/test/java/TimeTest.java">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="76">
+              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/SelectLogServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3087#3088#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/GenerateCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -223,13 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/AdvancedUtil.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/pojo/JsapiTicket.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/TestController.java" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp/WEB-INF/index1.html" />
-        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/WechatOauth.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CommonUtil.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/patentController/JsSdkController.java" />
@@ -262,18 +222,25 @@
         <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/Museum-common/pom.xml" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/Museum-wechat-web/pom.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/src/test/java/TimeTest.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/SelectLogService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/SelectLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsTypeCustom.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java" />
-        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" />
         <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/EcxcelController.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java" />
+        <option value="$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/Test.java" />
+        <option value="$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -301,11 +268,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="82" />
-    <option name="y" value="12" />
-    <option name="width" value="1730" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
+    <option name="y" value="57" />
+    <option name="width" value="1785" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -315,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -392,80 +360,30 @@
           <expand>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -473,21 +391,11 @@
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="Museum-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
@@ -523,16 +431,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="museum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="museum" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
@@ -544,134 +442,19 @@
               <item name="museum" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="Museum-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShanghaiMuseum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum-wechat-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562556210830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563007621412" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Museum-wechat-web/src/main/webapp" />
+    <property name="last_opened_file_path" value="F:/JAVA EE/MyBatis2019_4_16" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -681,11 +464,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
-      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp\museumwx" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-pojo\src\main\java\com\museum\pojo" />
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp\WEB-INF" />
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -693,11 +476,11 @@
       <recent name="com.museum.common.utils" />
       <recent name="com.museum.common.pojo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
-      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-pojo\src\main\java\com\museum\pojo" />
-      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp\WEB-INF" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp" />
+      <recent name="H:\ShanghaiMuseum\Museum-wechat-web\src\main\webapp\museumwx" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-dao\src\main\java\com\museum\mapper" />
+      <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp\js" />
       <recent name="H:\ShanghaiMuseum\Museum-manager\Museum-manager-web\src\main\webapp" />
     </key>
   </component>
@@ -713,38 +496,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Museum-manager [clean,tomcat7:run]">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.museum.common.utils.test" />
-      <module name="Museum-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.museum.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Museum-manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTest.getTodayZeroPointTimestamps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Museum-manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimeTest" />
-      <option name="METHOD_NAME" value="getTodayZeroPointTimestamps" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Museum-manager [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -798,19 +550,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.TimeTest" />
-      <item itemvalue="JUnit.TimeTest.getTodayZeroPointTimestamps" />
       <item itemvalue="Maven.Museum-manager [clean,tomcat7:run]" />
       <item itemvalue="Maven.Museum-wechat-web [clean,tomcat7:run]" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TimeTest.getTodayZeroPointTimestamps" />
-        <item itemvalue="JUnit.TimeTest" />
-        <item itemvalue="Application.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -893,7 +635,12 @@
       <workItem from="1562377180117" duration="58000" />
       <workItem from="1562395445381" duration="4556000" />
       <workItem from="1562551927831" duration="4876000" />
-      <workItem from="1562676012656" duration="3373000" />
+      <workItem from="1562676012656" duration="3586000" />
+      <workItem from="1562740368709" duration="9049000" />
+      <workItem from="1562758765564" duration="36000" />
+      <workItem from="1562767069329" duration="537000" />
+      <workItem from="1562914427126" duration="8709000" />
+      <workItem from="1563003726731" duration="4850000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1559452555381</created>
@@ -979,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561972041131</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.6 新新！！！！！">
+      <created>1562679575370</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562679575371</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1015,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621521000" />
+    <option name="totallyTimeSpent" value="644915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1027,10 +781,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="10" width="1384" height="872" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86167145" visible="true" weight="0.23831071" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86167145" visible="true" weight="0.269437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1038,12 +791,12 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.500998" side_tool="true" weight="0.43348116" />
       <window_info id="Web" order="7" sideWeight="0.13832854" side_tool="true" weight="0.41256368" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32548475" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32409972" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32777777" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49966422" weight="0.39664805" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.43417367" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49966422" visible="true" weight="0.2299169" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.43265992" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32825485" />
@@ -1058,7 +811,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24944568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.36953244" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3678832" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
@@ -1164,7 +917,8 @@
     <MESSAGE value="1.4" />
     <MESSAGE value="1.5" />
     <MESSAGE value="1.6 修复bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6 修复bug" />
+    <MESSAGE value="1.6 新新！！！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6 新新！！！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1179,1072 +933,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/AnnouncementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/AnnouncementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="32" column="96" lean-forward="true" selection-start-line="32" selection-start-column="96" selection-end-line="32" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAccessDeniedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.museum.www:Museum-manager-web:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.museum.www:Museum-manager-web:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="702.9038461538462" y="1190.0">com.museum.www:Museum-manager-web:1.0-SNAPSHOT</node>
-            <node x="695.4038461538462" y="1110.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT</node>
-            <node x="2411.153846153846" y="1010.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT</node>
-            <node x="2465.653846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT</node>
-            <node x="2481.153846153846" y="840.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT</node>
-            <node x="1452.8812045593354" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
-            <node x="3727.403846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
-            <node x="2855.2008843586977" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2</node>
-            <node x="905.4038461538462" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
-            <node x="3597.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3</node>
-            <node x="3515.653846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
-            <node x="3683.653846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.6.3</node>
-            <node x="3049.5355637418156" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
-            <node x="3352.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="3355.653846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="3175.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="3036.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5</node>
-            <node x="2772.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.2</node>
-            <node x="2932.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
-            <node x="2914.653846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
-            <node x="2506.653846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
-            <node x="2509.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
-            <node x="2612.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="2359.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
-            <node x="4078.903846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
-            <node x="4100.403846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
-            <node x="1584.67127802753" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE</node>
-            <node x="1413.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE</node>
-            <node x="1499.4038461538462" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.3.12.RELEASE</node>
-            <node x="1379.4038461538462" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.3.12.RELEASE</node>
-            <node x="1223.4038461538462" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.3.12.RELEASE</node>
-            <node x="1756.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
-            <node x="1876.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
-            <node x="1638.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.3.12.RELEASE</node>
-            <node x="1116.4038461538462" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE</node>
-            <node x="1004.3205128205127" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
-            <node x="773.4038461538462" y="200.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
-            <node x="3655.403846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1</node>
-            <node x="2093.903846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4</node>
-            <node x="2033.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.squareup.okhttp:okhttp:jar:2.4.0</node>
-            <node x="2040.4038461538462" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.squareup.okhttp:okhttp:jar:2.4.0/com.squareup.okio:okio:jar:1.4.0</node>
-            <node x="2157.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.google.code.gson:gson:jar:2.2.4</node>
-            <node x="3873.403846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11</node>
-            <node x="4009.403846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.squareup.okhttp3:okhttp:jar:3.9.1</node>
-            <node x="4016.403846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.squareup.okhttp3:okhttp:jar:3.9.1/com.squareup.okio:okio:jar:1.13.0</node>
-            <node x="3776.653846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.google.code.gson:gson:jar:2.8.2</node>
-            <node x="3869.403846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.qiniu:happy-dns-java:jar:0.1.6</node>
-            <node x="2259.653846153846" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2</node>
-            <node x="2237.153846153846" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60</node>
-            <node x="2133.903846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60/org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.60</node>
-            <node x="2312.903846153846" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60/org.jetbrains:annotations:jar:13.0</node>
-            <node x="1038.4038461538462" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.google.zxing:core:jar:3.3.0</node>
-            <node x="2921.653846153846" y="1010.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT</node>
-            <node x="3026.903846153846" y="840.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8</node>
-            <node x="2655.653846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2</node>
-            <node x="3058.153846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15</node>
-            <node x="3123.903846153846" y="840.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2</node>
-            <node x="3217.153846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2</node>
-            <node x="3222.653846153846" y="840.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0</node>
-            <node x="2794.653846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.4</node>
-            <node x="2972.653846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9</node>
-            <node x="623.7788461538462" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE</node>
-            <node x="648.0288461538462" y="370.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
-            <node x="1304.2621569402877" y="200.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="276.32049027362154" y="80.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
-            <node x="256.32049027362154" y="0.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="394.5" y="370.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
-            <node x="528.5865384615386" y="200.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
-            <node x="473.88632391913745" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
-            <node x="496.7363239191375" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
-            <node x="0.0" y="490.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
-            <node x="120.0" y="370.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
-            <node x="3335.153846153846" y="1010.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
-            <node x="3336.153846153846" y="920.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
-            <node x="254.25" y="710.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
-            <node x="193.5" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
-            <node x="702.4038461538462" y="610.0">com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
-            <node x="523.4038461538462" y="1110.0">commons-fileupload:commons-fileupload:jar:1.3.1</node>
-            <node x="3501.653846153846" y="1110.0">junit:junit:jar:4.12</node>
-            <node x="3472.153846153846" y="1010.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.3.12.RELEASE">
-              <point x="-37.5" y="-15.0" />
-              <point x="1450.9038461538462" y="550.0" />
-              <point x="1291.4038461538462" y="550.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-21.0" y="-15.0" />
-              <point x="141.0" y="170.0" />
-              <point x="301.32049027362154" y="170.0" />
-              <point x="-25.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT">
-              <point x="40.66666666666663" y="-15.0" />
-              <point x="827.5705128205128" y="1070.0" />
-              <point x="2508.153846153846" y="1070.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2">
-              <point x="70.71428571428578" y="-15.0" />
-              <point x="3074.868131868132" y="990.0" />
-              <point x="3266.653846153846" y="990.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
-              <point x="-44.25" y="-15.0" />
-              <point x="638.5288461538462" y="430.0" />
-              <point x="496.5" y="430.0" />
-              <point x="34.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-web:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
-              <point x="56.0" y="-15.0" />
-              <point x="842.9038461538462" y="1165.0" />
-              <point x="3530.153846153846" y="1165.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="261.5" y="330.0" />
-              <point x="549.3557692307693" y="330.0" />
-              <point x="-33.23076923076928" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="-63.42857142857133" y="-15.0" />
-              <point x="1595.2427065989586" y="680.0" />
-              <point x="1336.6538461538462" y="680.0" />
-              <point x="1336.6538461538462" y="570.0" />
-              <point x="722.1121794871796" y="570.0" />
-              <point x="39.33333333333337" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2">
-              <point x="34.75" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-1.1368683772161603E-13" y="-15.0" />
-              <point x="462.5" y="160.0" />
-              <point x="341.32049027362154" y="160.0" />
-              <point x="15.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.squareup.okhttp:okhttp:jar:2.4.0">
-              <point x="-25.25" y="-15.0" />
-              <point x="2119.153846153846" y="690.0" />
-              <point x="2068.903846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-36.75" y="-15.0" />
-              <point x="508.9863239191375" y="570.0" />
-              <point x="384.0" y="570.0" />
-              <point x="384.0" y="170.0" />
-              <point x="331.32049027362154" y="170.0" />
-              <point x="5.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="-14.75" y="-15.0" />
-              <point x="668.0288461538462" y="420.0" />
-              <point x="637.5288461538462" y="420.0" />
-              <point x="637.5288461538462" y="340.0" />
-              <point x="582.5865384615386" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4">
-              <point x="-18.533333333333303" y="-15.0" />
-              <point x="2532.120512820513" y="770.0" />
-              <point x="2144.403846153846" y="770.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT">
-              <point x="-70.71428571428578" y="-15.0" />
-              <point x="2933.4395604395604" y="990.0" />
-              <point x="2593.153846153846" y="990.0" />
-              <point x="42.5" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.squareup.okhttp3:okhttp:jar:3.9.1" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.squareup.okhttp3:okhttp:jar:3.9.1/com.squareup.okio:okio:jar:1.13.0">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
-              <point x="12.25" y="-15.0" />
-              <point x="557.9863239191375" y="570.0" />
-              <point x="552.0" y="570.0" />
-              <point x="552.0" y="450.0" />
-              <point x="696.0288461538462" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="24.399999999999977" y="-15.0" />
-              <point x="559.2863239191374" y="670.0" />
-              <point x="606.0" y="670.0" />
-              <point x="606.0" y="350.0" />
-              <point x="574.2788461538463" y="350.0" />
-              <point x="-8.307692307692264" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3">
-              <point x="27.800000000000182" y="-15.0" />
-              <point x="2578.4538461538464" y="780.0" />
-              <point x="3644.903846153846" y="780.0" />
-              <point x="3644.903846153846" y="690.0" />
-              <point x="3630.153846153846" y="690.0" />
-              <point x="-33.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="45.333333333333314" y="-15.0" />
-              <point x="306.83333333333326" y="580.0" />
-              <point x="630.3344017094017" y="580.0" />
-              <point x="-52.44444444444446" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1">
-              <point x="37.066666666666606" y="-15.0" />
-              <point x="2587.720512820513" y="790.0" />
-              <point x="3681.403846153846" y="790.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="56.33333333333337" y="-15.0" />
-              <point x="843.2371794871796" y="590.0" />
-              <point x="883.9038461538462" y="590.0" />
-              <point x="883.9038461538462" y="130.0" />
-              <point x="371.32049027362154" y="130.0" />
-              <point x="45.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="-32.0" y="-15.0" />
-              <point x="664.0288461538462" y="330.0" />
-              <point x="590.8942307692308" y="330.0" />
-              <point x="8.307692307692264" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="786.9038461538462" y="320.0" />
-              <point x="599.2019230769232" y="320.0" />
-              <point x="16.61538461538464" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.google.code.gson:gson:jar:2.2.4">
-              <point x="25.25" y="-15.0" />
-              <point x="2169.653846153846" y="690.0" />
-              <point x="2187.153846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.qiniu:happy-dns-java:jar:0.1.6">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="20.33333333333337" y="-15.0" />
-              <point x="807.2371794871796" y="1060.0" />
-              <point x="894.9038461538462" y="1060.0" />
-              <point x="894.9038461538462" y="310.0" />
-              <point x="607.5096153846155" y="310.0" />
-              <point x="24.923076923076906" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="62.5" y="-15.0" />
-              <point x="1550.9038461538462" y="590.0" />
-              <point x="1616.9038461538462" y="590.0" />
-              <point x="1616.9038461538462" y="270.0" />
-              <point x="1364.8871569402877" y="270.0" />
-              <point x="12.125" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="48.799999999999955" y="-15.0" />
-              <point x="583.6863239191374" y="690.0" />
-              <point x="669.6677350427351" y="690.0" />
-              <point x="-13.111111111111086" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2">
-              <point x="-47.14285714285711" y="-15.0" />
-              <point x="2957.010989010989" y="980.0" />
-              <point x="2715.153846153846" y="980.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
-              <point x="33.0" y="-15.0" />
-              <point x="82.5" y="470.0" />
-              <point x="141.0" y="470.0" />
-              <point x="-21.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-33.0" y="-15.0" />
-              <point x="16.5" y="470.0" />
-              <point x="38.5" y="470.0" />
-              <point x="38.5" y="150.0" />
-              <point x="281.32049027362154" y="150.0" />
-              <point x="-45.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11">
-              <point x="55.59999999999991" y="-15.0" />
-              <point x="2606.253846153846" y="810.0" />
-              <point x="3929.403846153846" y="810.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE">
-              <point x="81.33333333333337" y="-15.0" />
-              <point x="868.2371794871796" y="1090.0" />
-              <point x="3393.653846153846" y="1090.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="-21.14285714285711" y="-15.0" />
-              <point x="1637.5284208846729" y="690.0" />
-              <point x="1627.9038461538462" y="690.0" />
-              <point x="1627.9038461538462" y="260.0" />
-              <point x="632.4326923076924" y="260.0" />
-              <point x="49.84615384615381" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
-              <point x="-34.75" y="-15.0" />
-              <point x="3092.903846153846" y="895.0" />
-              <point x="3084.653846153846" y="895.0" />
-              <point x="19.25" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="38.75" y="-15.0" />
-              <point x="339.5" y="680.0" />
-              <point x="658.6677350427351" y="680.0" />
-              <point x="658.6677350427351" y="590.0" />
-              <point x="656.556623931624" y="590.0" />
-              <point x="-26.22222222222217" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE">
-              <point x="-61.0" y="-15.0" />
-              <point x="725.9038461538462" y="1080.0" />
-              <point x="300.75" y="1080.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-38.75" y="-15.0" />
-              <point x="262.0" y="690.0" />
-              <point x="109.5" y="690.0" />
-              <point x="109.5" y="160.0" />
-              <point x="291.32049027362154" y="160.0" />
-              <point x="-35.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
-              <point x="-23.25" y="-15.0" />
-              <point x="277.5" y="680.0" />
-              <point x="183.0" y="680.0" />
-              <point x="21.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
-              <point x="42.28571428571422" y="-15.0" />
-              <point x="1700.9569923132442" y="680.0" />
-              <point x="1944.4038461538462" y="680.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
-              <point x="-40.66666666666663" y="-15.0" />
-              <point x="746.2371794871796" y="1070.0" />
-              <point x="534.8863239191375" y="1070.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
-              <point x="23.25" y="-15.0" />
-              <point x="324.0" y="670.0" />
-              <point x="351.0" y="670.0" />
-              <point x="351.0" y="440.0" />
-              <point x="664.0288461538462" y="440.0" />
-              <point x="-32.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-web:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="63.42857142857133" y="-15.0" />
-              <point x="1722.0998494561013" y="690.0" />
-              <point x="2022.9038461538462" y="690.0" />
-              <point x="2022.9038461538462" y="250.0" />
-              <point x="1389.1371569402877" y="250.0" />
-              <point x="36.375" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.2">
-              <point x="-45.19999999999982" y="-15.0" />
-              <point x="3060.835563741816" y="690.0" />
-              <point x="2842.153846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.squareup.okhttp3:okhttp:jar:3.9.1">
-              <point x="37.333333333333485" y="-15.0" />
-              <point x="3966.7371794871797" y="690.0" />
-              <point x="4044.903846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT">
-              <point x="0.0" y="-15.0" />
-              <point x="-42.5" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
-              <point x="-24.399999999999977" y="-15.0" />
-              <point x="510.4863239191375" y="660.0" />
-              <point x="373.0" y="660.0" />
-              <point x="373.0" y="430.0" />
-              <point x="428.5" y="430.0" />
-              <point x="-34.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="-66.66666666666674" y="-15.0" />
-              <point x="1129.7371794871794" y="690.0" />
-              <point x="993.8205128205127" y="690.0" />
-              <point x="993.8205128205127" y="580.0" />
-              <point x="709.0010683760685" y="580.0" />
-              <point x="26.222222222222285" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15">
-              <point x="47.14285714285711" y="-15.0" />
-              <point x="3051.2967032967035" y="980.0" />
-              <point x="3127.653846153846" y="980.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT">
-              <point x="61.0" y="-15.0" />
-              <point x="847.9038461538462" y="1080.0" />
-              <point x="3004.153846153846" y="1080.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0">
-              <point x="45.19999999999982" y="-15.0" />
-              <point x="3151.2355637418154" y="690.0" />
-              <point x="3425.653846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
-              <point x="-81.33333333333326" y="-15.0" />
-              <point x="705.5705128205129" y="1090.0" />
-              <point x="49.5" y="1090.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3">
-              <point x="-64.86666666666679" y="-15.0" />
-              <point x="2485.7871794871794" y="820.0" />
-              <point x="961.9038461538462" y="820.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
-              <point x="23.57142857142867" y="-15.0" />
-              <point x="3027.725274725275" y="990.0" />
-              <point x="3046.153846153846" y="990.0" />
-              <point x="-19.25" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE">
-              <point x="-42.28571428571422" y="-15.0" />
-              <point x="1616.3855637418158" y="670.0" />
-              <point x="1525.9038461538462" y="670.0" />
-              <point x="37.5" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="-62.5" y="-15.0" />
-              <point x="1425.9038461538462" y="560.0" />
-              <point x="735.2232905982906" y="560.0" />
-              <point x="52.44444444444446" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0">
-              <point x="-33.0" y="-15.0" />
-              <point x="3630.153846153846" y="590.0" />
-              <point x="3589.653846153846" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
-              <point x="-29.333333333333485" y="-15.0" />
-              <point x="2521.3205128205127" y="690.0" />
-              <point x="2424.153846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="7.75" y="-15.0" />
-              <point x="308.5" y="660.0" />
-              <point x="340.0" y="660.0" />
-              <point x="340.0" y="340.0" />
-              <point x="557.6634615384617" y="340.0" />
-              <point x="-24.923076923076906" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
-              <point x="46.333333333333485" y="-15.0" />
-              <point x="2596.9871794871797" y="800.0" />
-              <point x="3790.403846153846" y="800.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE">
-              <point x="-7.75" y="-15.0" />
-              <point x="293.0" y="670.0" />
-              <point x="261.5" y="670.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1">
-              <point x="22.59999999999991" y="-15.0" />
-              <point x="3128.6355637418155" y="680.0" />
-              <point x="3253.653846153846" y="680.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-48.799999999999955" y="-15.0" />
-              <point x="486.0863239191375" y="670.0" />
-              <point x="362.0" y="670.0" />
-              <point x="362.0" y="180.0" />
-              <point x="321.32049027362154" y="180.0" />
-              <point x="-5.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="36.75" y="-15.0" />
-              <point x="582.4863239191375" y="590.0" />
-              <point x="643.4455128205128" y="590.0" />
-              <point x="-39.33333333333337" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE">
-              <point x="66.66666666666674" y="-15.0" />
-              <point x="1263.070512820513" y="690.0" />
-              <point x="1450.9038461538462" y="690.0" />
-              <point x="-37.5" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-web:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
-              <point x="-56.0" y="-15.0" />
-              <point x="730.9038461538462" y="1165.0" />
-              <point x="599.4038461538462" y="1165.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE">
-              <point x="-46.333333333333485" y="-15.0" />
-              <point x="2504.3205128205127" y="800.0" />
-              <point x="1196.4038461538462" y="800.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="21.14285714285711" y="-15.0" />
-              <point x="1679.814135170387" y="670.0" />
-              <point x="1806.4038461538462" y="670.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.squareup.okhttp:okhttp:jar:2.4.0" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:pili-sdk-java:jar:1.5.4/com.squareup.okhttp:okhttp:jar:2.4.0/com.squareup.okio:okio:jar:1.4.0">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4">
-              <point x="18.533333333333303" y="-15.0" />
-              <point x="2569.1871794871795" y="770.0" />
-              <point x="3106.0355637418156" y="770.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE">
-              <point x="-27.800000000000182" y="-15.0" />
-              <point x="2522.853846153846" y="780.0" />
-              <point x="1658.67127802753" y="780.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="-45.333333333333485" y="-15.0" />
-              <point x="216.16666666666652" y="590.0" />
-              <point x="232.5" y="590.0" />
-              <point x="232.5" y="180.0" />
-              <point x="311.32049027362154" y="180.0" />
-              <point x="-15.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60/org.jetbrains:annotations:jar:13.0">
-              <point x="25.5" y="-15.0" />
-              <point x="2313.653846153846" y="590.0" />
-              <point x="2362.903846153846" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.google.zxing:core:jar:3.3.0">
-              <point x="-55.59999999999991" y="-15.0" />
-              <point x="2495.0538461538463" y="810.0" />
-              <point x="1067.4038461538462" y="810.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
-              <point x="14.75" y="-15.0" />
-              <point x="697.5288461538462" y="460.0" />
-              <point x="728.0288461538462" y="460.0" />
-              <point x="32.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.qiniu:qiniu-java-sdk:jar:7.2.11/com.google.code.gson:gson:jar:2.8.2">
-              <point x="-37.333333333333485" y="-15.0" />
-              <point x="3892.0705128205127" y="690.0" />
-              <point x="3806.653846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="-56.33333333333337" y="-15.0" />
-              <point x="730.5705128205128" y="590.0" />
-              <point x="695.8899572649573" y="590.0" />
-              <point x="13.111111111111086" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="534.8863239191375" y="670.0" />
-              <point x="545.7363239191375" y="670.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE">
-              <point x="-20.333333333333258" y="-15.0" />
-              <point x="766.5705128205129" y="1060.0" />
-              <point x="680.6677350427351" y="1060.0" />
-              <point x="680.6677350427351" y="590.0" />
-              <point x="682.7788461538462" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
-              <point x="64.86666666666679" y="-15.0" />
-              <point x="2615.520512820513" y="820.0" />
-              <point x="4130.903846153846" y="820.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.3.12.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="1658.67127802753" y="660.0" />
-              <point x="1687.4038461538462" y="660.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="21.0" y="-15.0" />
-              <point x="183.0" y="320.0" />
-              <point x="541.048076923077" y="320.0" />
-              <point x="-41.53846153846155" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.6.3">
-              <point x="33.0" y="-15.0" />
-              <point x="3696.153846153846" y="590.0" />
-              <point x="3736.653846153846" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3">
-              <point x="29.333333333333485" y="-15.0" />
-              <point x="2579.9871794871797" y="690.0" />
-              <point x="2682.153846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="32.0" y="-15.0" />
-              <point x="728.0288461538462" y="340.0" />
-              <point x="1316.3871569402877" y="340.0" />
-              <point x="-36.375" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="49.5" y="310.0" />
-              <point x="532.7403846153848" y="310.0" />
-              <point x="-49.84615384615381" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.1" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.6.3">
-              <point x="0.0" y="-15.0" />
-              <point x="3681.403846153846" y="690.0" />
-              <point x="3696.153846153846" y="690.0" />
-              <point x="33.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="582.5865384615386" y="150.0" />
-              <point x="351.32049027362154" y="150.0" />
-              <point x="25.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="-12.25" y="-15.0" />
-              <point x="533.4863239191375" y="570.0" />
-              <point x="541.0" y="570.0" />
-              <point x="541.0" y="350.0" />
-              <point x="565.9711538461539" y="350.0" />
-              <point x="-16.61538461538464" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5">
-              <point x="-37.066666666666606" y="-15.0" />
-              <point x="2513.5871794871796" y="790.0" />
-              <point x="1496.8812045593354" y="790.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5">
-              <point x="0.0" y="-15.0" />
-              <point x="3106.0355637418156" y="690.0" />
-              <point x="3095.653846153846" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6">
-              <point x="-22.59999999999991" y="-15.0" />
-              <point x="3083.4355637418157" y="680.0" />
-              <point x="2974.153846153846" y="680.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.3.12.RELEASE">
-              <point x="-12.5" y="-15.0" />
-              <point x="1475.9038461538462" y="540.0" />
-              <point x="1429.4038461538462" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
-              <point x="-40.0" y="-15.0" />
-              <point x="1156.4038461538462" y="680.0" />
-              <point x="1052.3205128205127" y="680.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="37.5" y="-15.0" />
-              <point x="1525.9038461538462" y="580.0" />
-              <point x="1605.9038461538462" y="580.0" />
-              <point x="1605.9038461538462" y="280.0" />
-              <point x="624.1250000000001" y="280.0" />
-              <point x="41.53846153846155" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="44.25" y="-15.0" />
-              <point x="727.0288461538462" y="470.0" />
-              <point x="762.9038461538462" y="470.0" />
-              <point x="762.9038461538462" y="140.0" />
-              <point x="361.32049027362154" y="140.0" />
-              <point x="35.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.4">
-              <point x="-23.57142857142844" y="-15.0" />
-              <point x="2980.5824175824177" y="970.0" />
-              <point x="2873.653846153846" y="970.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2/org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60/org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.60">
-              <point x="-25.5" y="-15.0" />
-              <point x="2262.653846153846" y="590.0" />
-              <point x="2213.403846153846" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="696.0288461538462" y="330.0" />
-              <point x="798.4038461538462" y="330.0" />
-              <point x="-25.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
-              <point x="13.333333333333258" y="-15.0" />
-              <point x="1209.7371794871794" y="690.0" />
-              <point x="1201.9038461538462" y="690.0" />
-              <point x="1201.9038461538462" y="290.0" />
-              <point x="848.4038461538462" y="290.0" />
-              <point x="25.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2">
-              <point x="9.266666666666879" y="-15.0" />
-              <point x="2559.920512820513" y="760.0" />
-              <point x="2907.7008843586977" y="760.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/com.squareup.okio:okio:jar:2.2.2">
-              <point x="-9.266666666666879" y="-15.0" />
-              <point x="2541.3871794871793" y="760.0" />
-              <point x="2288.153846153846" y="760.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.3.12.RELEASE">
-              <point x="12.5" y="-15.0" />
-              <point x="1500.9038461538462" y="570.0" />
-              <point x="1547.4038461538462" y="570.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-beans:jar:4.2.4.RELEASE">
-              <point x="-13.333333333333258" y="-15.0" />
-              <point x="1183.070512820513" y="690.0" />
-              <point x="1190.9038461538462" y="690.0" />
-              <point x="1190.9038461538462" y="300.0" />
-              <point x="615.8173076923077" y="300.0" />
-              <point x="33.23076923076917" y="15.0" />
-            </edge>
-            <edge source="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-interface:jar:1.0-SNAPSHOT/com.museum.www:Museum-manager-pojo:jar:1.0-SNAPSHOT/com.museum.www:Museum-common:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE" target="com.museum.www:Museum-manager-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="40.0" y="-15.0" />
-              <point x="1236.4038461538462" y="680.0" />
-              <point x="1212.9038461538462" y="680.0" />
-              <point x="1212.9038461538462" y="350.0" />
-              <point x="1340.6371569402877" y="350.0" />
-              <point x="-12.125" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6339024938216132" x="1618.0" y="359.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/VariableName.java" />
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/AjaxResponseBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/WeChatUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MavenRespotion/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="657" column="26" selection-start-line="657" selection-start-column="26" selection-end-line="657" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MavenRespotion/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3686">
-          <caret line="194" column="39" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/target/tomcat/conf/logging.properties" />
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/MemberInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/MemberInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/PersonInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/MemberInfoCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/CodeUploadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/utils/GetIpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
@@ -2252,53 +940,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Museum-wechat-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/SelectLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/SelectLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3145#3146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2312,69 +957,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/SelectLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatExhibitsInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/MemberInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="38" selection-end-column="52" />
+        <state relative-caret-position="-114">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/LostController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsTypeCustom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/custom/ExhibitsInfoCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/AnnouncementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/src/main/java/com/museum/pojo/ExhibitsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/resource/qiniu.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatLostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-common/src/main/java/com/museum/common/pojo/AjaxResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/WeChatAnnouncementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/AnnouncementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/AnnouncementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-transaction.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="266">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
+        <state>
+          <caret selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/SelectLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        <state relative-caret-position="722">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/PersonInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-interface/src/main/java/com/museum/service/ItemInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        <state relative-caret-position="247">
+          <caret line="20" column="90" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/service/CoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="107" column="55" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/WeixinUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="46" selection-start-line="46" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/EcxcelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/resources/mybatis/sqlMapperConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/controller/ExhibitsTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-wechat-web/src/main/java/com/museum/wechat/utils/GenerateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/JwtAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/src/main/java/com/museum/security/AjaxAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/MemberInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/SelectLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="-646">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MavenRespotion/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/src/main/java/com/museum/service/impl/ItemTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -2432,7 +1359,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Museum-parent</last-edited>
+          <last-edited>Museum-manager-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

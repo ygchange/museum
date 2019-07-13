@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -53,7 +55,14 @@ public class ExhibitsInfoController {
     @RequestMapping("/list/name")
     @ResponseBody
     public AjaxResponseBody getItemInfoName(){
-        List<Map<String,String>> list=itemInfoService.getItemInfoName();
+        List<ExhibitsInfo> exhibitsInfos=itemInfoService.getExhibitsInfo();
+        List<Map<String, String>> list=new ArrayList<>();
+        for (ExhibitsInfo exhibitsInfo:exhibitsInfos
+        ) {
+            Map<String,String> hashMap=new HashMap<>();
+            hashMap.put("value",exhibitsInfo.getName());
+            list.add(hashMap);
+        }
         return AjaxResponseBody.ok(list);
     }
     //添加展品
@@ -93,7 +102,7 @@ public class ExhibitsInfoController {
        }
         return AjaxResponseBody.build(400,"该展品已被删除");
     }
-    //更新商品
+    //更新展品
     @RequestMapping("/update")
     @ResponseBody
     public AjaxResponseBody updateItemInfoById(@RequestBody ExhibitsInfo exhibitsInfo ){

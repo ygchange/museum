@@ -20,12 +20,12 @@ public class SelectLogController {
     public AjaxResponseBody getSelectLogList(@RequestBody Map<String,Object> map){
         Integer page= (Integer) map.get("page");
         Integer rows= (Integer) map.get("rows");
-         Long before=null;
-         Long after=null;
-         if(map.get("before")!=null&&map.get("after")!=null){
-            before = (Long) map.get("before");
-            after= (Long) map.get("after");
-         }
+//         Long before=null;
+//         Long after=null;
+//         if(map.get("before")!=null&&map.get("after")!=null){
+           Long before = (Long) map.get("before");
+           Long after= (Long) map.get("after");
+//         }
         PageHelperResult selectLogList = selectLogService.getSelectLogList(page, rows,before,after);
         return AjaxResponseBody.ok(selectLogList);
     }
