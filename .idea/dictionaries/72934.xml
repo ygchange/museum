@@ -4,6 +4,8 @@
       <w>accesstoken</w>
       <w>alibaba</w>
       <w>ecxcel</w>
+      <w>errcode</w>
+      <w>headimgurl</w>
       <w>jsapi</w>
       <w>lostandfound</w>
       <w>museumwx</w>
@@ -11,6 +13,7 @@
       <w>qrscene</w>
       <w>springmvc</w>
       <w>wechat</w>
+      <w>weixin</w>
     </words>
   </dictionary>
 </component>

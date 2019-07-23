@@ -31,7 +31,7 @@ public class ItemInfoServiceImpl implements ItemInfoService {
     private SelectLogService selectLogService;
     //查询展品
     @Override
-    public PageHelperResult getItemInfoList(Integer page,Integer rows,Integer itemType, String itemName) {
+    public PageHelperResult getItemInfoList(Integer page,Integer rows,Integer itemType, String itemName,String bucketHostName) {
         PageHelper.startPage(page,rows);
         ExhibitsInfoExample example =new ExhibitsInfoExample();
         ExhibitsInfoExample.Criteria criteria = example.createCriteria();
@@ -47,6 +47,9 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         List<ExhibitsInfoCustom> newList=new ArrayList<>();
         for (ExhibitsInfo exhibitsInfo:list)
         {
+            exhibitsInfo.setImgName(bucketHostName+exhibitsInfo.getImgName());
+            exhibitsInfo.setAudioName(bucketHostName+exhibitsInfo.getAudioName());
+            exhibitsInfo.setQrCode(bucketHostName+exhibitsInfo.getQrCode());
             ExhibitsInfoCustom custom=new ExhibitsInfoCustom();
             MemberInfo memberInfo = memberInfoMapper.selectByPrimaryKey(exhibitsInfo.getOperatorId());
             BeanUtils.copyProperties(exhibitsInfo,custom);

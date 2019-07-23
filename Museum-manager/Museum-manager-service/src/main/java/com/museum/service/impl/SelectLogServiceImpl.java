@@ -37,8 +37,6 @@ public class SelectLogServiceImpl implements SelectLogService {
 //        Long oneDayTimestamps= Long.valueOf(60*60*24*1000);
 //        long before = currentTimestamps -(currentTimestamps + 60 * 60 * 8 * 1000) % oneDayTimestamps;
 //        long after=before+60*60*24*1000;
-
-
         PageHelper.startPage(page,rows);
 
         SelectLogExample example=new SelectLogExample();

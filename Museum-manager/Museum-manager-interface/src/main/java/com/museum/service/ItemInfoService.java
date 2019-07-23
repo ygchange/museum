@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface ItemInfoService {
-    PageHelperResult getItemInfoList(Integer page, Integer rows,Integer itemType, String itemName);
+    PageHelperResult getItemInfoList(Integer page, Integer rows,Integer itemType, String itemName,String bucketHostName);
     ExhibitsInfo insertItemInfo(ExhibitsInfo exhibitsInfo) ;
     List<ExhibitsType> selectItemType() ;
     Integer deleteItemInfoById(Integer id);

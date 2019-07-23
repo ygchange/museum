@@ -48,7 +48,7 @@ public class ExhibitsInfoController {
         Integer rows = (Integer) map.get("rows");
         Integer itemType = (Integer) map.get("itemType");
         String itemName= (String) map.get("itemName");
-        PageHelperResult result = itemInfoService.getItemInfoList(page, rows,itemType,itemName);
+        PageHelperResult result = itemInfoService.getItemInfoList(page, rows,itemType,itemName,bucketHostName);
         return AjaxResponseBody.ok(result);
     }
     //查询展品名字
@@ -69,14 +69,11 @@ public class ExhibitsInfoController {
     @RequestMapping("/insert")
     @ResponseBody
     public AjaxResponseBody insertItemInfo(@RequestBody ExhibitsInfo exhibitsInfo){
-        exhibitsInfo.setImgName(bucketHostName+exhibitsInfo.getImgName());
-        exhibitsInfo.setAudioName(bucketHostName+exhibitsInfo.getAudioName());
         ExhibitsInfo exhibitsInfoResult = itemInfoService.insertItemInfo(exhibitsInfo);
         url=url+exhibitsInfoResult.getId();
         try {
             String path = CodeUploadUtil.generateCode(accesskey, secretKey, exhibitsInfoResult.getName(), bucketName, url);
-            String qiniu =bucketHostName+path;
-            exhibitsInfoResult.setQrCode(qiniu);
+            exhibitsInfoResult.setQrCode(path);
             itemInfoService.updateItemInfoById(exhibitsInfoResult);
         } catch (Exception e) {
             itemInfoService.deleteItemInfoById(exhibitsInfoResult.getId());
@@ -106,11 +103,11 @@ public class ExhibitsInfoController {
     @RequestMapping("/update")
     @ResponseBody
     public AjaxResponseBody updateItemInfoById(@RequestBody ExhibitsInfo exhibitsInfo ){
-        if(exhibitsInfo.getAudioName().indexOf(bucketHostName)==-1){
-            exhibitsInfo.setAudioName(bucketHostName+exhibitsInfo.getAudioName());
+        if(exhibitsInfo.getAudioName().indexOf(bucketHostName)!=-1){
+            exhibitsInfo.setAudioName(exhibitsInfo.getAudioName().substring(bucketHostName.length()));
         }
-        if(exhibitsInfo.getImgName().indexOf(bucketHostName)==-1){
-            exhibitsInfo.setImgName(bucketHostName+exhibitsInfo.getImgName());
+        if(exhibitsInfo.getImgName().indexOf(bucketHostName)!=-1){
+            exhibitsInfo.setImgName(exhibitsInfo.getImgName().substring(bucketHostName.length()));
         }
         Integer i=itemInfoService.updateItemInfoById(exhibitsInfo);
         if(i>=1){

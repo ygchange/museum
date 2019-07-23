@@ -5,6 +5,7 @@ import com.museum.service.ItemInfoService;
 import com.museum.service.WeChatUserService;
 import com.museum.wechat.pojo.WeixinOauth2Token;
 import com.museum.wechat.utils.AdvancedUtil;
+import com.museum.wechat.utils.WeixinUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,6 +22,8 @@ public class WechatOauthController {
     @Autowired
     private ItemInfoService itemInfoService;
     @Autowired
+    private WeixinUtil weixinUtil;
+    @Autowired
     private WeChatUserService weChatUserService;
     @Value("${oauth.wxAppId}")
     private String wxAppId;
@@ -32,21 +35,20 @@ public class WechatOauthController {
     private  WeixinOauth2Token weixinOauth2Token;
 
     @RequestMapping("/wechat/wechatOauth")
-    public void WechatOauth(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    public void WechatOauth(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
         String code = request.getParameter("code");
         String state = request.getParameter("state");
-        WechatUser wechatUser=new WechatUser();
         try {
             weixinOauth2Token = AdvancedUtil.getOauth2AccessToken(wxAppId, appSecret, code);
             String accessToken = weixinOauth2Token.getAccessToken();
             String openId = weixinOauth2Token.getOpenId();
-            wechatUser.setUserId(openId);
-            WechatUser wechatUserResult = weChatUserService.selectWeChatInfoByUserId(wechatUser);
-            if(wechatUserResult==null||wechatUserResult.getStatus()==0){
+            WechatUser wechatUserResult = weixinUtil.updateWeChatInfo(openId);
+            if(wechatUserResult.getStatus()==0){
                 response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&status=0");
             }else {
+                weChatUserService.updateStatusByUserId(wechatUserResult);
                 response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
 
             }

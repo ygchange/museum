@@ -27,8 +27,7 @@ public class JsSdkController {
     public Map<String,String> getWechatJsSdk(@RequestBody Map<String,String> map){
         String url = map.get("url");
         url=returnUrl+"/"+url;
-        JsapiTicket jt= weixinUtil.getJsapiTicket(wxAppId,appSecret);
-        String ticket = jt.getTicket();
+        String ticket= weixinUtil.getJsapiTicket();
         Map<String, String> sign = Sign.sign(ticket, url, wxAppId);
         return  sign;
 

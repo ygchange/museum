@@ -32,6 +32,8 @@
         <security:form-login authentication-failure-handler-ref="ajaxAuthenticationFailureHandler"
                              authentication-success-handler-ref="ajaxAuthenticationSuccessHandler"
                                 login-processing-url="/login"/>
+        <!--登出-->
+        <security:logout logout-url="/logout.do"/>
         <!--权限不足-->
         <security:access-denied-handler ref="ajaxAccessDeniedHandler"/>
         <!--跨栈请求-->

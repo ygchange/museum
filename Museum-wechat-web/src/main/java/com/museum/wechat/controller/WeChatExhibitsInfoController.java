@@ -8,6 +8,7 @@ import com.museum.pojo.WechatUser;
 import com.museum.service.ItemInfoService;
 import com.museum.service.WeChatUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,8 @@ import java.util.Map;
 @Controller
 @RequestMapping("/weChatExhibits")
 public class WeChatExhibitsInfoController {
+    @Value("${qiniu.bucket.host.name}")
+    private String bucketHostName;
     @Autowired
     private ItemInfoService itemInfoService;
     @Autowired
@@ -32,16 +35,19 @@ public class WeChatExhibitsInfoController {
         WechatUser wechatUser=new WechatUser();
         wechatUser.setUserId(openid);
         ExhibitsInfo exhibitsInfo = itemInfoService.getExhibitsInfoById(id);
-        WechatUser wechatUserResult = weChatUserService.selectWeChatInfoByUserId(wechatUser);
-        String ip2 = GetIpUtil.getIp2(httpServletRequest);
-        SelectLog selectLog=new SelectLog();
-        selectLog.setSelectTime(new Date());
-        selectLog.setWechatUserId(wechatUserResult.getId());
-        selectLog.setExhibitsInfoId(id);
-        selectLog.setSelectUserIp(ip2);
         if(exhibitsInfo!=null) {
+            WechatUser wechatUserResult = weChatUserService.selectWeChatInfoByUserId(wechatUser);
+            String ip2 = GetIpUtil.getIp2(httpServletRequest);
+            SelectLog selectLog=new SelectLog();
+            selectLog.setSelectTime(new Date());
+            selectLog.setWechatUserId(wechatUserResult.getId());
+            selectLog.setExhibitsInfoId(id);
+            selectLog.setSelectUserIp(ip2);
             exhibitsInfo.setQueryTimes(exhibitsInfo.getQueryTimes()+1);
             itemInfoService.updateItemInfoAndInsertSelectLog(exhibitsInfo,selectLog);
+            exhibitsInfo.setQrCode(bucketHostName+exhibitsInfo.getQrCode());
+            exhibitsInfo.setAudioName(bucketHostName+exhibitsInfo.getAudioName());
+            exhibitsInfo.setImgName(bucketHostName+exhibitsInfo.getImgName());
             return AjaxResponseBody.ok(exhibitsInfo);
         }else {
             return AjaxResponseBody.build(400,"该展品已经被删除,请查看其他展品");

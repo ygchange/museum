@@ -44,7 +44,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         //没有token，提示重新登陆
         if (token == null) {
-            getResponse("当前用户已过期,请重新登录", response);
+            getResponse("无Token,请重新登陆", response);
             return;
         }
         //token不合法

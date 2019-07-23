@@ -31,8 +31,6 @@ public class TokenUtil {
                 AccessToken.setTimestamp(System.currentTimeMillis());
             }
         }
-        System.out.println(AccessToken.ACCESSTOKEN);
-
         return AccessToken.ACCESSTOKEN;
     }
 }

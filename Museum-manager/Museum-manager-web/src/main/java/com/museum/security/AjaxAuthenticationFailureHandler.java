@@ -1,6 +1,4 @@
 package com.museum.security;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.utils.JsonUtils;
 import org.springframework.security.core.AuthenticationException;
