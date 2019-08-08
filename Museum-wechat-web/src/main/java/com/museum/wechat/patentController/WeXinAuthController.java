@@ -14,12 +14,12 @@ import java.net.URLEncoder;
 public class WeXinAuthController {
     @Value("${oauth.wxAppId}")
     private String wxAppId;
-    @Value("${oauth.wxRedirectUri}")
-    private String wxRedirectUri;
+    @Value("${realm.name}")
+    private String realm;
     @RequestMapping("/auth")
     public String auth(String returnUrl, HttpServletResponse response) throws IOException {
         return "redirect:" +
                 String.format("https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=%s&state=%s#wechat_redirect",
-                        this.wxAppId, wxRedirectUri, "snsapi_userinfo", returnUrl);
+                        this.wxAppId, realm+"museumwx/wechat/wechatOauth", "snsapi_userinfo", returnUrl);
     }
 }

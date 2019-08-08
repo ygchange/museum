@@ -12,6 +12,7 @@
         <module name="Museum-manager-pojo" />
         <module name="Museum-manager-service" />
         <module name="Museum-manager-web" />
+        <module name="Museum-official" />
         <module name="Museum-wechat-web" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="Museum-manager-pojo" target="1.8" />
       <module name="Museum-manager-service" target="1.8" />
       <module name="Museum-manager-web" target="1.8" />
+      <module name="Museum-official" target="1.8" />
       <module name="Museum-parent" target="1.8" />
       <module name="Museum-wechat-web" target="1.8" />
     </bytecodeTargetLevel>

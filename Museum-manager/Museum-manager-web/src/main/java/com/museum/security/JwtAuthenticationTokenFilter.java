@@ -38,7 +38,9 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         String uri = request.getRequestURI();
         if (uri.substring(uri.lastIndexOf("/")).equals("/login")
                 || uri.startsWith("/museum/dist")
-                || uri.substring(uri.lastIndexOf("/")).equals("/")) {
+                || uri.substring(uri.lastIndexOf("/")).equals("/")
+                ||uri.substring(uri.lastIndexOf("/")).equals("/logout.do")
+                ||uri.startsWith("/museum/file/bucketHostName")) {
             chain.doFilter(request, response);
             return;
         }
@@ -82,6 +84,10 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         if (!password.equals(userDetails.getPassword())) {
             getResponse("密码被修改,请联系管理员", response);
+            return;
+        }
+        if(!userDetails.getToken().equals(token)){
+            getResponse("您的账号在另一地点登陆,您被迫下线",response);
             return;
         }
         if (SecurityContextHolder.getContext().getAuthentication() == null) {

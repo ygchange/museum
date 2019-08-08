@@ -46,7 +46,7 @@ public class AnnouncementServiceImpl  implements AnnouncementService {
     public PageHelperResult getAnnouncementList(Integer page, Integer rows) {
         PageHelper.startPage(page,rows);
         AnnouncementInfoExample example=new AnnouncementInfoExample();
-        example.setOrderByClause("type DESC,add_time DESC");
+        example.setOrderByClause("add_time DESC");
         List<AnnouncementInfo> list = announcementInfoMapper.selectByExample(example);
         List<AnnouncementInfoCustom> newList=new ArrayList<>();
         for (AnnouncementInfo announcementInfo:
@@ -81,10 +81,9 @@ public class AnnouncementServiceImpl  implements AnnouncementService {
         int i = announcementInfoMapper.deleteByPrimaryKey(id);
         return i;
     }
-
+    //修改公告
     @Override
     public Integer updateAnnouncementById(AnnouncementInfo announcementInfo) {
-        announcementInfo.setAddTime(new Date());
         int i = announcementInfoMapper.updateByPrimaryKeySelective(announcementInfo);
         return i;
     }

@@ -19,5 +19,6 @@ public interface ItemInfoService {
 
     ExhibitsInfo getExhibitsInfoById(Integer id);
     void updateItemInfoAndInsertSelectLog(ExhibitsInfo exhibitsInfo, SelectLog selectLog);
+    List<ExhibitsInfo> getExhibitsInfo(Integer itemType,String itemName);
     List<ExhibitsInfo> getExhibitsInfo();
 }

@@ -94,5 +94,11 @@ public class ItemTypeServiceImpl implements ItemTypeService {
 
     }
 
+    @Override
+    public ExhibitsType selectItemTypeById(Integer typeId) {
+        ExhibitsType exhibitsType = exhibitsTypeMapper.selectByPrimaryKey(typeId);
+        return exhibitsType;
+    }
+
 
 }

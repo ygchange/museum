@@ -23,13 +23,15 @@ public class MemberInfo {
 
     private Date openDate;
 
-    private Integer passwordStatus;
+    private Integer landingStatus;
 
     private String allowIp;
 
     private String remark;
 
     private String telephone;
+
+    private String token;
 
     public Integer getId() {
         return id;
@@ -111,12 +113,12 @@ public class MemberInfo {
         this.openDate = openDate;
     }
 
-    public Integer getPasswordStatus() {
-        return passwordStatus;
+    public Integer getLandingStatus() {
+        return landingStatus;
     }
 
-    public void setPasswordStatus(Integer passwordStatus) {
-        this.passwordStatus = passwordStatus;
+    public void setLandingStatus(Integer landingStatus) {
+        this.landingStatus = landingStatus;
     }
 
     public String getAllowIp() {
@@ -141,5 +143,13 @@ public class MemberInfo {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone == null ? null : telephone.trim();
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token == null ? null : token.trim();
     }
 }

@@ -43,7 +43,8 @@ public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHa
         }else {
             String ip = GetIpUtil.getIp2(httpServletRequest);
             custom.setLastIp(ip);
-            String jwtToken = "Bearer " + JwtUtil.setClaim(custom.getUsername() + "," + custom.getPassword(), true, 60 * 60 * 1000);
+            String jwtToken = "Bearer " + JwtUtil.setClaim(custom.getUsername() + "," + custom.getPassword(), true, 3 * 24 * 60 * 60 * 1000);
+            custom.setToken(jwtToken);
             MemberInfoResult memberInfoResult = memberInfoService.resultCustomUser(custom);
             memberInfoResult.setToken(jwtToken);
             AjaxResponseBody ok = AjaxResponseBody.ok(memberInfoResult);

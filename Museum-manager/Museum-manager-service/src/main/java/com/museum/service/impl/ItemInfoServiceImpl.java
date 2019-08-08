@@ -108,6 +108,22 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         exhibitsInfoMapper.updateByPrimaryKeySelective(exhibitsInfo);
         selectLogService.insertSelectLog(selectLog);
     }
+    //按条件查询展品内容
+    @Override
+    public List<ExhibitsInfo> getExhibitsInfo(Integer itemType, String itemName) {
+        ExhibitsInfoExample example =new ExhibitsInfoExample();
+        ExhibitsInfoExample.Criteria criteria = example.createCriteria();
+        if(itemType!=null&&itemName!=null){
+            criteria.andTypeIdEqualTo(itemType);
+            criteria.andNameLike("%"+itemName+"%");
+        }else if (itemType!=null&&itemName==null){
+            criteria.andTypeIdEqualTo(itemType);
+        }else if(itemName!=null&&itemType==null){
+            criteria.andNameLike("%"+itemName+"%");
+        }
+        List<ExhibitsInfo> list = exhibitsInfoMapper.selectByExample(example);
+        return list;
+    }
 
     //查询展品内容
     @Override

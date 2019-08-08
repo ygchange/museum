@@ -1,14 +1,11 @@
 package com.museum.controller;
 
-import com.google.zxing.WriterException;
 import com.museum.common.pojo.AjaxResponseBody;
 import com.museum.common.pojo.PageHelperResult;
 import com.museum.common.utils.CodeUploadUtil;
-import com.museum.common.utils.QiniuUtil;
 import com.museum.pojo.ExhibitsInfo;
 import com.museum.pojo.ExhibitsType;
 import com.museum.service.ItemInfoService;
-import com.qiniu.common.QiniuException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -16,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -36,8 +32,8 @@ public class ExhibitsInfoController {
 
     @Value("${qiniu.bucket.host.name}")
     private String bucketHostName;
-    @Value("${code.url}")
-    private String url;
+    @Value("${realm.name}")
+    private String realm;
     @Autowired
     private ItemInfoService itemInfoService;
     //分页查询展品信息
@@ -70,9 +66,9 @@ public class ExhibitsInfoController {
     @ResponseBody
     public AjaxResponseBody insertItemInfo(@RequestBody ExhibitsInfo exhibitsInfo){
         ExhibitsInfo exhibitsInfoResult = itemInfoService.insertItemInfo(exhibitsInfo);
-        url=url+exhibitsInfoResult.getId();
+        realm=realm+"museumwx/detail-"+exhibitsInfoResult.getId();
         try {
-            String path = CodeUploadUtil.generateCode(accesskey, secretKey, exhibitsInfoResult.getName(), bucketName, url);
+            String path = CodeUploadUtil.generateCode(accesskey, secretKey, exhibitsInfoResult.getName(), bucketName, realm);
             exhibitsInfoResult.setQrCode(path);
             itemInfoService.updateItemInfoById(exhibitsInfoResult);
         } catch (Exception e) {

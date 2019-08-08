@@ -755,63 +755,63 @@ public class MemberInfoExample {
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusIsNull() {
-            addCriterion("password_status is null");
+        public Criteria andLandingStatusIsNull() {
+            addCriterion("landing_status is null");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusIsNotNull() {
-            addCriterion("password_status is not null");
+        public Criteria andLandingStatusIsNotNull() {
+            addCriterion("landing_status is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusEqualTo(Integer value) {
-            addCriterion("password_status =", value, "passwordStatus");
+        public Criteria andLandingStatusEqualTo(Integer value) {
+            addCriterion("landing_status =", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusNotEqualTo(Integer value) {
-            addCriterion("password_status <>", value, "passwordStatus");
+        public Criteria andLandingStatusNotEqualTo(Integer value) {
+            addCriterion("landing_status <>", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusGreaterThan(Integer value) {
-            addCriterion("password_status >", value, "passwordStatus");
+        public Criteria andLandingStatusGreaterThan(Integer value) {
+            addCriterion("landing_status >", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusGreaterThanOrEqualTo(Integer value) {
-            addCriterion("password_status >=", value, "passwordStatus");
+        public Criteria andLandingStatusGreaterThanOrEqualTo(Integer value) {
+            addCriterion("landing_status >=", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusLessThan(Integer value) {
-            addCriterion("password_status <", value, "passwordStatus");
+        public Criteria andLandingStatusLessThan(Integer value) {
+            addCriterion("landing_status <", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusLessThanOrEqualTo(Integer value) {
-            addCriterion("password_status <=", value, "passwordStatus");
+        public Criteria andLandingStatusLessThanOrEqualTo(Integer value) {
+            addCriterion("landing_status <=", value, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusIn(List<Integer> values) {
-            addCriterion("password_status in", values, "passwordStatus");
+        public Criteria andLandingStatusIn(List<Integer> values) {
+            addCriterion("landing_status in", values, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusNotIn(List<Integer> values) {
-            addCriterion("password_status not in", values, "passwordStatus");
+        public Criteria andLandingStatusNotIn(List<Integer> values) {
+            addCriterion("landing_status not in", values, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusBetween(Integer value1, Integer value2) {
-            addCriterion("password_status between", value1, value2, "passwordStatus");
+        public Criteria andLandingStatusBetween(Integer value1, Integer value2) {
+            addCriterion("landing_status between", value1, value2, "landingStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPasswordStatusNotBetween(Integer value1, Integer value2) {
-            addCriterion("password_status not between", value1, value2, "passwordStatus");
+        public Criteria andLandingStatusNotBetween(Integer value1, Integer value2) {
+            addCriterion("landing_status not between", value1, value2, "landingStatus");
             return (Criteria) this;
         }
 
@@ -965,53 +965,133 @@ public class MemberInfoExample {
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneEqualTo(Integer value) {
+        public Criteria andTelephoneEqualTo(String value) {
             addCriterion("telephone =", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneNotEqualTo(Integer value) {
+        public Criteria andTelephoneNotEqualTo(String value) {
             addCriterion("telephone <>", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneGreaterThan(Integer value) {
+        public Criteria andTelephoneGreaterThan(String value) {
             addCriterion("telephone >", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneGreaterThanOrEqualTo(Integer value) {
+        public Criteria andTelephoneGreaterThanOrEqualTo(String value) {
             addCriterion("telephone >=", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneLessThan(Integer value) {
+        public Criteria andTelephoneLessThan(String value) {
             addCriterion("telephone <", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneLessThanOrEqualTo(Integer value) {
+        public Criteria andTelephoneLessThanOrEqualTo(String value) {
             addCriterion("telephone <=", value, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneIn(List<Integer> values) {
+        public Criteria andTelephoneLike(String value) {
+            addCriterion("telephone like", value, "telephone");
+            return (Criteria) this;
+        }
+
+        public Criteria andTelephoneNotLike(String value) {
+            addCriterion("telephone not like", value, "telephone");
+            return (Criteria) this;
+        }
+
+        public Criteria andTelephoneIn(List<String> values) {
             addCriterion("telephone in", values, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneNotIn(List<Integer> values) {
+        public Criteria andTelephoneNotIn(List<String> values) {
             addCriterion("telephone not in", values, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneBetween(Integer value1, Integer value2) {
+        public Criteria andTelephoneBetween(String value1, String value2) {
             addCriterion("telephone between", value1, value2, "telephone");
             return (Criteria) this;
         }
 
-        public Criteria andTelephoneNotBetween(Integer value1, Integer value2) {
+        public Criteria andTelephoneNotBetween(String value1, String value2) {
             addCriterion("telephone not between", value1, value2, "telephone");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenIsNull() {
+            addCriterion("token is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenIsNotNull() {
+            addCriterion("token is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenEqualTo(String value) {
+            addCriterion("token =", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenNotEqualTo(String value) {
+            addCriterion("token <>", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenGreaterThan(String value) {
+            addCriterion("token >", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenGreaterThanOrEqualTo(String value) {
+            addCriterion("token >=", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenLessThan(String value) {
+            addCriterion("token <", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenLessThanOrEqualTo(String value) {
+            addCriterion("token <=", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenLike(String value) {
+            addCriterion("token like", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenNotLike(String value) {
+            addCriterion("token not like", value, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenIn(List<String> values) {
+            addCriterion("token in", values, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenNotIn(List<String> values) {
+            addCriterion("token not in", values, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenBetween(String value1, String value2) {
+            addCriterion("token between", value1, value2, "token");
+            return (Criteria) this;
+        }
+
+        public Criteria andTokenNotBetween(String value1, String value2) {
+            addCriterion("token not between", value1, value2, "token");
             return (Criteria) this;
         }
     }

@@ -2,7 +2,6 @@ package com.museum.wechat.service;
 
 import com.museum.pojo.ExhibitsInfo;
 import com.museum.service.ItemInfoService;
-import com.museum.wechat.pojo.AccessToken;
 import com.museum.wechat.pojo.News;
 import com.museum.wechat.pojo.NewsMessage;
 import com.museum.wechat.pojo.TextMessage;
@@ -25,8 +24,8 @@ import java.util.Map;
 public class CoreService {
     @Autowired
     private ItemInfoService itemInfoService;
-    @Value("${oauth.returnUrl}")
-    private String returnUrl;
+    @Value("${realm.name}")
+    private String realm;
     @Autowired
     private  WeixinUtil weixinUtil;
     @Autowired
@@ -129,7 +128,7 @@ public class CoreService {
                            }
                            News.setTitle(exhibitsInfoResult.getName());
                            News.setPicUrl( exhibitsInfoResult.getImgName());
-                           News.setUrl(returnUrl + "/museumwx/detail-" + s[1]);
+                           News.setUrl(realm + "museumwx/detail-" + s[1]);
                            News.setDescription(exhibitsInfoResult.getInfo());
                            list.add(News);
                            newsMessage.setArticleCount(1);
@@ -177,7 +176,7 @@ public class CoreService {
                     }
                     News.setTitle(exhibitsInfoResult.getName());
                     News.setPicUrl(exhibitsInfoResult.getImgName());
-                    News.setUrl(returnUrl+"/museumwx/detail-"+eventKey);
+                    News.setUrl(realm+"museumwx/detail-"+eventKey);
                     News.setDescription(exhibitsInfoResult.getInfo());
                     list.add(News);
                     newsMessage.setArticleCount(1);

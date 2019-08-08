@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/Museum-manager-pojo.iml" filepath="$PROJECT_DIR$/Museum-manager/Museum-manager-pojo/Museum-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Museum-manager/Museum-manager-service/Museum-manager-service.iml" filepath="$PROJECT_DIR$/Museum-manager/Museum-manager-service/Museum-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Museum-manager/Museum-manager-web/Museum-manager-web.iml" filepath="$PROJECT_DIR$/Museum-manager/Museum-manager-web/Museum-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Museum-official/Museum-official.iml" filepath="$PROJECT_DIR$/Museum-official/Museum-official.iml" />
       <module fileurl="file://$PROJECT_DIR$/Museum-parent/Museum-parent.iml" filepath="$PROJECT_DIR$/Museum-parent/Museum-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" filepath="$PROJECT_DIR$/Museum-wechat-web/Museum-wechat-web.iml" />
     </modules>

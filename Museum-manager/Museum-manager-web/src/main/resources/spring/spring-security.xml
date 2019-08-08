@@ -12,7 +12,9 @@
 
 >
     <context:component-scan base-package="com.museum.security"/>
-    <security:http auto-config="true" entry-point-ref="ajaxAuthenticationEntryPoint">
+    <security:http auto-config="true" entry-point-ref="ajaxAuthenticationEntryPoint" >
+        <!--跨栈请求-->
+        <security:csrf disabled="true"/>
         <!--
         pattern:需要拦截的资源
         access：拦截方式
@@ -28,16 +30,17 @@
         <security:intercept-url pattern="/memberInfo/update" access="hasAnyAuthority('1','2')"/>
         <security:intercept-url pattern="/weChat/list" access="hasAnyAuthority('1','2')"/>
         <security:intercept-url pattern="/museum/dist/**" access="permitAll()"/>
+        <security:intercept-url pattern="/museum/file/bucketHostName" access="permitAll()"/>
         <security:intercept-url pattern="/museum/**" access="isFullyAuthenticated()"/>
         <security:form-login authentication-failure-handler-ref="ajaxAuthenticationFailureHandler"
                              authentication-success-handler-ref="ajaxAuthenticationSuccessHandler"
-                                login-processing-url="/login"/>
+                                login-processing-url="/login"
+                                login-page="/dist/index.html"/>
         <!--登出-->
-        <security:logout logout-url="/logout.do"/>
+        <security:logout logout-url="/logout.do" success-handler-ref="ajaxLogoutSuccessHandler"/>
         <!--权限不足-->
         <security:access-denied-handler ref="ajaxAccessDeniedHandler"/>
-        <!--跨栈请求-->
-        <security:csrf disabled="true"/>
+
         <security:custom-filter ref="jwtAuthenticationTokenFilter" after="FORM_LOGIN_FILTER"/>
     </security:http>
     <security:authentication-manager>

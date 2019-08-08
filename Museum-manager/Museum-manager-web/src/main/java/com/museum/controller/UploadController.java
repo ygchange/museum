@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -33,8 +34,17 @@ public class UploadController {
     @ResponseBody
     public AjaxResponseBody uploadByImgAndMp3() {
         Auth auth = Auth.create(this.accesskey, this.secretKey);
-        String s = auth.uploadToken(this.bucketName);
-        return AjaxResponseBody.ok(s);
+        String token = auth.uploadToken(this.bucketName);
+        Map<String,String> map=new HashMap<>();
+        map.put("token",token);
+        map.put("bucketHostName",bucketHostName);
+        return AjaxResponseBody.ok(map);
+    }
+
+    @RequestMapping("/file/bucketHostName")
+    @ResponseBody
+    public AjaxResponseBody getBucketHostName(){
+        return  AjaxResponseBody.ok(bucketHostName);
     }
     //删除七牛云图片
     @RequestMapping("/file/delete")

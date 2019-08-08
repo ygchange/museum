@@ -12,10 +12,11 @@
     <result column="last_login_date" property="lastLoginDate" jdbcType="TIMESTAMP" />
     <result column="last_ip" property="lastIp" jdbcType="VARCHAR" />
     <result column="open_date" property="openDate" jdbcType="TIMESTAMP" />
-    <result column="password_status" property="passwordStatus" jdbcType="INTEGER" />
+    <result column="landing_status" property="landingStatus" jdbcType="INTEGER" />
     <result column="allow_ip" property="allowIp" jdbcType="VARCHAR" />
     <result column="remark" property="remark" jdbcType="VARCHAR" />
     <result column="telephone" property="telephone" jdbcType="VARCHAR" />
+    <result column="token" property="token" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -77,7 +78,8 @@
   </sql>
   <sql id="Base_Column_List" >
     id, user_name, password, nickname, status, member_level_type_id, member_account_type_id, 
-    last_login_date, last_ip, open_date, password_status, allow_ip, remark, telephone
+    last_login_date, last_ip, open_date, landing_status, allow_ip, remark, telephone, 
+    token
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.museum.pojo.MemberInfoExample" >
     select
@@ -113,13 +115,15 @@
     insert into member_info (id, user_name, password, 
       nickname, status, member_level_type_id, 
       member_account_type_id, last_login_date, last_ip, 
-      open_date, password_status, allow_ip, 
-      remark, telephone)
+      open_date, landing_status, allow_ip, 
+      remark, telephone, token
+      )
     values (#{id,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{nickname,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, #{memberLevelTypeId,jdbcType=INTEGER}, 
       #{memberAccountTypeId,jdbcType=INTEGER}, #{lastLoginDate,jdbcType=TIMESTAMP}, #{lastIp,jdbcType=VARCHAR}, 
-      #{openDate,jdbcType=TIMESTAMP}, #{passwordStatus,jdbcType=INTEGER}, #{allowIp,jdbcType=VARCHAR}, 
-      #{remark,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR})
+      #{openDate,jdbcType=TIMESTAMP}, #{landingStatus,jdbcType=INTEGER}, #{allowIp,jdbcType=VARCHAR}, 
+      #{remark,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}, #{token,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.museum.pojo.MemberInfo" >
     insert into member_info
@@ -154,8 +158,8 @@
       <if test="openDate != null" >
         open_date,
       </if>
-      <if test="passwordStatus != null" >
-        password_status,
+      <if test="landingStatus != null" >
+        landing_status,
       </if>
       <if test="allowIp != null" >
         allow_ip,
@@ -165,6 +169,9 @@
       </if>
       <if test="telephone != null" >
         telephone,
+      </if>
+      <if test="token != null" >
+        token,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -198,8 +205,8 @@
       <if test="openDate != null" >
         #{openDate,jdbcType=TIMESTAMP},
       </if>
-      <if test="passwordStatus != null" >
-        #{passwordStatus,jdbcType=INTEGER},
+      <if test="landingStatus != null" >
+        #{landingStatus,jdbcType=INTEGER},
       </if>
       <if test="allowIp != null" >
         #{allowIp,jdbcType=VARCHAR},
@@ -209,6 +216,9 @@
       </if>
       <if test="telephone != null" >
         #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="token != null" >
+        #{token,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -251,8 +261,8 @@
       <if test="record.openDate != null" >
         open_date = #{record.openDate,jdbcType=TIMESTAMP},
       </if>
-      <if test="record.passwordStatus != null" >
-        password_status = #{record.passwordStatus,jdbcType=INTEGER},
+      <if test="record.landingStatus != null" >
+        landing_status = #{record.landingStatus,jdbcType=INTEGER},
       </if>
       <if test="record.allowIp != null" >
         allow_ip = #{record.allowIp,jdbcType=VARCHAR},
@@ -262,6 +272,9 @@
       </if>
       <if test="record.telephone != null" >
         telephone = #{record.telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.token != null" >
+        token = #{record.token,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -280,10 +293,11 @@
       last_login_date = #{record.lastLoginDate,jdbcType=TIMESTAMP},
       last_ip = #{record.lastIp,jdbcType=VARCHAR},
       open_date = #{record.openDate,jdbcType=TIMESTAMP},
-      password_status = #{record.passwordStatus,jdbcType=INTEGER},
+      landing_status = #{record.landingStatus,jdbcType=INTEGER},
       allow_ip = #{record.allowIp,jdbcType=VARCHAR},
       remark = #{record.remark,jdbcType=VARCHAR},
-      telephone = #{record.telephone,jdbcType=VARCHAR}
+      telephone = #{record.telephone,jdbcType=VARCHAR},
+      token = #{record.token,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -318,8 +332,8 @@
       <if test="openDate != null" >
         open_date = #{openDate,jdbcType=TIMESTAMP},
       </if>
-      <if test="passwordStatus != null" >
-        password_status = #{passwordStatus,jdbcType=INTEGER},
+      <if test="landingStatus != null" >
+        landing_status = #{landingStatus,jdbcType=INTEGER},
       </if>
       <if test="allowIp != null" >
         allow_ip = #{allowIp,jdbcType=VARCHAR},
@@ -329,6 +343,9 @@
       </if>
       <if test="telephone != null" >
         telephone = #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="token != null" >
+        token = #{token,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -344,10 +361,11 @@
       last_login_date = #{lastLoginDate,jdbcType=TIMESTAMP},
       last_ip = #{lastIp,jdbcType=VARCHAR},
       open_date = #{openDate,jdbcType=TIMESTAMP},
-      password_status = #{passwordStatus,jdbcType=INTEGER},
+      landing_status = #{landingStatus,jdbcType=INTEGER},
       allow_ip = #{allowIp,jdbcType=VARCHAR},
       remark = #{remark,jdbcType=VARCHAR},
-      telephone = #{telephone,jdbcType=VARCHAR}
+      telephone = #{telephone,jdbcType=VARCHAR},
+      token = #{token,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

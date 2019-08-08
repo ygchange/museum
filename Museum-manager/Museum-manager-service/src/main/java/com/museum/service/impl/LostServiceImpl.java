@@ -58,7 +58,6 @@ public class LostServiceImpl implements LostService {
 
     @Override
     public void insertLost(LostInfo lostInfo) {
-        Date date =new Date();
         lostInfoMapper.insertSelective(lostInfo);
     }
 

@@ -29,8 +29,8 @@ public class WechatOauthController {
     private String wxAppId;
     @Value("${oauth.appSecret}")
     private String appSecret;
-    @Value("${oauth.returnUrl}")
-    private String returnUrl;
+    @Value("${realm.name}")
+    private String realm;
     private Logger logger = Logger.getLogger(WechatOauthController.class);
     private  WeixinOauth2Token weixinOauth2Token;
 
@@ -46,14 +46,14 @@ public class WechatOauthController {
             String openId = weixinOauth2Token.getOpenId();
             WechatUser wechatUserResult = weixinUtil.updateWeChatInfo(openId);
             if(wechatUserResult.getStatus()==0){
-                response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&status=0");
+                response.sendRedirect(realm+"museumwx/author?url="+state+"&status=0");
             }else {
                 weChatUserService.updateStatusByUserId(wechatUserResult);
-                response.sendRedirect(returnUrl+"/museumwx/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
+                response.sendRedirect(realm+"museumwx/author?url="+state+"&token="+accessToken+"&openid="+openId+"&status=1");
 
             }
         } catch (Exception e) {
-            response.sendRedirect(returnUrl+"/museumwx/"+state);
+            response.sendRedirect(realm+"museumwx/"+state);
         }
     }
 }

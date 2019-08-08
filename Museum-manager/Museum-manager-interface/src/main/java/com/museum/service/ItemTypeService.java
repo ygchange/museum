@@ -15,4 +15,6 @@ public interface ItemTypeService {
     Integer updateItemTypeById(ExhibitsType exhibitsType);
 
     Integer deleteItemTypeById(Integer id);
+
+    ExhibitsType selectItemTypeById(Integer typeId);
 }

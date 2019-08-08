@@ -69,6 +69,7 @@ public class MemberInfoServiceImpl implements MemberInfoService {
         memberInfo.setId(custom.getId());
         memberInfo.setLastLoginDate(new Date());
         memberInfo.setLastIp(custom.getLastIp());
+        memberInfo.setToken(custom.getToken());
         updateMemberInfoById(memberInfo);
 
        MemberInfoResult result=new MemberInfoResult();
